@@ -1,5 +1,10 @@
 # ♻️ EcoBot – ChatBot Instrutor de Reciclagem
-
+| Equipe                               | GitHub           |
+|-------------------------------------|------------------|
+| Leoncio Ferreira Flores Neto        | [@leoncioferreira-ufca](https://github.com/leoncioferreira-ufca)|
+| Alan Mendes Vieira                  | [@alan-mendes-ufca](https://github.com/alan-mendes-ufca)         |
+| Grazielly Bibiano do Nascimento     | [@graziellybn](https://github.com/graziellybn) |
+| Antônio Pereira da Luz Neto        | [@netoo-444](https://github.com/netoo-444)   |
 ## 📌 Descrição:
 
 Este projeto é um chatbot educativo desenvolvido em Python junto à biblioteca Tkinter para criar a interface gráfica. Ele ensina sobre reciclagem de materiais, informa pontos de coleta e aplica quiz de revisão.
