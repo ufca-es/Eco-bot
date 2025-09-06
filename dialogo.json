@@ -1,0 +1,50 @@
+{
+  "educativo": [
+    {
+      "pergunta": "O que é reciclagem?",
+      "resposta": "Reciclagem é o processo de transformar materiais usados em novos produtos, ajudando a reduzir o lixo e economizar recursos naturais."
+    },
+    {
+      "pergunta": "Qual a cor da lixeira do papel?",
+      "resposta": "O papel deve ser descartado na lixeira azul. Importante: papéis sujos de gordura não podem ser reciclados."
+    },
+    {
+      "pergunta": "Qual a cor da lixeira do vidro?",
+      "resposta": "O vidro vai na lixeira verde. Sabia que o vidro pode ser reciclado infinitas vezes sem perder qualidade?"
+    }
+  ],
+
+  "comunitario": [
+    {
+      "pergunta": "Por que devo reciclar?",
+      "resposta": "Porque juntos podemos transformar o bairro! Quanto mais gente reciclar, menos lixo vai pros aterros e mais limpo fica nosso espaço."
+    },
+    {
+      "pergunta": "Qual a cor da lixeira do metal?",
+      "resposta": "Amarelo 💛! Bora espalhar essa ideia com seus vizinhos também!"
+    },
+    {
+      "pergunta": "Vale a pena reciclar plástico?",
+      "resposta": "Com certeza! Imagine se cada morador daqui separasse só uma garrafa por dia, em um mês seriam milhares recicladas!"
+    }
+  ],
+
+  "quiz": [
+    {
+      "pergunta": "Vamos jogar um quiz sobre reciclagem?",
+      "resposta": "Beleza! Primeira pergunta: Qual a cor da lixeira para o papel?"
+    },
+    {
+      "pergunta": "Azul",
+      "resposta": "Acertou! 💙 Próxima: Qual a cor da lixeira do vidro?"
+    },
+    {
+      "pergunta": "Verde",
+      "resposta": "Boa! 🍀 Última: Qual a cor da lixeira do plástico?"
+    },
+    {
+      "pergunta": "Vermelho",
+      "resposta": "Mandou bem! ❤️ Você já é quase um mestre da reciclagem!"
+    }
+  ]
+}
