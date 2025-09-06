@@ -1,0 +1,86 @@
+{
+  "Como descartar pilhas?": {
+    "formal": [
+      "Pilhas devem ser descartadas em pontos de coleta específicos, como supermercados e lojas autorizadas.",
+      "Por questões ambientais, pilhas devem ser levadas a locais apropriados para coleta."
+    ],
+    "engracada": [
+      "Pilhas não gostam de lixo comum! Procure um ponto de coleta, elas agradecem.",
+      "Se pilha falasse, ela pediria: 'Me leve pra um ponto de coleta, por favor!'"
+    ],
+    "rude": [
+      "Sério? Vai jogar pilha no lixo comum? Procura um ponto de coleta.",
+      "Não jogue pilha no lixo normal, por favor, né!"
+    ]
+  },
+  "Vidro pode ir no lixo comum?": {
+    "formal": [
+      "Não, o vidro deve ser descartado separadamente para evitar acidentes e facilitar a reciclagem.",
+      "Vidros precisam ser separados do lixo comum e destinados à reciclagem."
+    ],
+    "engracada": [
+      "Vidro no lixo comum? Só se for pra dar trabalho pro gari!",
+      "Vidro gosta de reciclagem, não de confusão no lixo comum!"
+    ],
+    "rude": [
+      "Não coloca vidro aí, né? Separa direito!",
+      "Vidro no lixo comum? Nem pensar."
+    ]
+  },
+  "O que é reciclagem?": {
+    "formal": [
+      "Reciclagem é o processo de transformar resíduos em novos produtos, reduzindo o impacto ambiental.",
+      "Ela consiste em reaproveitar materiais para fabricação de novos itens."
+    ],
+    "engracada": [
+      "Reciclar é tipo dar respawn no lixo, só que mais ecológico!",
+      "É transformar lixo velho em coisa nova, tipo mágica ambiental."
+    ],
+    "rude": [
+      "Até isso tem que explicar? Reciclagem é reaproveitar lixo.",
+      "Reciclagem: pega o lixo e faz virar outra coisa. Simples."
+    ]
+  },
+  "Que tipos de plástico podem ser reciclados?": {
+    "formal": [
+      "Plásticos como PET, PEAD e PP podem ser reciclados. Verifique o símbolo na embalagem.",
+      "Nem todos os tipos de plástico são recicláveis; observe os símbolos de reciclagem."
+    ],
+    "engracada": [
+      "Se o plástico tiver símbolo de reciclagem, pode mandar ver!",
+      "Tem número no fundo do plástico? Procura o triângulo, é o segredo!"
+    ],
+    "rude": [
+      "Não é todo plástico que recicla, presta atenção no símbolo.",
+      "Se não tiver símbolo de reciclagem, não inventa: joga no lixo comum."
+    ]
+  },
+  "Como descartar óleo de cozinha usado?": {
+    "formal": [
+      "Óleo de cozinha deve ser armazenado em garrafas PET e entregue em pontos de coleta.",
+      "Descarte óleo usado em locais apropriados para evitar poluir a água."
+    ],
+    "engracada": [
+      "Nada de óleo na pia! Bota numa garrafinha e leva no ponto de coleta.",
+      "Óleo no ralo? Só se quiser virar vilão do meio ambiente!"
+    ],
+    "rude": [
+      "Não joga óleo na pia, tá? Guarda e leva pra reciclagem.",
+      "Óleo na pia? Nem pensar! Usa o bom senso."
+    ]
+  },
+  "Posso reciclar papel sujo de comida?": {
+    "formal": [
+      "Papéis sujos de comida não devem ser reciclados, pois contaminam o processo.",
+      "Somente papéis limpos e secos podem ser destinados à reciclagem."
+    ],
+    "engracada": [
+      "Papel cheio de pizza? Só recicla se for limpo e sem gordura!",
+      "Papel sujo vai pro lixo, não pra reciclagem, beleza?"
+    ],
+    "rude": [
+      "Papel imundo não recicla, óbvio.",
+      "Papel sujo? Lixo comum, sempre."
+    ]
+  }
+}
