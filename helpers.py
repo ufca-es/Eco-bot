@@ -1,3 +1,4 @@
+import os
 from classes.chatbot import ChaterBot
 import json
 
@@ -7,7 +8,11 @@ def loading_responses_personality():
     rude = {}
     keywords = {}
 
-    with open(r'C:\Users\raque\PycharmProjects\Chatbot-Ecobot\Ecobot\questions.json','r', encoding='utf-8') as f:
+     # Caminho relativo ao diretório deste arquivo (helpers.py)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    questions_path = os.path.join(base_dir, 'questions.json')
+
+    with open(questions_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     # iterando as perguntas
