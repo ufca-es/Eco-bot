@@ -13,8 +13,8 @@ class ChaterBot:
     def responder(self, pergunta: str) -> str:
         """
         Lógica simples:
-        - Procura por qualquer keyword (case-insensitive) contida na entrada.
-        - Fallback: verifica igualdade simples (case-insensitive) com as perguntas conhecidas.
+        - Procura por qualquer keyword contida na entrada.
+        - Se encontrar, escolhe uma resposta aleatória dentre as opções disponíveis.
         - Caso não encontre, retorna mensagem padrão.
         """
 
