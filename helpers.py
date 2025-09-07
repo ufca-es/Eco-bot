@@ -1,4 +1,4 @@
-from classes.personality import ChaterBot
+from classes.chatbot import ChaterBot
 import json
 
 def loading_responses_personality():

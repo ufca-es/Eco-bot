@@ -1,6 +1,5 @@
 from helpers import personalidades
-from classes.personality import ChaterBot
-
+from classes.chatbot import ChaterBot
 
 def main():
     bot = ChaterBot.get_personality(personalidades)
