@@ -1,5 +1,20 @@
 {
   "Como descartar pilhas?": {
+    "keywords": [
+      "pilha",
+      "pilhas",
+      "bateria",
+      "baterias",
+      "descartar pilhas",
+      "lixo pilha",
+      "coleta pilhas",
+      "descartar bateria",
+      "ponto de coleta pilhas",
+      "ponto de coleta bateria",
+      "pilha usada",
+      "pilhas usadas",
+      "baterias usadas"
+    ],
     "formal": [
       "Pilhas devem ser descartadas em pontos de coleta específicos, como supermercados e lojas autorizadas.",
       "Por questões ambientais, pilhas devem ser levadas a locais apropriados para coleta."
@@ -14,6 +29,18 @@
     ]
   },
   "Vidro pode ir no lixo comum?": {
+    "keywords": [
+      "vidro",
+      "garrafa de vidro",
+      "lixo comum vidro",
+      "descartar vidro",
+      "reciclagem de vidro",
+      "coleta de vidro",
+      "caco de vidro",
+      "potes de vidro",
+      "vidro no lixo",
+      "vidro quebrado"
+    ],
     "formal": [
       "Não, o vidro deve ser descartado separadamente para evitar acidentes e facilitar a reciclagem.",
       "Vidros precisam ser separados do lixo comum e destinados à reciclagem."
@@ -28,6 +55,16 @@
     ]
   },
   "O que é reciclagem?": {
+    "keywords": [
+      "o que é reciclagem",
+      "o que e reciclagem",
+      "definição reciclagem",
+      "definicao reciclagem",
+      "reciclar",
+      "conceito de reciclagem",
+      "significado de reciclagem",
+      "para que serve reciclagem"
+    ],
     "formal": [
       "Reciclagem é o processo de transformar resíduos em novos produtos, reduzindo o impacto ambiental.",
       "Ela consiste em reaproveitar materiais para fabricação de novos itens."
@@ -42,6 +79,25 @@
     ]
   },
   "Que tipos de plástico podem ser reciclados?": {
+    "keywords": [
+      "plástico",
+      "plastico",
+      "plásticos",
+      "plasticos",
+      "tipos de plástico",
+      "tipos de plastico",
+      "pet",
+      "pead",
+      "pp",
+      "pvc",
+      "ps",
+      "reciclável",
+      "reciclavel",
+      "reciclagem plástico",
+      "reciclagem plastico",
+      "qual plástico recicla",
+      "quais plasticos reciclam"
+    ],
     "formal": [
       "Plásticos como PET, PEAD e PP podem ser reciclados. Verifique o símbolo na embalagem.",
       "Nem todos os tipos de plástico são recicláveis; observe os símbolos de reciclagem."
@@ -56,6 +112,22 @@
     ]
   },
   "Como descartar óleo de cozinha usado?": {
+    "keywords": [
+      "óleo",
+      "oleo",
+      "óleo de cozinha",
+      "oleo de cozinha",
+      "descartar óleo",
+      "descartar oleo",
+      "óleo na pia",
+      "oleo na pia",
+      "ponto de coleta óleo",
+      "ponto de coleta oleo",
+      "óleo usado",
+      "oleo usado",
+      "resto de óleo",
+      "resto de oleo"
+    ],
     "formal": [
       "Óleo de cozinha deve ser armazenado em garrafas PET e entregue em pontos de coleta.",
       "Descarte óleo usado em locais apropriados para evitar poluir a água."
@@ -70,6 +142,18 @@
     ]
   },
   "Posso reciclar papel sujo de comida?": {
+    "keywords": [
+      "papel sujo",
+      "papel engordurado",
+      "papel com comida",
+      "reciclar papel sujo",
+      "reciclagem papel sujo",
+      "papel para reciclagem",
+      "guardanapo sujo",
+      "papel toalha",
+      "papel molhado",
+      "papel com gordura"
+    ],
     "formal": [
       "Papéis sujos de comida não devem ser reciclados, pois contaminam o processo.",
       "Somente papéis limpos e secos podem ser destinados à reciclagem."
@@ -81,6 +165,128 @@
     "rude": [
       "Papel imundo não recicla, óbvio.",
       "Papel sujo? Lixo comum, sempre."
+    ]
+  },
+  "Oi, tudo bem?": {
+    "keywords": [
+      "oi",
+      "olá",
+      "ola",
+      "tudo bem",
+      "td bem",
+      "e ai",
+      "e aí",
+      "como vai",
+      "como você está",
+      "como voce esta",
+      "salve",
+      "bom dia",
+      "boa tarde",
+      "boa noite"
+    ],
+    "formal": [
+      "Olá! Tudo bem? Em que posso ajudar sobre reciclagem hoje?",
+      "Oi! Espero que esteja bem. Como posso te ajudar?"
+    ],
+    "engracada": [
+      "Opa! Tudo belezinha? Bora reciclar umas dúvidas?",
+      "E aí! Tudo certo? Joga a pergunta que eu separo a resposta."
+    ],
+    "rude": [
+      "Oi. Vai, manda logo a pergunta.",
+      "Tudo bem, tudo bom… e a dúvida?"
+    ]
+  },
+  "Qual seu nome?": {
+    "keywords": [
+      "qual seu nome",
+      "seu nome",
+      "como você se chama",
+      "como voce se chama",
+      "quem é você",
+      "quem e voce",
+      "quem é vc",
+      "quem e vc"
+    ],
+    "formal": [
+      "Eu sou o Ecobot. Posso te ajudar com informações sobre reciclagem.",
+      "Me chamo Ecobot. Em que posso ajudar?"
+    ],
+    "engracada": [
+      "Sou o Ecobot, seu parceirinho da coleta seletiva!",
+      "Pode me chamar de Ecobot, o guardião das lixeiras coloridas."
+    ],
+    "rude": [
+      "Ecobot. Agora pergunta algo útil.",
+      "Nome: Ecobot. E aí?"
+    ]
+  },
+  "Tchau": {
+    "keywords": [
+      "tchau",
+      "até mais",
+      "ate mais",
+      "até logo",
+      "ate logo",
+      "falou",
+      "fui"
+    ],
+    "formal": [
+      "Até mais! Sempre que precisar, estarei por aqui.",
+      "Tchau! Volte quando quiser aprender mais sobre reciclagem."
+    ],
+    "engracada": [
+      "Valeu! Não esquece de separar o lixo, hein!",
+      "Falou! Joga a dúvida na coleta seletiva quando voltar."
+    ],
+    "rude": [
+      "Tchau.",
+      "Falou."
+    ]
+  },
+  "Obrigado": {
+    "keywords": [
+      "obrigado",
+      "obrigada",
+      "valeu",
+      "agradecido",
+      "grato"
+    ],
+    "formal": [
+      "De nada! Conte comigo sempre.",
+      "Disponha! Fico feliz em ajudar."
+    ],
+    "engracada": [
+      "Tamo junto!",
+      "Valeu você! Bora reciclar mais depois."
+    ],
+    "rude": [
+      "Ok.",
+      "Uhum."
+    ]
+  },
+  "Como você funciona?": {
+    "keywords": [
+      "como você funciona",
+      "como voce funciona",
+      "como funciona",
+      "o que você faz",
+      "o que voce faz",
+      "o que pode fazer",
+      "como você pode ajudar",
+      "como voce pode ajudar"
+    ],
+    "formal": [
+      "Eu uso palavras-chave para identificar sua dúvida e responder com base em um conjunto de perguntas e respostas sobre reciclagem.",
+      "Analiso sua pergunta, procuro palavras-chave e retorno uma resposta adequada ao estilo escolhido."
+    ],
+    "engracada": [
+      "Eu leio sua pergunta, pesco umas palavrinhas mágicas e devolvo uma resposta reciclada na medida!",
+      "Funciono na base do 3R: Recebo, Reconheço e Respondo."
+    ],
+    "rude": [
+      "Leio sua pergunta e respondo. Simples.",
+      "Acha a palavra e devolvo a resposta. Pronto."
     ]
   }
 }

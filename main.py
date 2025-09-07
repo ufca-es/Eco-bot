@@ -1,11 +1,12 @@
-from helpers import *
+from helpers import personalidades
+from classes.personality import ChaterBot
+
 
 def main():
-
-    bot = get_personality()
+    bot = ChaterBot.get_personality(personalidades)
 
     while True:
-        question = input("Você: ")
+        question = input("Você: ").strip().lower()
         if "sair" in question:
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
             break
