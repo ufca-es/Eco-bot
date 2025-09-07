@@ -10,7 +10,7 @@ class ChaterBot:
         self.respostas = respostas
         self.keywords = keywords or {}
 
-    def responder(self, pergunta: str) -> str:
+    def reply(self, pergunta: str) -> str:
         """
         Lógica simples:
         - Procura por qualquer keyword contida na entrada.
@@ -27,8 +27,10 @@ class ChaterBot:
                         return f"{self.nome}: {random.choice(opcoes)}"
 
         # Fallback
+        self.learning(pergunta)
         return f"{self.nome}: Desculpe, não encontrei uma resposta pra isso. Tente reformular ou ser mais específico."
 
+    # Serve como um construtor alternativo para escolher a personalidade do chatbot.
     @classmethod
     def get_personality(cls, personalidades: Dict[str, "ChaterBot"]) -> "ChaterBot":
         print("=" * 50)
@@ -45,3 +47,25 @@ class ChaterBot:
                 return personalidades[p]
             else:
                 print("Personalidade inválida! Tente novamente.")
+
+    def history(self):
+        """
+        Retorna o histórico de interações do chatbot num arquivo .txt.
+        """
+        pass
+
+    def learning(self, pergunta: str):
+        """
+        Adiciona uma nova pergunta e resposta ao dicionário de respostas.
+            -Solicitar ao usuário uma resposta apropriada;
+            -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
+        """
+        pass
+
+    def statistics(self):
+        """
+        Retorna estatísticas de uso do chatbot, como número de perguntas respondidas,
+        personalidades mais usadas, etc.
+        """
+        pass
+

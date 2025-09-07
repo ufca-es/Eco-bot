@@ -36,7 +36,7 @@ def main():
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
             break
 
-        print(bot.responder(question))
+        print(bot.reply(question))
 
 
 if __name__ == '__main__':

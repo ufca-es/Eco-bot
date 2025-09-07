@@ -61,13 +61,7 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 ```bash
 📂 Ecobot/
 └── 📂 classes/
-    ├── __init__.py       # <-- SEU ARQUIVO COM ESSES IMPORTS
-    ├── ecobot.py         # define ChatBot
-    ├── personality.py    # define Personalidade
-    ├── history.py        # define Historico
-    ├── learning.py       # define Aprendizado
-    └── statistics.py     # define Estatisticas
-
+    ├── chatbot.py         # define ChatBot
 ```
 
 ---

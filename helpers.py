@@ -8,14 +8,20 @@ def loading_responses_personality():
     rude = {}
     keywords = {}
 
-     # Caminho relativo ao diretório deste arquivo (helpers.py)
+    # Caminho relativo ao diretório deste arquivo (helpers.py)
     base_dir = os.path.dirname(os.path.abspath(__file__))
     questions_path = os.path.join(base_dir, 'questions.json')
 
-    with open(questions_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    try:
+        with open(questions_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-    # iterando as perguntas
+    except FileNotFoundError:
+        # Lidar com o erro se o arquivo não for encontrado.
+        print(f"Arquivo questions.json não encontrado.")
+        data = {}
+
+    # iterando e salvando as perguntas com respectivas personalidades
     for question, respostas in data.items():
         funny[question] = respostas.get('engracada', [])
         education[question] = respostas.get('formal', [])
