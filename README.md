@@ -59,13 +59,15 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 ## 🗂️ Estrutura de Arquivos
 
 ```bash
-📂 Ecobot/
-└── 📂 classes/
-    ├── chatbot.py         # define ChatBot
+Ecobot/
+└── classes/
+    ├── __init__.py      # <-- SEU ARQUIVO COM OS IMPORTS PRINCIPAIS
+    ├── ecobot.py        # Define a classe ChatBot
+    ├── personality.py   # Define a Personalidade do bot
+    ├── history.py       # Define o Histórico de interações
+    ├── learning.py      # Define o Aprendizado do bot
+    └── statistics.py    # Define Estatísticas do bot
 ```
-
----
-
 ## 🚀 Como Executar
 
 1. Clone este repositório:
