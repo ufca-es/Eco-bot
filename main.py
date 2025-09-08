@@ -1,4 +1,4 @@
-from helpers import personalidades
+from helpers import personalidades, loading_learning_responses
 from classes.chatbot import ChaterBot
 
 change_triggers = (
@@ -36,7 +36,7 @@ def main():
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
             break
 
-        print(bot.reply(question))
+        print(bot.reply(question, loading_learning_responses()))
 
 
 if __name__ == '__main__':

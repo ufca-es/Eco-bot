@@ -1,16 +1,19 @@
 from typing import List, Dict
 import random
+import os
+import json
 
 class ChaterBot:
     """
     Representa um estilo de resposta do chatbot (ex: formal, engraçado, rude...).
     """
+
     def __init__(self, nome: str, respostas: Dict[str, List[str]], keywords: Dict[str, List[str]]):
         self.nome = nome
         self.respostas = respostas
         self.keywords = keywords or {}
 
-    def reply(self, pergunta: str) -> str:
+    def reply(self, pergunta: str, learning_responses: Dict[str, str]):
         """
         Lógica simples:
         - Procura por qualquer keyword contida na entrada.
@@ -26,9 +29,12 @@ class ChaterBot:
                     if opcoes:
                         return f"{self.nome}: {random.choice(opcoes)}"
 
+        for q, resp in learning_responses.items():
+            if pergunta in q:
+                return f"{self.nome}: {resp}"
+
         # Fallback
-        self.learning(pergunta)
-        return f"{self.nome}: Desculpe, não encontrei uma resposta pra isso. Tente reformular ou ser mais específico."
+        return self.learning(pergunta)
 
     # Serve como um construtor alternativo para escolher a personalidade do chatbot.
     @classmethod
@@ -45,14 +51,12 @@ class ChaterBot:
             p = input("Qual personalidade você gostaria de utilizar? ").strip().lower()
             if p in personalidades:
                 return personalidades[p]
-            else:
-                print("Personalidade inválida! Tente novamente.")
+            print("Personalidade inválida. Tente novamente.")
 
     def history(self):
         """
         Retorna o histórico de interações do chatbot num arquivo .txt.
         """
-        pass
 
     def learning(self, pergunta: str):
         """
@@ -60,7 +64,14 @@ class ChaterBot:
             -Solicitar ao usuário uma resposta apropriada;
             -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
         """
-        pass
+        new_response = input(
+            f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): ").strip()
+
+        # Corrige o caminho para salvar no diretório responses da raiz do projeto
+        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "responses", "learning_responses.json")
+        with open(path, 'a', encoding="utf-8") as f:
+            json.dump({pergunta:new_response}, f, ensure_ascii=False, indent=2)
+        return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
 
     def statistics(self):
         """
@@ -68,4 +79,3 @@ class ChaterBot:
         personalidades mais usadas, etc.
         """
         pass
-
