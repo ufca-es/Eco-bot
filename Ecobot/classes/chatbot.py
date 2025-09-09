@@ -67,10 +67,28 @@ class ChaterBot:
         new_response = input(
             f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): ").strip()
 
-        # Corrige o caminho para salvar no diretório responses da raiz do projeto
+        if "esquecer" in new_response:
+            return "Ok, não vou salvar."
+
         path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "responses", "learning_responses.json")
-        with open(path, 'a', encoding="utf-8") as f:
-            json.dump({pergunta:new_response}, f, ensure_ascii=False, indent=2)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+
+        # Carrega JSON existente (ou inicia vazio)
+        data = {}
+        if os.path.exists(path):
+            try:
+                with open(path, 'r', encoding="utf-8") as f:
+                    data = json.load(f)
+            except (json.JSONDecodeError, ValueError):
+                data = {}
+
+        data[pergunta] = new_response
+
+        # Salva todo o dicionário formatado
+        with open(path, 'w', encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        # Feedback
         return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
 
     def statistics(self):
