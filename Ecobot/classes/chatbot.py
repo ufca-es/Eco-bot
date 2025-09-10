@@ -2,7 +2,6 @@ from typing import List, Dict
 import random
 import os
 import json
-from datetime import datetime
 
 class ChaterBot:
     """
@@ -103,8 +102,7 @@ class ChaterBot:
         # Feedback
         return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
 
-    # ---------------- Helpers de histórico -----------------
-    def history(self, last_n: int = 5):
+    def history(self):
         """
         Retorna as últimas `last_n` interações do histórico num arquivo .txt.
         """
@@ -113,7 +111,7 @@ class ChaterBot:
             return []
         with open(path, 'r', encoding='utf-8') as f:
             lines = [line.strip() for line in f if line.strip()]
-        return lines[-last_n:]
+        return lines[-5]
 
     def start_session(self):
         """
