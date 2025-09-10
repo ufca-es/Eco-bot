@@ -70,20 +70,6 @@ class ChaterBot:
                 return personalidades[p]
             print("Personalidade inválida. Tente novamente.")
 
-    def history(self, last_n: int = 5):
-        """
-        Retorna as últimas `last_n` interações do histórico num arquivo .txt.
-        """
-        path = self._history_file_path()
-        if not os.path.exists(path):
-            return []
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                lines = [line.rstrip('\n') for line in f.readlines() if line.strip()]
-            return lines[-last_n:] if last_n > 0 else lines
-        except Exception:
-            return []
-
     def learning(self, pergunta: str):
         """
         Adiciona uma nova pergunta e resposta ao dicionário de respostas.
@@ -118,29 +104,39 @@ class ChaterBot:
         return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
 
     # ---------------- Helpers de histórico -----------------
-    def start_session(self) -> None:
-        """Escreve um cabeçalho de início de sessão no arquivo de histórico."""
+    def history(self, last_n: int = 5):
+        """
+        Retorna as últimas `last_n` interações do histórico num arquivo .txt.
+        """
         path = self._history_file_path()
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        header = f"\n=== Sessão iniciada em {timestamp} | Persona: {self.nome} ===\n"
-        try:
-            with open(path, 'a', encoding='utf-8') as f:
-                f.write(header)
-        except Exception:
-            pass
+        if not os.path.exists(path):
+            return []
+        with open(path, 'r', encoding='utf-8') as f:
+            lines = [line.strip() for line in f if line.strip()]
+        return lines[-last_n:]
 
-    def _history_file_path(self) -> str:
-        base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'responses', 'history.txt')
-
-    def _log_interaction(self, pergunta: str, resposta_formatada: str) -> None:
+    def start_session(self):
+        """
+        Adiciona um cabeçalho simples ao início da sessão.
+        """
         path = self._history_file_path()
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-
-        prefixo = f"{self.nome}: "
-        resposta_sem_prefixo = resposta_formatada[len(prefixo):] if resposta_formatada.startswith(prefixo) else resposta_formatada
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        line = f"[{timestamp}] ({self.nome}) Você: {pergunta} || Bot: {resposta_sem_prefixo}\n"
         with open(path, 'a', encoding='utf-8') as f:
-            f.write(line)
+            f.write(f"\n=== Nova sessão: {self.nome} ===\n")
+
+    def _history_file_path(self):
+        return os.path.join(os.path.dirname(os.path.dirname(__file__)), 'responses', 'history.txt')
+
+    def _log_interaction(self, pergunta, resposta_formatada):
+        path = self._history_file_path()
+        with open(path, 'a', encoding='utf-8') as f:
+            f.write(f"Você: {pergunta} | Bot: {resposta_formatada}\n")
+
+    def save_full_history(self, history_list):
+        """
+        Salva todo o histórico de conversa passado em history_list no arquivo .txt.
+        Cada item da lista será gravado em uma linha.
+        """
+        path = self._history_file_path()
+        with open(path, 'w', encoding='utf-8') as f:
+            for interaction in history_list:
+                f.write(interaction.strip() + '\n')

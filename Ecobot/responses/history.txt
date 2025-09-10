@@ -13,3 +13,12 @@
 === Sessão iniciada em 2025-09-10 19:47:25 | Persona: Ecobot-rude ===
 [2025-09-10 19:47:27] (Ecobot-rude) Você: oi || Bot: Oi. Vai, manda logo a pergunta.
 [2025-09-10 19:47:48] (Ecobot-rude) Você:  || Bot: Ok, não vou salvar.
+
+=== Nova sessão: Ecobot-rude ===
+
+=== Nova sessão: Ecobot-rude ===
+Você: como reciclar vidro | Bot: Ecobot-rude: Não sabe separar vidro ainda?
+Você: não | Bot: Ecobot-rude: Obrigado! Aprendi uma nova resposta. 😊
+Você: ryj | Bot: Ecobot-rude: Obrigado! Aprendi uma nova resposta. 😊
+Você: tjy | Bot: Ecobot-rude: Obrigado! Aprendi uma nova resposta. 😊
+Você: tyj | Bot: Ecobot-rude: Obrigado! Aprendi uma nova resposta. 😊
