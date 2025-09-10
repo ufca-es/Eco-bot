@@ -1,0 +1,15 @@
+
+=== Sessão iniciada em 2025-09-10 19:38:35 | Persona: Ecobot-rude ===
+[2025-09-10 19:38:39] (Ecobot-rude) Você: pilha || Bot: Pilhas no lixo comum? Nem pensar.
+
+=== Sessão iniciada em 2025-09-10 19:41:55 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-10 19:46:25 | Persona: Ecobot-rude ===
+[2025-09-10 19:46:27] (Ecobot-rude) Você: oi || Bot: Oi. Pergunta logo.
+[2025-09-10 19:46:29] (Ecobot-rude) Você:  || Bot: Sim, gosto muito de sorvete.
+[2025-09-10 19:46:31] (Ecobot-rude) Você:  || Bot: Sim, gosto muito de sorvete.
+[2025-09-10 19:46:34] (Ecobot-rude) Você:  || Bot: Sim, gosto muito de sorvete.
+
+=== Sessão iniciada em 2025-09-10 19:47:25 | Persona: Ecobot-rude ===
+[2025-09-10 19:47:27] (Ecobot-rude) Você: oi || Bot: Oi. Vai, manda logo a pergunta.
+[2025-09-10 19:47:48] (Ecobot-rude) Você:  || Bot: Ok, não vou salvar.

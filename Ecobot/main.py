@@ -23,12 +23,40 @@ exit_triggers = (
 def main():
     bot = ChaterBot.get_personality(personalidades)
 
+    # Mostrar as últimas 5 interações anteriores, se houver
+    try:
+        previous = bot.history()  # default = 5
+        if previous:
+            print("=" * 50)
+            print("Últimas 5 interações anteriores:")
+            for line in previous:
+                print(line)
+            print("=" * 50)
+    except Exception:
+        # Não interromper o fluxo por erro ao ler histórico
+        print("Não foi possível carregar o histórico de interações.")
+        pass
+
+    # Marcar início da sessão atual no histórico (se disponível)
+    try:
+        start = getattr(bot, 'start_session', None)
+        if callable(start):
+            start()
+    except Exception:
+        pass
+
     while True:
         question = input("Você: ").strip().lower()
 
         # Retorna True se alguma frase de change estiver em question.
         if any(phrase in question for phrase in change_triggers):
             bot = ChaterBot.get_personality(personalidades)
+            try:
+                start = getattr(bot, 'start_session', None)
+                if callable(start):
+                    start()
+            except Exception:
+                pass
             continue
 
         # ''
@@ -36,6 +64,7 @@ def main():
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
             break
 
+        # Imprimir a resposta do bot e registrar histórico
         print(bot.reply(question, loading_learning_responses()))
 
 
