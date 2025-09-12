@@ -1,4 +1,4 @@
-from helpers import get_personality, loading_learning_responses
+from helpers import get_personality, loading_learning_responses, last5_interactions
 from classes.chatbot import ChatBot
 from classes.chatbot_analytics import ChatbotAnalytics
 
@@ -20,26 +20,11 @@ exit_triggers = (
     "até logo", "ate logo", "até mais", "ate mais"
 )
 
-"""
-    2. separar histórico em uma classe própria
-"""
-
 def main():
     bot = ChatBot(get_personality())
 
     # Mostrar as últimas 5 interações anteriores, se houver
-    try:
-        previous = bot.history()  # default = 5
-        if previous:
-            print("=" * 50)
-            print("Últimas 5 interações anteriores:")
-            for line in previous:
-                print(line)
-            print("=" * 50)
-    except FileNotFoundError:
-        # Não interromper o fluxo por erro ao ler histórico
-        print("Não foi possível carregar o histórico de interações.")
-        pass
+    last5_interactions()
 
     while True:
         question = input("Você: ").strip().lower()
@@ -52,7 +37,9 @@ def main():
         # ''
         if any(trigger in question for trigger in exit_triggers):
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
+            print(50*"=")
             print(ChatbotAnalytics())
+            print(50 * "=")
             break
 
         # Imprimir a resposta do bot e registrar histórico

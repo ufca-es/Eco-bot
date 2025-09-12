@@ -1,5 +1,6 @@
 import os
 import json
+from classes.chatbot_memory import ChatBotMemory
 
 def loading_responses_personality():
     funny, education, rude, keywords = {}, {}, {}, {}
@@ -51,6 +52,11 @@ def get_personality():
 
     while True:
         p = input("Qual personalidade você gostaria de utilizar? ").strip().lower()
+
+        # empty input
+        if not p:
+            continue
+
         if p in personalidades:
             return personalidades[p]['name'], personalidades[p]['responses'], personalidades[p]['keywords']
         print("Personalidade inválida. Tente novamente.")
@@ -63,3 +69,16 @@ def loading_learning_responses():
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
 
+def last5_interactions():
+    try:
+        previous = ChatBotMemory.history()  # default = 5
+        if previous:
+            print("=" * 50)
+            print("Últimas 5 interações anteriores:")
+            for line in previous:
+                print(line)
+            print("=" * 50)
+    except FileNotFoundError:
+        # Não interromper o fluxo por erro ao ler histórico
+        print("Não foi possível carregar o histórico de interações.")
+        pass

@@ -1,12 +1,12 @@
 """
     Task 13: Implementação da coleta de estatísticas:
-        -Número total de interações;
-        -Pergunta mais feita da sessão;
-        -Quantas vezes cada personalidade foi usada;
+        - Número total de interações;
+        - Pergunta mais feita da sessão;
+        - Quantas vezes cada personalidade foi usada;
 """
 
-from Ecobot.classes.chatbot import ChatBot
-path = ChatBot._history_file_path()
+from Ecobot.classes.chatbot_memory import ChatBotMemory
+path = ChatBotMemory.history_file_path()
 
 class ChatbotAnalytics:
     @property
@@ -24,6 +24,7 @@ class ChatbotAnalytics:
                     questions[question] = questions.get(question, 0) + 1
         if questions:
             return max(questions, key=questions.get)
+
         return 'Dados insuficientes.'
 
     @property

@@ -70,3 +70,26 @@
 [2025-09-12 01:56:16] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum é preguiça.
 [2025-09-12 01:56:27] (Ecobot-rude) Você: mudar bot || Bot: Ok, não vou salvar.
 [2025-09-12 01:56:42] (Ecobot-funny) Você: vidro || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! 🤕
+
+=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: EcoBot ===
+
+=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: EcoBot ===
+
+=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: EcoBot ===
+[2025-09-12 02:38:13] (Ecobot-rude) Você: olá || Bot: Oi. Só respondo perguntas, tá?
+
+=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: EcoBot ===
+
+=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: EcoBot ===
+
+=== Sessão iniciada em 2025-09-12 02:59:07 | Persona: Ecobot-rude ===
