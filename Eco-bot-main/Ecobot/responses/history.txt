@@ -123,3 +123,6 @@
 [2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Só porque é plástico não quer dizer que recicla.
 [2025-09-12 11:05:50] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Plástico molenga geralmente não recicla, tá?
 [2025-09-12 11:05:50] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Não complica: 1, 2 e 5 reciclam, o resto depende.
+
+=== Sessão iniciada em 2025-09-12 11:31:30 | Persona: Ecobot-rude ===
+[2025-09-12 11:31:32] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.

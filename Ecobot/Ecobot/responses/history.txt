@@ -93,3 +93,44 @@
 === Sessão iniciada em 2025-09-12 02:40:03 | Persona: EcoBot ===
 
 === Sessão iniciada em 2025-09-12 02:59:07 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 10:43:14 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-12 10:54:04 | Persona: Ecobot-rude ===
+[2025-09-12 10:54:19] (Ecobot-rude) Você: vidro || Bot: Separa o vidro, não custa nada.
+
+=== Sessão iniciada em 2025-09-12 10:55:02 | Persona: Ecobot-rude ===
+[2025-09-12 10:55:11] (Ecobot-rude) Você: vidro || Bot: Vai jogar vidro no lixo comum? Sério?
+[2025-09-12 10:55:16] (Ecobot-rude) Você: sim || Bot: Obrigado! Aprendi uma nova resposta. 😊
+[2025-09-12 10:55:18] (Ecobot-rude) Você: sim || Bot: talvez
+[2025-09-12 10:55:28] (Ecobot-rude) Você: como separo plástico || Bot: Se não tem triângulo, não recicla.
+
+=== Sessão iniciada em 2025-09-12 10:57:23 | Persona: Ecobot-rude ===
+[2025-09-12 10:57:29] (Ecobot-rude) Você: vidro || Bot: Vai jogar vidro no lixo comum? Sério?
+[2025-09-12 10:57:37] (Ecobot-rude) Você: pilha || Bot: Não jogue pilha no lixo normal, por favor, né!
+[2025-09-12 10:57:40] (Ecobot-rude) Você: bateria || Bot: Não jogue pilha no lixo normal, por favor, né!
+
+=== Sessão iniciada em 2025-09-12 11:05:42 | Persona: Ecobot-rude ===
+[2025-09-12 11:05:44] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Olha o número no fundo, não custa nada.
+[2025-09-12 11:05:46] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Plástico molenga geralmente não recicla, tá?
+[2025-09-12 11:05:47] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Plástico sujo? Nem adianta tentar reciclar.
+[2025-09-12 11:05:48] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Plástico molenga geralmente não recicla, tá?
+[2025-09-12 11:05:48] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Só porque é plástico não quer dizer que recicla.
+[2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Olha o número no fundo, não custa nada.
+[2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Nem todo plástico é reciclável, aceita.
+[2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Nem todo plástico é reciclável, aceita.
+[2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Nem todo plástico é reciclável, aceita.
+[2025-09-12 11:05:49] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Só porque é plástico não quer dizer que recicla.
+[2025-09-12 11:05:50] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Plástico molenga geralmente não recicla, tá?
+[2025-09-12 11:05:50] (Ecobot-rude) Você: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py" || Bot: Não complica: 1, 2 e 5 reciclam, o resto depende.
+
+=== Sessão iniciada em 2025-09-12 11:31:30 | Persona: Ecobot-rude ===
+[2025-09-12 11:31:32] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.
+
+=== Sessão iniciada em 2025-09-12 11:48:08 | Persona: Ecobot-rude ===
+[2025-09-12 11:48:10] (Ecobot-rude) Você: oi || Bot: Oi. Só respondo perguntas, tá?
+[2025-09-12 11:48:11] (Ecobot-rude) Você: vc || Bot: Obrigado! Aprendi uma nova resposta. 😊
+
+=== Sessão iniciada em 2025-09-12 12:13:39 | Persona: Ecobot-rude ===
+[2025-09-12 12:13:41] (Ecobot-rude) Você: sim || Bot: talvez
+[2025-09-12 12:13:46] (Ecobot-rude) Você: nao || Bot: Obrigado! Aprendi uma nova resposta. 😊

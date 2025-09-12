@@ -5,7 +5,8 @@
         - Quantas vezes cada personalidade foi usada;
 """
 
-from Ecobot.classes.chatbot_memory import ChatBotMemory
+from classes.chatbot_memory import ChatBotMemory
+import os
 path = ChatBotMemory.history_file_path()
 
 class ChatbotAnalytics:
@@ -43,3 +44,36 @@ class ChatbotAnalytics:
         return (f"Total de interações: {self.interaction_count}\n"
                 f"Pergunta mais feita: {self.most_asked_questions}\n"
                 f"Uso por personalidade: {self.count_personalities_usages}")
+
+    def generate_report(self, output_path: str | None = None) -> str:
+        """Gera um relatório de texto simples com estatísticas básicas.
+
+        Parameters
+        ----------
+        output_path: caminho completo para salvar. Se None, salva em responses/relatorio.txt
+        Returns: caminho do arquivo gerado
+        """
+        if output_path is None:
+            base_dir = os.path.dirname(os.path.dirname(__file__))
+            output_path = os.path.join(base_dir, 'responses', 'relatorio.txt')
+
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+        # Monta conteúdo legível
+        lines = [
+            "==== RELATÓRIO ECOBOT ====",
+            f"Total de interações: {self.interaction_count}",
+            f"Pergunta mais feita: {self.most_asked_questions}",
+            "Uso por personalidade:",
+        ]
+        usos = self.count_personalities_usages
+        if isinstance(usos, dict):
+            for persona, qtd in usos.items():
+                lines.append(f" - {persona}: {qtd}")
+        else:
+            lines.append(str(usos))
+
+        content = "\n".join(lines) + "\n"
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return output_path
