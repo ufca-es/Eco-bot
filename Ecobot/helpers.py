@@ -75,6 +75,12 @@ def last5_interactions():
         if previous:
             print("=" * 50)
             print("Últimas 5 interações anteriores:")
+
+            if previous == "Histórico vazio.":
+                print(previous)
+                print("=" * 50)
+                return
+
             for line in previous:
                 print(line)
             print("=" * 50)

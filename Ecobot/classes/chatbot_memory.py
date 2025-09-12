@@ -19,8 +19,8 @@ class ChatBotMemory:
         if not os.path.exists(path):
             return []
         with open(path, 'r', encoding='utf-8') as f:
-            lines = [line.rstrip('\n') for line in f if line.strip()]
-        return lines[-last_n:] if last_n > 0 else lines
+            lines = [line.rstrip('\n') for line in f if line.strip() and not line.startswith('===')]
+        return lines[-last_n:] if len(lines) > 0 else "Histórico vazio."
 
     def start_session(self):
         """Escreve um cabeçalho de início de sessão no arquivo de histórico."""

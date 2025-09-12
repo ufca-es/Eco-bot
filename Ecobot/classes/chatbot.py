@@ -3,6 +3,7 @@ import random
 import os
 import json
 from classes.chatbot_memory import ChatBotMemory
+from pyexpat.errors import messages
 
 
 class ChatBot:
@@ -60,7 +61,7 @@ class ChatBot:
         if not r_final:
             r_final = self.learning(pergunta)
 
-        # Registrar histórico
+        # Registrar no histórico
         self.memory.log_interaction(pergunta, r_final)
 
         return r_final
@@ -69,8 +70,8 @@ class ChatBot:
         """
             -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
         """
-        new_response = input(
-            f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): ").strip()
+        message = f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): "
+        new_response = input(message).strip()
 
         if not new_response or "esquecer" in new_response:
             return "Aprendizado cancelado. Tudo bem! 😊"
@@ -79,7 +80,6 @@ class ChatBot:
         os.makedirs(os.path.dirname(path), exist_ok=True)
 
         # Carrega JSON existente (ou inicia vazio)
-        data = {}
         if os.path.exists(path):
             try:
                 with open(path, 'r', encoding="utf-8") as f:
@@ -88,6 +88,9 @@ class ChatBot:
                 data = {}
 
         data[pergunta] = new_response
+        # Registrar histórico
+        self.memory.log_interaction(pergunta, message + "Users input:" + new_response)
+
 
         # Salva todo o dicionário formatado
         with open(path, 'w', encoding="utf-8") as f:
