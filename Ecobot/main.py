@@ -37,27 +37,13 @@ def main():
         print("Não foi possível carregar o histórico de interações.")
         pass
 
-    # Marcar início da sessão atual no histórico (se disponível)
-    try:
-        start = getattr(bot, 'start_session', None)
-        if callable(start):
-            start()
-    except Exception:
-        pass
-
     while True:
         question = input("Você: ").strip().lower()
 
         # Retorna True se alguma frase de change estiver em question.
         if any(phrase in question for phrase in change_triggers):
             bot = ChaterBot.get_personality(personalidades)
-            try:
-                start = getattr(bot, 'start_session', None)
-                if callable(start):
-                    start()
-            except Exception:
-                pass
-            continue
+            bot.start_session()
 
         # ''
         if any(trigger in question for trigger in exit_triggers):
