@@ -2,7 +2,7 @@ from typing import Dict
 import random
 import os
 import json
-from Ecobot.classes.chatbot_memory import ChatBotMemory
+from classes.chatbot_memory import ChatBotMemory
 
 
 class ChatBot:

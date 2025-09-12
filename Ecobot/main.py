@@ -23,26 +23,32 @@ exit_triggers = (
 def main():
     bot = ChatBot(get_personality())
 
-    # Mostrar as últimas 5 interações anteriores, se houver
+    
     last5_interactions()
 
     while True:
         question = input("Você: ").strip().lower()
 
-        # Retorna True se alguma frase de change estiver em question.
+
         if any(phrase in question for phrase in change_triggers):
             bot = ChatBot(get_personality())
             continue
 
-        # ''
+        
         if any(trigger in question for trigger in exit_triggers):
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
             print(50*"=")
-            print(ChatbotAnalytics())
+            analytics = ChatbotAnalytics()
+            print(analytics)
+            
+            try:
+                report_path = analytics.generate_report()
+                print(f"Relatório gerado em: {report_path}")
+            except Exception as e:
+                print(f"Falha ao gerar relatório: {e}")
             print(50 * "=")
             break
 
-        # Imprimir a resposta do bot e registrar histórico
         print(bot.reply(question, loading_learning_responses()))
 
 
