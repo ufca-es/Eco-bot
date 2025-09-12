@@ -14,6 +14,45 @@ class ChaterBot:
         self.respostas = respostas
         self.keywords = keywords or {}
 
+    def reply(self, pergunta: str, learning_responses: Dict[str, str]):
+        """
+        Lógica simples:
+        - Procura por qualquer keyword contida na entrada.
+        - Se encontrar, escolhe uma resposta aleatória dentre as opções disponíveis.
+        - Caso não encontre, retorna mensagem padrão.
+        """
+
+        resposta_final = None
+
+        # Try find keyword in pergunta
+        for q, kws in self.keywords.items():
+            for kw in kws:
+                if kw in pergunta:
+                    opcoes = self.respostas.get(q) or []
+                    if opcoes:
+                        resposta_final = f"{self.nome}: {random.choice(opcoes)}"
+                        break
+            if resposta_final:
+                break
+
+        if not resposta_final:
+            for q, resp in learning_responses.items():
+                if pergunta in q:
+                    resposta_final = f"{self.nome}: {resp}"
+                    break
+
+        # Fallback
+        if not resposta_final:
+            resposta_final = self.learning(pergunta)
+
+        # Registrar histórico da interação
+        try:
+            self._log_interaction(pergunta, resposta_final)
+        except Exception:
+            pass
+
+        return resposta_final
+
     # Serve como um construtor alternativo para escolher a personalidade do chatbot.
     @classmethod
     def get_personality(cls, personalidades: Dict[str, "ChaterBot"]) -> "ChaterBot":
@@ -31,50 +70,19 @@ class ChaterBot:
                 return personalidades[p]
             print("Personalidade inválida. Tente novamente.")
 
-    def reply(self, pergunta: str, learning_responses: Dict[str, str]):
+    def history(self, last_n: int = 5):
         """
-        Lógica:
-        - Tenta encontrar uma resposta exata para a pergunta.
-        - Se não encontrar, busca por keywords na entrada.
-        - Se ainda não encontrar, pede ao usuário uma resposta para aprender.
+        Retorna as últimas `last_n` interações do histórico num arquivo .txt.
         """
-
-        r_final = ''
-
-        # Try to find exact match by the question
-        for q, r in self.respostas.items():
-            if pergunta == q:
-                r_final = f"{self.nome}: {random.choice(r)}"
-                break
-
-        # Try find keyword in pergunta
-        for q, kws in self.keywords.items():
-            for kw in kws:
-                if kw in pergunta:
-                    r_ops = self.respostas.get(q) or []
-                    if r_ops:
-                        r_final = f"{self.nome}: {random.choice(r_ops)}"
-                        break
-            if r_final:
-                break
-
-        if not r_final:
-            for q, resp in learning_responses.items():
-                if pergunta in q:
-                    r_final = f"{self.nome}: {resp}"
-                    break
-
-        # Fallback
-        if not r_final:
-            r_final = self.learning(pergunta)
-
-        # Registrar histórico da interação
+        path = self._history_file_path()
+        if not os.path.exists(path):
+            return []
         try:
-            self._log_interaction(pergunta, r_final)
-        except FileNotFoundError:
-            pass
-
-        return r_final
+            with open(path, 'r', encoding='utf-8') as f:
+                lines = [line.rstrip('\n') for line in f.readlines() if line.strip()]
+            return lines[-last_n:] if last_n > 0 else lines
+        except Exception:
+            return []
 
     def learning(self, pergunta: str):
         """
@@ -109,20 +117,6 @@ class ChaterBot:
         # Feedback
         return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
 
-    def history(self, last_n: int = 5):
-        """
-        Retorna as últimas `last_n` interações do histórico num arquivo .txt.
-        """
-        path = self._history_file_path()
-        if not os.path.exists(path):
-            return []
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                lines = [line.rstrip('\n') for line in f.readlines() if line.strip()]
-            return lines[-last_n:] if last_n > 0 else lines
-        except FileNotFoundError:
-            return []
-
     # ---------------- Helpers de histórico -----------------
     def start_session(self) -> None:
         """Escreve um cabeçalho de início de sessão no arquivo de histórico."""
@@ -133,11 +127,10 @@ class ChaterBot:
         try:
             with open(path, 'a', encoding='utf-8') as f:
                 f.write(header)
-        except FileNotFoundError:
+        except Exception:
             pass
 
-    @staticmethod
-    def _history_file_path() -> str:
+    def _history_file_path(self) -> str:
         base_dir = os.path.dirname(os.path.dirname(__file__))
         return os.path.join(base_dir, 'responses', 'history.txt')
 
@@ -147,10 +140,7 @@ class ChaterBot:
 
         prefixo = f"{self.nome}: "
         resposta_sem_prefixo = resposta_formatada[len(prefixo):] if resposta_formatada.startswith(prefixo) else resposta_formatada
-
-        # current hour
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
         line = f"[{timestamp}] ({self.nome}) Você: {pergunta} || Bot: {resposta_sem_prefixo}\n"
         with open(path, 'a', encoding='utf-8') as f:
             f.write(line)
