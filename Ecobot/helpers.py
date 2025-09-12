@@ -1,12 +1,8 @@
 import os
-from classes.chatbot import ChaterBot
 import json
 
 def loading_responses_personality():
-    funny = {}
-    education = {}
-    rude = {}
-    keywords = {}
+    funny, education, rude, keywords = {}, {}, {}, {}
 
     # Caminho relativo ao diretório deste arquivo (helpers.py)
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -16,10 +12,9 @@ def loading_responses_personality():
         with open(questions_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-    except FileNotFoundError:
-        # Lidar com o erro se o arquivo não for encontrado.
-        print(f"Arquivo questions.json não encontrado.")
-        data = {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        raise FileNotFoundError("Arquivo questions.json não encontrado.")
+
 
     # iterando e salvando as perguntas com respectivas personalidades
     for question, respostas in data.items():
@@ -29,10 +24,36 @@ def loading_responses_personality():
         keywords[question] = respostas.get('keywords', [])
 
     return {
-        'engracada': ChaterBot('Ecobot-funny', funny, keywords),
-        'formal': ChaterBot('Ecobot-educational', education, keywords),
-        'rude': ChaterBot('Ecobot-rude', rude, keywords),
+
+        'engracada': {'name':'Ecobot-funny',
+                      'responses' :funny,
+                      'keywords' : keywords},
+        'formal': {'name':'Ecobot-education',
+                   'responses': education,
+                   'keywords': keywords},
+
+        'rude': {'name':'Ecobot-rude',
+                 'responses': rude,
+                 'keywords': keywords}
+
     }
+
+personalidades = loading_responses_personality()
+
+def get_personality():
+    print("=" * 50)
+    print("Bem-vindo ao Ecobot ♻️")
+    print("Escolha a personalidade do bot:")
+    print(" - engraçada (engracada)")
+    print(" - formal (formal)")
+    print(" - rude (rude)")
+    print("=" * 50)
+
+    while True:
+        p = input("Qual personalidade você gostaria de utilizar? ").strip().lower()
+        if p in personalidades:
+            return personalidades[p]['name'], personalidades[p]['responses'], personalidades[p]['keywords']
+        print("Personalidade inválida. Tente novamente.")
 
 def loading_learning_responses():
     path = os.path.join(os.path.dirname(__file__), "responses", "learning_responses.json")
@@ -42,5 +63,3 @@ def loading_learning_responses():
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
 
-personalidades = loading_responses_personality()
-# learning_responses = loading_learning_responses() - PRECISA SER ATUALIZADA A CADA ITERAÇÃO.

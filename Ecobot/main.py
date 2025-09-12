@@ -1,5 +1,5 @@
-from helpers import personalidades, loading_learning_responses
-from classes.chatbot import ChaterBot
+from helpers import get_personality, loading_learning_responses
+from classes.chatbot import ChatBot
 from classes.chatbot_analytics import ChatbotAnalytics
 
 change_triggers = (
@@ -20,10 +20,12 @@ exit_triggers = (
     "até logo", "ate logo", "até mais", "ate mais"
 )
 
+"""
+    2. separar histórico em uma classe própria
+"""
 
 def main():
-    bot = ChaterBot.get_personality(personalidades)
-    bot.start_session()
+    bot = ChatBot(get_personality())
 
     # Mostrar as últimas 5 interações anteriores, se houver
     try:
@@ -34,7 +36,7 @@ def main():
             for line in previous:
                 print(line)
             print("=" * 50)
-    except Exception:
+    except FileNotFoundError:
         # Não interromper o fluxo por erro ao ler histórico
         print("Não foi possível carregar o histórico de interações.")
         pass
@@ -44,8 +46,7 @@ def main():
 
         # Retorna True se alguma frase de change estiver em question.
         if any(phrase in question for phrase in change_triggers):
-            bot = ChaterBot.get_personality(personalidades)
-            bot.start_session()
+            bot = ChatBot(get_personality())
             continue
 
         # ''

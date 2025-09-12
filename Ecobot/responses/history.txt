@@ -67,3 +67,6 @@
 [2025-09-12 00:37:06] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.
 
 === Sessão iniciada em 2025-09-12 00:40:10 | Persona: Ecobot-rude ===
+[2025-09-12 01:56:16] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum é preguiça.
+[2025-09-12 01:56:27] (Ecobot-rude) Você: mudar bot || Bot: Ok, não vou salvar.
+[2025-09-12 01:56:42] (Ecobot-funny) Você: vidro || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! 🤕

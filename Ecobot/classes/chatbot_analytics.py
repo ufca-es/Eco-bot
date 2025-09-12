@@ -5,9 +5,8 @@
         -Quantas vezes cada personalidade foi usada;
 """
 
-from Ecobot.classes.chatbot import ChaterBot
-path = ChaterBot._history_file_path()
-from itertools import groupby
+from Ecobot.classes.chatbot import ChatBot
+path = ChatBot._history_file_path()
 
 class ChatbotAnalytics:
     @property
