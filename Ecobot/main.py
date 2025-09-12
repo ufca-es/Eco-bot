@@ -1,5 +1,6 @@
 from helpers import personalidades, loading_learning_responses
 from classes.chatbot import ChaterBot
+from classes.chatbot_analytics import ChatbotAnalytics
 
 change_triggers = (
     "mudar personalidade",
@@ -22,6 +23,7 @@ exit_triggers = (
 
 def main():
     bot = ChaterBot.get_personality(personalidades)
+    bot.start_session()
 
     # Mostrar as últimas 5 interações anteriores, se houver
     try:
@@ -44,10 +46,12 @@ def main():
         if any(phrase in question for phrase in change_triggers):
             bot = ChaterBot.get_personality(personalidades)
             bot.start_session()
+            continue
 
         # ''
         if any(trigger in question for trigger in exit_triggers):
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
+            print(ChatbotAnalytics())
             break
 
         # Imprimir a resposta do bot e registrar histórico

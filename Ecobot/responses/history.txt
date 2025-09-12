@@ -41,3 +41,29 @@
 [2025-09-10 21:34:53] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.
 [2025-09-10 21:39:44] (Ecobot-rude) Você: vidro || Bot: Separa o vidro, não custa nada.
 [2025-09-10 21:39:53] (Ecobot-rude) Você: pilha || Bot: Jogar pilha no lixo é vacilo. Usa o ponto de coleta.
+[2025-09-11 22:58:14] (Ecobot-rude) Você: olá || Bot: Oi. Vai, manda logo a pergunta.
+
+=== Sessão iniciada em 2025-09-11 23:43:26 | Persona: Ecobot-funny ===
+[2025-09-11 23:43:50] (Ecobot-funny) Você: mudar o bot || Bot: Ok, não vou salvar.
+
+=== Sessão iniciada em 2025-09-11 23:43:57 | Persona: Ecobot-educational ===
+
+=== Sessão iniciada em 2025-09-11 23:46:07 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-11 23:46:33 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-11 23:46:54 | Persona: Ecobot-educational ===
+[2025-09-11 23:47:02] (Ecobot-educational) Você: olá || Bot: Oi! Como posso auxiliar você hoje?
+
+=== Sessão iniciada em 2025-09-12 00:29:29 | Persona: Ecobot-rude ===
+[2025-09-12 00:29:39] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.
+[2025-09-12 00:29:44] (Ecobot-rude) Você: saisr || Bot: Ok, não vou salvar.
+
+=== Sessão iniciada em 2025-09-12 00:32:38 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 00:33:43 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 00:37:04 | Persona: Ecobot-rude ===
+[2025-09-12 00:37:06] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.
+
+=== Sessão iniciada em 2025-09-12 00:40:10 | Persona: Ecobot-rude ===

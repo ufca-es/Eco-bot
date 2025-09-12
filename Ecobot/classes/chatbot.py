@@ -134,12 +134,16 @@ class ChaterBot:
             with open(path, 'a', encoding='utf-8') as f:
                 f.write(header)
         except FileNotFoundError:
-            pass
+            raise FileNotFoundError("O arquivo de histórico não foi encontrado.")
 
     @staticmethod
     def _history_file_path() -> str:
-        base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'responses', 'history.txt')
+        try:
+            base_dir = os.path.dirname(os.path.dirname(__file__))
+        except FileNotFoundError:
+            raise FileNotFoundError("O arquivo de histórico não foi encontrado.")
+        else:
+            return os.path.join(base_dir, 'responses', 'history.txt')
 
     def _log_interaction(self, pergunta: str, resposta_formatada: str) -> None:
         path = self._history_file_path()
