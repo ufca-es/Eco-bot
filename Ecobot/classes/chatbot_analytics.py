@@ -89,3 +89,8 @@ class ChatbotAnalytics:
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
         return output_path
+
+    # --- Task 15: perguntas frequentes ---
+    @most_asked_questions.getter
+    def get_frequent_questions(self,top_n: int = 5) -> list[tuple[str, int]]:
+        return self.most_asked_questions[:5]

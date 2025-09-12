@@ -3,7 +3,6 @@ import random
 import os
 import json
 from classes.chatbot_memory import ChatBotMemory
-from pyexpat.errors import messages
 
 
 class ChatBot:

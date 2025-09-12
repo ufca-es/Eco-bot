@@ -1,5 +1,5 @@
 ==== RELATÓRIO ECOBOT ====
 Total de interações: 1
-Pergunta mais feita: soar
+Pergunta mais feita: oi
 Uso por personalidade:
- - Ecobot-rude: 2
+ - Ecobot-rude: 1
