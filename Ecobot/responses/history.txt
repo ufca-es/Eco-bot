@@ -1,2 +1,10 @@
 
 === Sessão iniciada em 2025-09-12 20:22:07 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-12 20:33:09 | Persona: Ecobot-education ===
+[2025-09-12 20:33:26] (Ecobot-education) Você: oi || Bot: Olá! Fique à vontade para perguntar sobre reciclagem.
+[2025-09-12 20:33:29] (Ecobot-education) Você: pilha || Bot: Nunca descarte pilhas no lixo comum; utilize pontos de coleta autorizados.
+[2025-09-12 20:33:31] (Ecobot-education) Você: pilha || Bot: Supermercados, lojas de eletrônicos e postos de reciclagem costumam receber pilhas usadas.
+[2025-09-12 20:33:32] (Ecobot-education) Você: pilha || Bot: Pilhas usadas devem ser entregues em pontos de coleta para evitar contaminação ambiental.
+
+=== Sessão iniciada em 2025-09-12 20:33:40 | Persona: Ecobot-funny ===
