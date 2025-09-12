@@ -18,14 +18,26 @@ class ChatbotAnalytics:
     @property
     def most_asked_questions(self):
         questions = {}
+        invalid_starts = ("&",)
+        invalid_contains = ("python.exe", ":/", "\\")  # provavelmente comando ou caminho
         with open(path, 'r', encoding='utf-8') as f:
             for line in f:
-                if "Você:" in line:
-                    question = line.split("Você:")[1].split("||")[0].strip()
-                    questions[question] = questions.get(question, 0) + 1
+                if "Você:" not in line:
+                    continue
+                raw = line.split("Você:")[1].split("||")[0].strip()
+                q_lower = raw.lower()
+                if not raw:
+                    continue
+                if q_lower.startswith(invalid_starts):
+                    continue
+                if any(tok in q_lower for tok in invalid_contains):
+                    continue
+                # filtra entradas muito longas que parecem comando completo
+                if len(raw) > 120:
+                    continue
+                questions[raw] = questions.get(raw, 0) + 1
         if questions:
             return max(questions, key=questions.get)
-
         return 'Dados insuficientes.'
 
     @property
