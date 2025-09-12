@@ -1,0 +1,8 @@
+==== RELATÓRIO ECOBOT ====
+Total de interações: 63
+Pergunta mais feita: & c:/users/neto8/appdata/local/programs/python/python313/python.exe "c:/users/neto8/onedrive/área de trabalho/ecobot/eco-bot-main/ecobot/main.py"
+Uso por personalidade:
+ - Ecobot-educational: 3
+ - Ecobot-rude: 19
+ - Ecobot-funny: 4
+ - EcoBot: 5
