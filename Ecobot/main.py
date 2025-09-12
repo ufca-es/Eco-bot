@@ -25,6 +25,13 @@ def main():
 
     
     last5_interactions()
+    # Sugestões de perguntas frequentes (Task 15)
+    freq = ChatbotAnalytics.get_frequent_questions()
+    if freq:
+        print("Sugestões de perguntas frequentes:")
+        for q, n in freq:
+            print(f" - {q} ({n}x)")
+        print("="*50)
 
     while True:
         question = input("Você: ").strip().lower()
