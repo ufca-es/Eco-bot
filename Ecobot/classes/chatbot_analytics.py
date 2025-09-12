@@ -17,6 +17,10 @@ class ChatbotAnalytics:
 
     @property
     def most_asked_questions(self):
+        return self.most_asked_questions[:5]
+
+    @most_asked_questions.setter
+    def most_asked_questions(self, most_asked_questions):
         questions = {}
         invalid_starts = ("&",)
         invalid_contains = ("python.exe", ":/", "\\")  # provavelmente comando ou caminho
@@ -37,8 +41,8 @@ class ChatbotAnalytics:
                     continue
                 questions[raw] = questions.get(raw, 0) + 1
         if questions:
-            return max(questions, key=questions.get)
-        return 'Dados insuficientes.'
+            self.most_asked_questions = max(questions, key=questions.get)
+        self.most_asked_questions = 'Dados insuficientes.'
 
     @property
     def count_personalities_usages(self):
@@ -89,8 +93,3 @@ class ChatbotAnalytics:
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(content)
         return output_path
-
-    # --- Task 15: perguntas frequentes ---
-    @most_asked_questions.getter
-    def get_frequent_questions(self,top_n: int = 5) -> list[tuple[str, int]]:
-        return self.most_asked_questions[:5]
