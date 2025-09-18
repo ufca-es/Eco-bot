@@ -5,34 +5,41 @@
         - Quantas vezes cada personalidade foi usada;
 """
 
-from classes.chatbot_memory import ChatBotMemory
 import os
 from collections import Counter
+from classes.chatbot_memory import ChatBotMemory
 path = ChatBotMemory.history_file_path()
 
 class ChatbotAnalytics:
+    """
+    Esta classe é responsável por ler o arquivo history.txt e extrair
+    estatísticas úteis sobre as conversas.
+    """
+
     @property
     def interaction_count(self):
+        """Conta o número total de interações (linhas de diálogo) no histórico."""
+        if not os.path.exists(path): return 0
         with open(path, 'r', encoding='utf-8') as f:
             return sum(1 for line in f if not line.isspace() and not line.startswith("==="))
 
     @property
     def most_asked_questions(self):
+        """Encontra a pergunta exata mais repetida no histórico, filtrando entradas inválidas."""
         questions = {}
+        if not os.path.exists(path): return 'Dados insuficientes.'
+        
+        # CORREÇÃO: As variáveis 'invalid_starts' e 'invalid_contains' foram
+        # adicionadas aqui, pois estavam faltando nesta função, o que causaria um erro.
+        invalid_starts = ("&",)
+        invalid_contains = ("python.exe", ":/", "\\")
+        
         with open(path, 'r', encoding='utf-8') as f:
             for line in f:
-                if "Você:" not in line:
-                    continue
+                if "Você:" not in line: continue
                 raw = line.split("Você:")[1].split("||")[0].strip()
                 q_lower = raw.lower()
-                if not raw:
-                    continue
-                if q_lower.startswith(invalid_starts):
-                    continue
-                if any(tok in q_lower for tok in invalid_contains):
-                    continue
-                # filtra entradas muito longas que parecem comando completo
-                if len(raw) > 120:
+                if not raw or q_lower.startswith(invalid_starts) or any(tok in q_lower for tok in invalid_contains) or len(raw) > 120:
                     continue
                 questions[raw] = questions.get(raw, 0) + 1
         if questions:
@@ -41,77 +48,37 @@ class ChatbotAnalytics:
 
     @property
     def count_personalities_usages(self):
+        """Conta quantas vezes cada sessão foi iniciada com cada personalidade."""
         personalities = {}
+        if not os.path.exists(path): return 'Dados insuficientes.'
         with open(path, 'r', encoding='utf-8') as f:
             for line in f:
                 if "Persona:" in line:
                     persona = line.split("Persona:")[1].split("===")[0].strip()
                     personalities[persona] = personalities.get(persona, 0) + 1
-        if personalities:
-            return personalities
-        return 'Dados insuficientes.'
+        return personalities if personalities else 'Dados insuficientes.'
 
-    def __str__(self):
-        return (f"Total de interações: {self.interaction_count}\n"
-                f"Pergunta mais feita: {self.most_asked_questions}\n"
-                f"Uso por personalidade: {self.count_personalities_usages}")
-
-    def generate_report(self, output_path: str | None = None) -> str:
-        """Gera um relatório de texto simples com estatísticas básicas.
-
-        Parameters
-        ----------
-        output_path: caminho completo para salvar. Se None, salva em responses/relatorio.txt
-        Returns: caminho do arquivo gerado
-        """
-        if output_path is None:
-            base_dir = os.path.dirname(os.path.dirname(__file__))
-            output_path = os.path.join(base_dir, 'responses', 'relatorio.txt')
-
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-        # Monta conteúdo legível
-        lines = [
-            "==== RELATÓRIO ECOBOT ====",
-            f"Total de interações: {self.interaction_count}",
-            f"Pergunta mais feita: {self.most_asked_questions}",
-            "Uso por personalidade:",
-        ]
-        usos = self.count_personalities_usages
-        if isinstance(usos, dict):
-            for persona, qtd in usos.items():
-                lines.append(f" - {persona}: {qtd}")
-        else:
-            lines.append(str(usos))
-
-        content = "\n".join(lines) + "\n"
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(content)
-        return output_path
-
-    # --- Task 15: perguntas frequentes ---
     @staticmethod
     def get_frequent_questions(top_n: int = 5) -> list[tuple[str, int]]:
+        """
+        Analisa o histórico e retorna uma lista das 'top_n' perguntas mais comuns,
+        junto com sua contagem. Usado pela interface para as sugestões.
+        """
         path_hist = ChatBotMemory.history_file_path()
-        if not os.path.exists(path_hist):
-            return []
+        if not os.path.exists(path_hist): return []
+        
         questions = []
         invalid_starts = ("&",)
         invalid_contains = ("python.exe", ":/", "\\")
+        
         with open(path_hist, 'r', encoding='utf-8') as f:
             for line in f:
-                if "Você:" not in line:
-                    continue
+                if "Você:" not in line: continue
                 raw = line.split("Você:",1)[1].split("||",1)[0].strip()
                 low = raw.lower()
-                if not raw:
+                if not raw or low.startswith(invalid_starts) or any(tok in low for tok in invalid_contains):
                     continue
-                if low.startswith(invalid_starts) or any(tok in low for tok in invalid_contains):
-                    continue
-                # heurística: considerar só perguntas com ? ou até 6 palavras
                 if '?' in raw or len(raw.split()) <= 6:
                     questions.append(raw)
-        if not questions:
-            return []
-        counter = Counter(questions)
-        return counter.most_common(top_n)
+        if not questions: return []
+        return Counter(questions).most_common(top_n)

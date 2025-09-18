@@ -1,99 +1,65 @@
+# Ecobot/classes/chatbot.py (Versão Adaptada para a Web)
+
 from typing import Dict
 import random
-import os
-import json
 from classes.chatbot_memory import ChatBotMemory
-
 
 class ChatBot:
     """
     Representa um estilo de resposta do chatbot (ex: formal, engraçado, rude...).
+    Esta versão foi adaptada para funcionar com interfaces web.
     """
 
     def __init__(self, data: tuple):
+        """Inicializa o bot com nome, respostas e palavras-chave."""
         self.nome = data[0]
         self.respostas = data[1]
         self.keywords = data[2] or {}
 
-        # Inicializa memória já com o nome e inicia sessão
+        # A classe memória continua sendo usada para registrar o histórico.
         self.memory = ChatBotMemory(self.nome)
         self.memory.start_session()
 
-    # Serve como um construtor alternativo para escolher a personalidade do chatbot.
     def reply(self, pergunta: str, learning_responses: Dict[str, str]):
         """
-        Lógica:
-        - Tenta encontrar uma resposta exata para a pergunta.
-        - Se não encontrar, busca por keywords na entrada.
-        - Se ainda não encontrar, tenta respostas aprendidas.
-        - Se falhar, ativa modo de aprendizado.
+        Encontra a melhor resposta para a pergunta do usuário.
+        A lógica é a mesma da sua versão original.
         """
-
         r_final = ''
+        # Converte a pergunta para minúsculas uma vez para otimizar as buscas.
+        pergunta_lower = pergunta.lower()
 
-        # 1. Match exato
-        for q, r in self.respostas.items():
-            if pergunta == q:
-                r_final = f"{self.nome}: {random.choice(r)}"
-                break
+        # 1. Match exato (agora usando a pergunta em minúsculas)
+        if pergunta_lower in self.respostas and isinstance(self.respostas.get(pergunta_lower), list):
+            if self.respostas[pergunta_lower]:
+                r_final = f"{self.nome}: {random.choice(self.respostas[pergunta_lower])}"
 
-        # 2. Procura por keywords (só se ainda não respondeu)
+        # 2. Procura por keywords
         if not r_final:
             for q, kws in self.keywords.items():
-                for kw in kws:
-                    if kw in pergunta:
-                        r_ops = self.respostas.get(q) or []
-                        if r_ops:
-                            r_final = f"{self.nome}: {random.choice(r_ops)}"
-                            break
-                if r_final:
-                    break
+                if any(kw in pergunta_lower for kw in kws):
+                    r_ops = self.respostas.get(q)
+                    if r_ops:
+                        r_final = f"{self.nome}: {random.choice(r_ops)}"
+                        break
+        
+        # 3. Respostas aprendidas (fornecidas pela interface)
+        if not r_final and pergunta_lower in learning_responses:
+             r_final = f"{self.nome}: {learning_responses[pergunta_lower]}"
 
-        # 3. Respostas aprendidas (arquivo learning_responses.json)
-        if not r_final:
-            for q, resp in learning_responses.items():
-                if pergunta in q:
-                    r_final = f"{self.nome}: {resp}"
-                    break
-
-        # 4. Fallback para aprendizado
+        # 4. Se não encontrar, ativa o modo de aprendizado.
         if not r_final:
             r_final = self.learning(pergunta)
 
-        # Registrar no histórico
+        # Registra a interação no history.txt.
         self.memory.log_interaction(pergunta, r_final)
-
         return r_final
-
+    
     def learning(self, pergunta: str):
         """
-            -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
+        ADAPTAÇÃO WEB: Este método não usa mais input() nem salva arquivos.
+        Ele apenas retorna uma mensagem específica que "sinaliza" para a 
+        interface web que o bot precisa aprender. A interface cuidará de 
+        pedir a nova resposta ao usuário e salvá-la no arquivo.
         """
-        message = f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): "
-        new_response = input(message).strip()
-
-        if not new_response or "esquecer" in new_response:
-            return "Aprendizado cancelado. Tudo bem! 😊"
-
-        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "responses", "learning_responses.json")
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-
-        # Carrega JSON existente (ou inicia vazio)
-        if os.path.exists(path):
-            try:
-                with open(path, 'r', encoding="utf-8") as f:
-                    data = json.load(f)
-            except (json.JSONDecodeError, ValueError):
-                data = {}
-
-        data[pergunta] = new_response
-        # Registrar histórico
-        self.memory.log_interaction(pergunta, message + "Users input:" + new_response)
-
-
-        # Salva todo o dicionário formatado
-        with open(path, 'w', encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-
-        # Feedback
-        return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
+        return f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder?"

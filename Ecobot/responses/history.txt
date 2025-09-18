@@ -1,10 +1,49 @@
 
-=== Sessão iniciada em 2025-09-12 20:22:07 | Persona: Ecobot-rude ===
+=== Sessão iniciada em 2025-09-18 13:10:12 | Persona: Ecobot-funny ===
 
-=== Sessão iniciada em 2025-09-12 20:33:09 | Persona: Ecobot-education ===
-[2025-09-12 20:33:26] (Ecobot-education) Você: oi || Bot: Olá! Fique à vontade para perguntar sobre reciclagem.
-[2025-09-12 20:33:29] (Ecobot-education) Você: pilha || Bot: Nunca descarte pilhas no lixo comum; utilize pontos de coleta autorizados.
-[2025-09-12 20:33:31] (Ecobot-education) Você: pilha || Bot: Supermercados, lojas de eletrônicos e postos de reciclagem costumam receber pilhas usadas.
-[2025-09-12 20:33:32] (Ecobot-education) Você: pilha || Bot: Pilhas usadas devem ser entregues em pontos de coleta para evitar contaminação ambiental.
+=== Sessão iniciada em 2025-09-18 13:10:14 | Persona: Ecobot-funny ===
 
-=== Sessão iniciada em 2025-09-12 20:33:40 | Persona: Ecobot-funny ===
+=== Sessão iniciada em 2025-09-18 13:10:17 | Persona: Ecobot-funny ===
+[2025-09-18 13:10:56] (Ecobot-funny) Você: oi || Bot: E aí! Tudo certo? 👋 Joga a pergunta que eu separo a resposta 🧩.
+[2025-09-18 13:11:02] (Ecobot-funny) Você: plastico || Bot: Se o plástico tiver símbolo de reciclagem ♻️, pode mandar ver! 🧴
+[2025-09-18 13:11:07] (Ecobot-funny) Você: papel || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-18 13:11:15] (Ecobot-funny) Você: papel || Bot: Nova resposta aprendida: papel1
+[2025-09-18 13:11:17] (Ecobot-funny) Você: dffjmffmhj || Bot: Não sei a resposta para isso. Como eu deveria responder?
+
+=== Sessão iniciada em 2025-09-18 13:13:23 | Persona: Ecobot-funny ===
+[2025-09-18 13:13:28] (Ecobot-funny) Você: oi || Bot: Fala comigo! Tô mais animado que caminhão de coleta! 🚛
+[2025-09-18 13:13:28] (Ecobot-funny) Você: oi || Bot: Fala comigo! Tô mais animado que caminhão de coleta! 🚛
+[2025-09-18 13:13:29] (Ecobot-funny) Você: papel || Bot: papel1
+[2025-09-18 13:13:29] (Ecobot-funny) Você: plastico || Bot: Se for embalagem de comida, lava antes de reciclar, hein! 🧼
+[2025-09-18 13:13:37] (Ecobot-funny) Você: papel || Bot: papel1
+
+=== Sessão iniciada em 2025-09-18 13:17:19 | Persona: Ecobot-funny ===
+[2025-09-18 13:17:21] (Ecobot-funny) Você: oi || Bot: Opa! Tudo belezinha? 😄 Bora reciclar umas dúvidas? ♻️❓
+[2025-09-18 13:17:23] (Ecobot-funny) Você: oi || Bot: Oi! Pronto pra reciclar até o mau humor! 😆
+[2025-09-18 13:17:29] (Ecobot-funny) Você: plastico || Bot: Tem número no fundo do plástico 🔢? Procura o triângulo 🔺, é o segredo! 🧭
+
+=== Sessão iniciada em 2025-09-18 13:41:35 | Persona: Ecobot-funny ===
+[2025-09-18 13:41:47] (Ecobot-funny) Você: dhjdhnhnd || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-18 13:41:53] (Ecobot-funny) Você: oi || Bot: E aí! Se precisar, é só chamar o Ecobot! 🤖
+[2025-09-18 13:41:59] (Ecobot-funny) Você: oi || Bot: E aí! Tudo certo? 👋 Joga a pergunta que eu separo a resposta 🧩.
+
+=== Sessão iniciada em 2025-09-18 13:44:15 | Persona: Ecobot-funny ===
+[2025-09-18 13:44:17] (Ecobot-funny) Você: oi || Bot: Oi, oi, oi! Pronto pra separar lixo e dúvidas! 🗑️🤔
+
+=== Sessão iniciada em 2025-09-18 13:44:27 | Persona: Ecobot-education ===
+[2025-09-18 13:44:29] (Ecobot-education) Você: oi || Bot: Olá! Em que posso ser útil?
+
+=== Sessão iniciada em 2025-09-18 13:46:14 | Persona: Ecobot-funny ===
+[2025-09-18 13:46:17] (Ecobot-funny) Você: oi || Bot: Fala comigo! Tô mais animado que caminhão de coleta! 🚛
+[2025-09-18 13:46:22] (Ecobot-funny) Você: plastico || Bot: Plástico duro geralmente recicla, plástico molenga nem sempre! 💪😅
+[2025-09-18 13:46:29] (Ecobot-funny) Você: oi || Bot: Oi, oi, oi! Pronto pra separar lixo e dúvidas! 🗑️🤔
+[2025-09-18 13:46:34] (Ecobot-funny) Você: plastico || Bot: Plástico bom é plástico reciclável! Pergunte pro triângulo no fundo! 🔺
+[2025-09-18 13:46:39] (Ecobot-funny) Você: papel || Bot: papel1
+[2025-09-18 13:46:43] (Ecobot-funny) Você: dsjmdjmjmnddjmdf || Bot: Não sei a resposta para isso. Como eu deveria responder?
+
+=== Sessão iniciada em 2025-09-18 13:53:25 | Persona: Ecobot-rude ===
+[2025-09-18 13:53:38] (Ecobot-rude) Você: plastico || Bot: Não é todo plástico que recicla, presta atenção no símbolo.
+[2025-09-18 13:53:44] (Ecobot-rude) Você: tudo bem || Bot: Oi. Fala logo o que quer.
+[2025-09-18 13:53:53] (Ecobot-rude) Você: trocar bot || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-18 13:53:57] (Ecobot-rude) Você: esquecer || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-18 13:54:04] (Ecobot-rude) Você: esquecer || Bot: Não sei a resposta para isso. Como eu deveria responder?
