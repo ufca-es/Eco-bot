@@ -537,5 +537,277 @@
       "Faço o básico: respondo perguntas.",
       "Só faço o que mandam."
     ]
+  },
+  "Posso reciclar sacolas plásticas e filmes?": {
+    "keywords": [
+      "sacola", "sacolas", "saco plástico", "sacos plásticos", "plástico fino", "plastico fino",
+      "filme plástico", "filme plastico", "plástico filme", "plastico filme",
+      "plástico flexível", "plastico flexivel", "envelope plástico"
+    ],
+    "formal": [
+      "A aceitação de sacolas e filmes plásticos varia por município; verifique as regras locais.",
+      "Em geral, plásticos flexíveis não são aceitos na coleta porta a porta, mas alguns pontos de coleta em supermercados recebem.",
+      "Se aceitos, devem estar limpos, secos e sem resíduos de alimentos.",
+      "Evite amarrar sacolas dentro de sacolas; compacte e entregue conforme orientação local.",
+      "Prefira reduzir e reutilizar sacolas; use ecobags quando possível."
+    ],
+    "engracada": [
+      "Sacola plástica é indecisa: às vezes recicla, às vezes não… confere na sua cidade! 😅",
+      "Se estiver limpa e seca, ela tem mais chance no time ♻️!",
+      "Supermercado com ponto de coleta? Sacola adora! 🛒",
+      "Menos sacola, mais ecobag: planeta agradece! 👜🌎",
+      "Filme plástico é tipo novela: cheio de capítulos. Consulta as regras locais! 📺"
+    ],
+    "rude": [
+      "Filme plástico? Depende da cidade.",
+      "Limpo e seco, ou nem tenta.",
+      "Supermercado pode receber. Vê aí.",
+      "Não amarra. Compacta.",
+      "Melhor reduzir o uso."
+    ]
+  },
+  "O que significam os números do plástico?": {
+    "keywords": [
+      "número do plástico", "numero do plastico", "símbolo do plástico", "simbolo do plastico",
+      "triângulo", "triangulo", "código de resina", "codigo de resina",
+      "1", "2", "3", "4", "5", "6", "7", "identificação do material"
+    ],
+    "formal": [
+      "Os números indicam o tipo de resina: 1 PET, 2 PEAD, 3 PVC, 4 PEBD, 5 PP, 6 PS, 7 outros.",
+      "Em geral, 1 (PET), 2 (PEAD) e 5 (PP) têm maior aceitação na reciclagem.",
+      "A coleta de 3 (PVC), 4 (PEBD) e 6 (PS) depende da infraestrutura local.",
+      "O 7 agrupa plásticos diversos/compostos; a aceitação é limitada.",
+      "Sempre verifique as regras da sua cidade e mantenha as embalagens limpas."
+    ],
+    "engracada": [
+      "O triângulo é o mapa do tesouro! 🔺 1, 2 e 5 valem ouro ♻️",
+      "Número 7 é galera alternativa… às vezes entra, às vezes não! 😜",
+      "PVC e PS são os indecisos da turma. Consulta a coleta local! 📞",
+      "Se tem número e tá limpinho, já é meio caminho! 🧼",
+      "Plástico com RG em dia (símbolo), chance maior de brilhar na reciclagem! ✨"
+    ],
+    "rude": [
+      "1, 2, 5: sim. O resto: depende.",
+      "7 é embaralhado. Quase nunca.",
+      "Olha o símbolo antes.",
+      "Lava. Plástico sujo atrapalha.",
+      "Confere a regra local."
+    ]
+  },
+  "Isopor (EPS) recicla?": {
+    "keywords": [
+      "isopor", "eps", "poliestireno expandido", "embalagem de isopor", "bandeja de isopor", "caixa de isopor"
+    ],
+    "formal": [
+      "O isopor (EPS) pode ser reciclado, mas a coleta varia por cidade e costuma ocorrer em pontos específicos.",
+      "Aceito somente limpo e seco; restos de comida impedem a reciclagem.",
+      "Por ser volumoso e leve, o transporte é um desafio; procure cooperativas que recebam EPS.",
+      "Confira se a coleta seletiva municipal aceita EPS no porta a porta.",
+      "Quando não aceito, evite descartar contaminado e reduza o uso sempre que possível."
+    ],
+    "engracada": [
+      "Isopor é levinho, mas dá trabalho. Vê se a sua cidade aceita! 🪶",
+      "Limpinho e seco ele até entra no baile da reciclagem! 💃",
+      "Procure cooperativas amigas do EPS! 🤝",
+      "Isopor com molho? Aí não dá! 🍝❌",
+      "Menos isopor, mais alegria pro planeta! 🌎"
+    ],
+    "rude": [
+      "EPS? Depende da cidade.",
+      "Só limpo e seco.",
+      "Procura ponto específico.",
+      "Com resto de comida? Não.",
+      "Reduz o uso."
+    ]
+  },
+  "Posso reciclar copos e talheres plásticos descartáveis?": {
+    "keywords": [
+      "copo plástico", "copos plásticos", "talher plástico", "talheres plásticos", "descartáveis", "descartavel",
+      "copo descartavel", "talher descartavel", "PS", "PP"
+    ],
+    "formal": [
+      "A aceitação de copos e talheres descartáveis varia. Quando aceitos, devem estar limpos e secos.",
+      "Muitos são feitos de PP ou PS; verifique o símbolo e as regras da sua cidade.",
+      "Talheres muito finos podem não ser aceitos por dificuldade de triagem.",
+      "Prefira reutilizáveis para reduzir resíduos.",
+      "Evite contaminar com restos de alimentos; enxágue rapidamente."
+    ],
+    "engracada": [
+      "Copo e talher descartável só entram na festa se vierem limpinhos! 🎉🧼",
+      "Se for PP/PS e a cidade aceitar, manda ver! ♻️",
+      "Talher fininho é tímido na triagem… nem sempre entra! 😅",
+      "Reutilizável é o rei do rolê! 👑",
+      "Lava rapidinho e tenta a sorte na coleta local! 🍀"
+    ],
+    "rude": [
+      "Depende da cidade.",
+      "Limpo e seco, senão não.",
+      "Talher fininho? Geralmente não.",
+      "Prefere reutilizável.",
+      "Confere o símbolo."
+    ]
+  },
+  "Plástico biodegradável vai na reciclagem?": {
+    "keywords": [
+      "plástico biodegradável", "plastico biodegradavel", "compostável", "compostavel",
+      "oxo-biodegradável", "oxobiodegradavel", "bioplástico", "bioplastico", "PLA"
+    ],
+    "formal": [
+      "Plásticos biodegradáveis/compostáveis não devem ir para a reciclagem convencional.",
+      "Materiais como PLA são destinados à compostagem industrial (quando disponível).",
+      "Oxo-biodegradáveis geram confusão e podem prejudicar a reciclagem.",
+      "Sempre verifique a rotulagem e as opções de descarte da sua cidade.",
+      "Reduza o uso quando não houver compostagem adequada."
+    ],
+    "engracada": [
+      "Biodegradável não combina com lixeira de recicláveis! ❌♻️",
+      "PLA gosta de spa de compostagem, não de esteira de triagem! 🧖‍♀️",
+      "Oxo-bio é treteiro: confunde geral! 😬",
+      "Confere o rótulo antes de decidir o destino! 🏷️",
+      "Sem compostagem por perto? Melhor evitar. 🚫"
+    ],
+    "rude": [
+      "Biodegradável não vai na reciclagem.",
+      "PLA é compostagem, se existir.",
+      "Oxo-bio atrapalha. Evita.",
+      "Lê o rótulo.",
+      "Sem compostagem, reduz o uso."
+    ]
+  },
+  "Como descartar cabos e carregadores?": {
+    "keywords": [
+      "cabo", "cabos", "carregador", "fonte", "fio", "usb", "hdmi",
+      "lixo eletrônico", "e-lixo", "ponto de coleta eletrônico", "ecoponto"
+    ],
+    "formal": [
+      "Cabos, carregadores e fontes são e-lixo e devem ir para pontos de coleta específicos ou lojas participantes.",
+      "Agrupe com elástico para facilitar a triagem e evitar nós.",
+      "Não descarte no reciclável comum; encaminhe para ecopontos ou programas de logística reversa.",
+      "Verifique campanhas de recolhimento em escolas e comércios.",
+      "Mantenha longe de calor e não corte os fios ao descartar."
+    ],
+    "engracada": [
+      "Cabo órfão? Ecoponto adota! 🧵💚",
+      "Carregador cansado? Aposentadoria digna no e-lixo! 🎖️",
+      "Sem nó na cabeça: prende com elástico e leva! 🧠➡️🧷",
+      "Nada de jogar no reciclável comum! 🚫",
+      "Campanha de coleta é match certo! 💘"
+    ],
+    "rude": [
+      "É e-lixo. Leva no ponto certo.",
+      "Não joga no reciclável comum.",
+      "Prende os cabos. Facilita.",
+      "Ecoponto ou loja. Simples.",
+      "Sem cortar fio."
+    ]
+  },
+  "Como descartar celulares com dados pessoais?": {
+    "keywords": [
+      "celular", "smartphone", "dados pessoais", "apagar dados", "reset", "restauração de fábrica",
+      "wipe", "formatação", "backup", "cartão sd", "chip", "sim"
+    ],
+    "formal": [
+      "Faça backup, remova chip e cartão SD e restaure o aparelho para as configurações de fábrica.",
+      "Saia das contas (Google/Apple) e ative a limpeza completa antes do descarte.",
+      "Entregue o dispositivo em pontos de e-lixo, assistência técnica ou programas de fabricantes.",
+      "Não jogue no lixo comum nem no reciclável; é resíduo eletrônico.",
+      "Se possível, remova capas e acessórios para facilitar a destinação."
+    ],
+    "engracada": [
+      "Dá tchau pros seus dados: backup, reset e partiu e-lixo! 👋📱♻️",
+      "Chip e cartão? Fora antes de doar/descartar! 🪪",
+      "Limpa geral e entrega pro destino certo! 🧼➡️📍",
+      "Celular no lixo comum? Nem sonhando! 😴🚫",
+      "Fabricante às vezes aceita de volta. Vale conferir! 🔄"
+    ],
+    "rude": [
+      "Backup, reset e descarta no e-lixo.",
+      "Tira chip e SD.",
+      "Não joga no lixo comum.",
+      "Entrega em loja/assistência.",
+      "Sai das contas antes."
+    ]
+  },
+  "Posso jogar fones, mouses e pequenos eletrônicos no reciclável comum?": {
+    "keywords": [
+      "fone", "fones", "fones de ouvido", "mouse", "mouses", "teclado",
+      "pequenos eletrônicos", "aparelhos pequenos", "lixo eletrônico", "reciclável comum"
+    ],
+    "formal": [
+      "Não. Esses itens são e-lixo e devem ser destinados a pontos de coleta específicos.",
+      "Mesmo pequenos, contêm componentes que não devem ir ao reciclável comum.",
+      "Procure ecopontos, lojas e campanhas de recolhimento.",
+      "Se possível, agrupe cabos e acessórios para facilitar o manuseio.",
+      "Reduza o descarte optando por reparo ou doação quando viável."
+    ],
+    "engracada": [
+      "Fone e mouse não são figurantes do reciclável comum! 🎬🚫",
+      "Pequeno, mas é e-lixo do mesmo jeito. Vai pro ponto certo! 📍",
+      "Nada de sumir no saco de recicláveis! 🧙‍♂️❌",
+      "Conserta ou doa se der. Se não, ecoponto neles! 🤝",
+      "Sem drama: destino correto e fim! 😌"
+    ],
+    "rude": [
+      "Não vai no reciclável comum.",
+      "É e-lixo. Ponto.",
+      "Leva no ecoponto.",
+      "Agrupa e entrega.",
+      "Se puder, repara ou doa."
+    ]
+  },
+  "Como descartar cartuchos e toners de impressora?": {
+    "keywords": [
+      "cartucho", "toner", "impressora", "tinta", "laser", "logística reversa",
+      "coleta de cartucho", "coleta de toner"
+    ],
+    "formal": [
+      "Cartuchos e toners devem ser destinados à logística reversa do fabricante ou pontos de coleta autorizados.",
+      "Muitas lojas de suprimentos e assistência técnica recebem esses itens.",
+      "Evite vazamentos: mantenha na embalagem ou proteja para transporte.",
+      "Não descarte no lixo comum ou reciclável convencional.",
+      "Consulte o site do fabricante para programas de devolução."
+    ],
+    "engracada": [
+      "Cartucho e toner gostam de viagem de volta pro fabricante! 🔄🖨️",
+      "Sem tinta espalhada no caminho: embala direitinho! 🎁",
+      "Loja de suprimentos costuma adotar esses órfãos! 🏪",
+      "No reciclável comum? Nem pensar! 🚫",
+      "Programa de devolução: combo perfeito! 🎯"
+    ],
+    "rude": [
+      "Devolve via fabricante.",
+      "Loja/assistência recebe.",
+      "Embala pra não vazar.",
+      "Não joga no lixo comum.",
+      "Consulta o programa de coleta."
+    ]
+  },
+  "Como descartar eletrodomésticos grandes?": {
+    "keywords": [
+      "geladeira", "fogão", "fogao", "máquina de lavar", "maquina de lavar",
+      "micro-ondas", "microondas", "eletrodoméstico", "linha branca",
+      "retirada", "coleta agendada", "logística reversa"
+    ],
+    "formal": [
+      "Eletrodomésticos grandes devem seguir logística reversa com coleta agendada pela loja ou serviço municipal.",
+      "Muitas lojas oferecem retirada ao entregar um novo equipamento.",
+      "Não desmonte nem danifique componentes; evite riscos com gases/refrigerantes.",
+      "Agende com o serviço adequado ou leve a pontos autorizados.",
+      "Remova itens e limpe minimamente antes da retirada."
+    ],
+    "engracada": [
+      "Geladeira aposentada? Chama a coleta agendada! 📞🚚",
+      "Troca de fogão? A loja costuma buscar o antigo! 🔄",
+      "Nada de virar engenheiro: não desmonta! 🛠️❌",
+      "Ponto autorizado é o caminho! 📍",
+      "Deixa o grandão pronto pra viagem! 🧳"
+    ],
+    "rude": [
+      "Agenda a coleta.",
+      "Loja costuma retirar.",
+      "Não desmonta.",
+      "Leva a ponto autorizado.",
+      "Prepara pra retirada."
+    ]
   }
 }

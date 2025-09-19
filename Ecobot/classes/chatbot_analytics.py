@@ -56,7 +56,12 @@ class ChatbotAnalytics:
                 if "Persona:" in line:
                     persona = line.split("Persona:")[1].split("===")[0].strip()
                     personalities[persona] = personalities.get(persona, 0) + 1
-        return personalities if personalities else 'Dados insuficientes.'
+        if personalities:
+            msg = ''
+            for key, value in personalities.items():
+                msg += f"\t{key}: {value} vezes\n"
+            return msg
+        return 'Dados insuficientes.'
 
     @staticmethod
     def get_frequent_questions(top_n: int = 5) -> list[tuple[str, int]]:
@@ -82,3 +87,11 @@ class ChatbotAnalytics:
                     questions.append(raw)
         if not questions: return []
         return Counter(questions).most_common(top_n)
+
+    def __str__(self):
+        return (
+            f"=== Estatísticas do EcoBot ===\n"
+            f"Total de interações: {self.interaction_count}\n"
+            f"Pergunta mais feita: {self.most_asked_questions}\n"
+            f"Uso por personalidade:\n{self.count_personalities_usages}"
+        )

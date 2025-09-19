@@ -63,3 +63,11 @@
 [2025-09-19 02:37:58] (Ecobot-rude) Você: onde descartar eletrônicos? || Bot: Leva no ponto de e-lixo.
 
 === Sessão iniciada em 2025-09-19 02:41:05 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-19 02:46:43 | Persona: Ecobot-rude ===
+[2025-09-19 02:46:53] (Ecobot-rude) Você: plástico || Bot: Confere o símbolo, não inventa.
+[2025-09-19 02:47:00] (Ecobot-rude) Você: plástico || Bot: Olha o número. 1, 2 e 5: sim. O resto: depende.
+[2025-09-19 02:47:11] (Ecobot-rude) Você: o que é plástico? || Bot: Filme plástico? Nem sempre. Confere na sua cidade.
+
+=== Sessão iniciada em 2025-09-19 02:48:12 | Persona: Ecobot-rude ===
+[2025-09-19 02:48:13] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.

@@ -49,6 +49,7 @@ def main():
             print(analytics)
 
             try:
+                print("Gerando relatório...")
                 report_path = ChatbotReport.generate_report()
                 print(f"Relatório gerado em: {report_path}")
             except Exception as e:
