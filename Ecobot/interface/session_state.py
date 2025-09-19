@@ -4,16 +4,16 @@
 
 import streamlit as st
 from helpers import personalidades
-from classes.chatbot import ChatBot
 from classes.chatbot_analytics import ChatbotAnalytics
 from classes.chatbot_memory import ChatBotMemory
 from interface.file_utils import load_learning_responses
+from interface.chatbot_interface import ChatbotInterface
 
 def init_bot(personality_key):
     """Cria uma instância da sua classe ChatBot com a personalidade selecionada."""
     p_data = personalidades[personality_key]
     bot_data = (p_data["name"], p_data["responses"], p_data["keywords"])
-    return ChatBot(bot_data)
+    return ChatbotInterface(bot_data)
 
 def initialize():
     """

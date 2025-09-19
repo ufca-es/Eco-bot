@@ -1,10 +1,11 @@
 # file_utils.py – Gerencia arquivos.
 # Lê e salva respostas no JSON de aprendizagem.
-
-
 import json
 import os
 import streamlit as st
+
+
+
 
 # Caminho do arquivo onde as respostas aprendidas serão salvas em JSON
 LEARNING_FILE = os.path.join("responses", "learning_responses.json")

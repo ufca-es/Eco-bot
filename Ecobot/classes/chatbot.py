@@ -14,6 +14,7 @@ class ChatBot:
 
     def __init__(self, data: tuple):
         """Inicializa o bot com nome, respostas e palavras-chave."""
+        self.pergunta = ''
         self.nome = data[0]
         self.respostas = data[1]
         self.keywords = data[2] or {}
@@ -29,35 +30,35 @@ class ChatBot:
         """
         r_final = ''
         # Converte a pergunta para minúsculas uma vez para otimizar as buscas.
-        pergunta_lower = pergunta.lower()
+        self.pergunta = pergunta
 
         # 1. Match exato (agora usando a pergunta em minúsculas)
-        if pergunta_lower in self.respostas and isinstance(self.respostas.get(pergunta_lower), list):
-            if self.respostas[pergunta_lower]:
-                r_final = f"{self.nome}: {random.choice(self.respostas[pergunta_lower])}"
+        if self.pergunta in self.respostas and isinstance(self.respostas.get(self.pergunta), list):
+            if self.respostas[self.pergunta]:
+                r_final = f"{self.nome}: {random.choice(self.respostas[self.pergunta])}"
 
         # 2. Procura por keywords
         if not r_final:
             for q, kws in self.keywords.items():
-                if any(kw in pergunta_lower for kw in kws):
+                if any(kw in self.pergunta for kw in kws):
                     r_ops = self.respostas.get(q)
                     if r_ops:
                         r_final = f"{self.nome}: {random.choice(r_ops)}"
                         break
         
         # 3. Respostas aprendidas (fornecidas pela interface)
-        if not r_final and pergunta_lower in learning_responses:
-             r_final = f"{self.nome}: {learning_responses[pergunta_lower]}"
+        if not r_final and self.pergunta in learning_responses:
+             r_final = f"{self.nome}: {learning_responses[self.pergunta]}"
 
         # 4. Se não encontrar, ativa o modo de aprendizado.
         if not r_final:
-            r_final = self.learning(pergunta)
+            r_final = self.learning()
 
         # Registra a interação no history.txt.
         self.memory.log_interaction(pergunta, r_final)
         return r_final
 
-    def learning(self, pergunta: str):
+    def learning(self):
         """
             -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
         """
@@ -78,9 +79,9 @@ class ChatBot:
             except (json.JSONDecodeError, ValueError):
                 data = {}
 
-        data[pergunta] = new_response
+        data[self.pergunta] = new_response
         # Registrar histórico
-        self.memory.log_interaction(pergunta, message + "Users input:" + new_response)
+        self.memory.log_interaction(self.pergunta, message + "Users input:" + new_response)
 
 
         # Salva todo o dicionário formatado
@@ -89,4 +90,3 @@ class ChatBot:
 
         # Feedback
         return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
-
