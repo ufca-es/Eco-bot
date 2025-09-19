@@ -136,3 +136,11 @@
 
 === Sessão iniciada em 2025-09-19 13:46:28 | Persona: Ecobot-education ===
 [2025-09-19 13:46:39] (Ecobot-education) Você: isopor (eps) recicla? || Bot: Embalagens rígidas (garrafas PET, frascos de limpeza, potes) têm maior aceitação. Filmes/sacolas variam.
+
+=== Sessão iniciada em 2025-09-19 14:05:02 | Persona: Ecobot-education ===
+[2025-09-19 14:05:09] (Ecobot-education) Você: isopor (eps) recicla? || Bot: Quando não aceito, evite descartar contaminado e reduza o uso sempre que possível.
+[2025-09-19 14:05:41] (Ecobot-education) Você: plástico biodegradável vai na reciclagem? || Bot: Materiais como PLA são destinados à compostagem industrial (quando disponível).
+[2025-09-19 14:06:16] (Ecobot-education) Você: tu cheira? || Bot: Depende....
+[2025-09-19 14:06:45] (Ecobot-education) Você: você gosta de god of war? || Bot: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): Users input:Sim, gosto muito.
+[2025-09-19 14:06:45] (Ecobot-education) Você: você gosta de god of war? || Bot: Obrigado! Aprendi uma nova resposta. 😊
+[2025-09-19 14:06:57] (Ecobot-education) Você: você gosta de god of war? || Bot: Sim, gosto muito.

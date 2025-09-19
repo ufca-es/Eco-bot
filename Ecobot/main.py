@@ -26,7 +26,9 @@ exit_triggers = (
 def main():
     bot = ChatBot(get_personality())
 
+    # Mostrar últimas 5 interações (Task 11)
     last5_interactions()
+
     # Sugestões de perguntas frequentes (Task 15)
     freq = ChatbotFrequentQuestions.get_frequent_questions()
     if freq:
@@ -38,6 +40,7 @@ def main():
     while True:
         question = input("Você: ").strip().lower()
 
+        # Mudar personalidade (Task 08)
         if any(phrase in question for phrase in change_triggers):
             bot = ChatBot(get_personality())
             continue
@@ -48,7 +51,9 @@ def main():
             analytics = ChatbotAnalytics()
             print(analytics)
 
+            # Gerar relatório (Task 14)
             try:
+                print(50*"=")
                 print("Gerando relatório...")
                 report_path = ChatbotReport.generate_report()
                 print(f"Relatório gerado em: {report_path}")

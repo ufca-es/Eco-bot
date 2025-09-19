@@ -1,10 +1,10 @@
-# Ecobot/classes/chatbot.py (Versão Adaptada para a Web)
-
 from typing import Dict
 import json
 import random
 import os
 from classes.chatbot_memory import ChatBotMemory
+import re
+import unicodedata
 
 class ChatBot:
     """
@@ -23,38 +23,62 @@ class ChatBot:
         self.memory = ChatBotMemory(self.nome)
         self.memory.start_session()
 
+    def _normalize(self, text: str) -> str:
+        """Normaliza texto: minúsculas, sem acentos, sem pontuação e com espaços colapsados."""
+        if not isinstance(text, str):
+            return ""
+        t = text.lower().strip()
+        t = unicodedata.normalize('NFD', t)
+        t = ''.join(ch for ch in t if unicodedata.category(ch) != 'Mn')  # remove acentos
+        t = re.sub(r'[^a-z0-9\s]', ' ', t)  # remove pontuação mantendo letras/dígitos/espaços
+        t = re.sub(r'\s+', ' ', t).strip()
+        return t
+
     def reply(self, pergunta: str, learning_responses: Dict[str, str]):
         """
-        Encontra a melhor resposta para a pergunta do usuário.
-        A lógica é a mesma da sua versão original.
+        Gera uma resposta baseada na pergunta e nas respostas aprendidas.
         """
+
         r_final = ''
-        # Converte a pergunta para minúsculas uma vez para otimizar as buscas.
+        # Guarda a pergunta original (para histórico/aprendizado)
         self.pergunta = pergunta
 
-        # 1. Match exato (agora usando a pergunta em minúsculas)
-        if self.pergunta in self.respostas and isinstance(self.respostas.get(self.pergunta), list):
-            if self.respostas[self.pergunta]:
-                r_final = f"{self.nome}: {random.choice(self.respostas[self.pergunta])}"
+        # Normaliza pergunta e estruturas de busca
+        p_norm = self._normalize(pergunta)
+        normalized_respostas = {
+            self._normalize(q): v for q, v in (self.respostas or {}).items()
+        }
+        normalized_keywords = {
+            self._normalize(q): [self._normalize(kw) for kw in (kws or [])]
+            for q, kws in (self.keywords or {}).items()
+        }
+        normalized_learning = {
+            self._normalize(k): v for k, v in (learning_responses or {}).items()
+        }
+
+        # 1. Match exato
+        if p_norm in normalized_respostas and isinstance(normalized_respostas.get(p_norm), list):
+            if normalized_respostas[p_norm]:
+                r_final = f"{self.nome}: {random.choice(normalized_respostas[p_norm])}"
 
         # 2. Procura por keywords
         if not r_final:
-            for q, kws in self.keywords.items():
-                if any(kw in self.pergunta for kw in kws):
-                    r_ops = self.respostas.get(q)
+            for nq, kws in normalized_keywords.items():
+                if any(kw and kw in p_norm for kw in kws):
+                    r_ops = normalized_respostas.get(nq)
                     if r_ops:
                         r_final = f"{self.nome}: {random.choice(r_ops)}"
                         break
-        
-        # 3. Respostas aprendidas (fornecidas pela interface)
-        if not r_final and self.pergunta in learning_responses:
-             r_final = f"{self.nome}: {learning_responses[self.pergunta]}"
+
+        # 3. Respostas aprendidas
+        if not r_final and p_norm in normalized_learning:
+            r_final = f"{self.nome}: {normalized_learning[p_norm]}"
 
         # 4. Se não encontrar, ativa o modo de aprendizado.
         if not r_final:
             r_final = self.learning()
 
-        # Registra a interação no history.txt.
+        # Registra a interação no history.txt (pergunta original + resposta).
         self.memory.log_interaction(pergunta, r_final)
         return r_final
 
@@ -82,7 +106,6 @@ class ChatBot:
         data[self.pergunta] = new_response
         # Registrar histórico
         self.memory.log_interaction(self.pergunta, message + "Users input:" + new_response)
-
 
         # Salva todo o dicionário formatado
         with open(path, 'w', encoding="utf-8") as f:

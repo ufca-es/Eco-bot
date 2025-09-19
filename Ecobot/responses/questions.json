@@ -1,11 +1,18 @@
 {
-  "Como descartar pilhas?": {
+  "como descartar pilhas": {
     "keywords": [
-      "pilha", "pilhas", "bateria", "baterias",
-      "descartar pilhas", "descartar bateria",
-      "coleta de pilhas", "coleta pilhas", "ponto de coleta pilhas",
-      "ponto de coleta bateria", "ecoponto", "lixo eletrônico", "e-lixo",
-      "onde descartar pilhas", "pilha usada", "bateria usada"
+      "descarte pilha",
+      "descarte bateria",
+      "ponto coleta pilha",
+      "ponto coleta bateria",
+      "coleta pilha usada",
+      "coleta bateria usada",
+      "pilha alcalina",
+      "pilha recarregavel",
+      "bateria lipo",
+      "bateria chumbo acido",
+      "ecoponto pilha",
+      "lixo eletronico pilha"
     ],
     "formal": [
       "Pilhas e baterias devem ser entregues em pontos de coleta específicos (supermercados, lojas de eletrônicos, ecopontos).",
@@ -29,11 +36,17 @@
       "Isola os polos e leva. Fim."
     ]
   },
-  "Vidro pode ir no lixo comum?": {
+  "vidro pode ir no lixo comum": {
     "keywords": [
-      "vidro", "garrafa de vidro", "lixo comum vidro", "descartar vidro",
-      "reciclagem de vidro", "coleta de vidro", "caco de vidro",
-      "potes de vidro", "vidro no lixo", "vidro quebrado", "embalagem de vidro"
+      "descarte vidro",
+      "reciclagem vidro",
+      "coleta vidro",
+      "vidro quebrado",
+      "embalagem vidro",
+      "garrafa vidro",
+      "pote vidro",
+      "caco vidro",
+      "vidro contaminado"
     ],
     "formal": [
       "Não. Vidro deve ir para a reciclagem. Embale vidros quebrados em papelão ou jornal e identifique para evitar acidentes.",
@@ -57,11 +70,14 @@
       "Sem desculpas: separa direito."
     ]
   },
-  "O que é reciclagem?": {
+  "o que e reciclagem": {
     "keywords": [
-      "o que é reciclagem", "o que e reciclagem", "definição reciclagem", "definicao reciclagem",
-      "reciclar", "reciclagem", "conceito de reciclagem", "significado de reciclagem",
-      "para que serve reciclagem"
+      "definicao reciclagem",
+      "conceito reciclagem",
+      "reciclagem significado",
+      "reciclagem objetivo",
+      "reciclagem processo",
+      "reciclagem sustentabilidade"
     ],
     "formal": [
       "Reciclagem é o processo de transformar resíduos em novos produtos, reduzindo o impacto ambiental.",
@@ -100,13 +116,19 @@
       "Reciclagem: faz ou vai sobrar lixo pra todo mundo."
     ]
   },
-  "Que tipos de plástico podem ser reciclados?": {
+  "que tipos de plastico podem ser reciclados": {
     "keywords": [
-      "plástico", "plastico", "plásticos", "plasticos",
-      "tipos de plástico", "tipos de plastico", "símbolo de reciclagem", "triângulo reciclagem",
-      "pet", "pead", "pp", "pvc", "ps", "filme plástico", "sacola",
-      "reciclável", "reciclavel", "reciclagem plástico", "reciclagem plastico",
-      "qual plástico recicla", "quais plasticos reciclam"
+      "plastico reciclavel",
+      "tipo plastico reciclavel",
+      "plastico pet",
+      "plastico pead",
+      "plastico pp",
+      "plastico pvc",
+      "plastico ps",
+      "plastico filme",
+      "sacola plastico reciclavel",
+      "simbolo reciclagem plastico",
+      "triangulo reciclagem plastico"
     ],
     "formal": [
       "Os plásticos mais aceitos são PET (1), PEAD (2) e PP (5). Verifique o número no símbolo de reciclagem.",
@@ -130,12 +152,15 @@
       "Confere o símbolo, não inventa."
     ]
   },
-  "Como descartar óleo de cozinha usado?": {
+  "como descartar oleo de cozinha usado": {
     "keywords": [
-      "óleo", "oleo", "óleo de cozinha", "oleo de cozinha",
-      "descartar óleo", "descartar oleo", "óleo na pia", "oleo na pia",
-      "ponto de coleta óleo", "ponto de coleta oleo", "óleo usado", "oleo usado",
-      "resto de óleo", "resto de oleo", "biodiesel"
+      "descarte oleo cozinha",
+      "ponto coleta oleo",
+      "oleo usado reciclagem",
+      "oleo biodiesel",
+      "oleo contaminado",
+      "oleo vegetal",
+      "oleo fritura"
     ],
     "formal": [
       "Após esfriar, coe o óleo e armazene em garrafa PET bem fechada.",
@@ -159,11 +184,15 @@
       "Descarte correto ou vai dar ruim."
     ]
   },
-  "Posso reciclar papel sujo de comida?": {
+  "posso reciclar papel sujo de comida": {
     "keywords": [
-      "papel sujo", "papel engordurado", "papel com comida",
-      "reciclar papel sujo", "reciclagem papel sujo", "guardanapo sujo",
-      "papel toalha", "papel molhado", "papel com gordura", "caixa engordurada"
+      "papel engordurado",
+      "papel contaminado",
+      "papel molhado",
+      "papel toalha sujo",
+      "guardanapo sujo",
+      "caixa pizza engordurada",
+      "papel gordura"
     ],
     "formal": [
       "Papéis sujos, molhados ou engordurados não devem ir para a reciclagem.",
@@ -187,11 +216,15 @@
       "Não força: papel sujo atrapalha."
     ]
   },
-  "Posso reciclar eletrônicos (e-lixo)?": {
+  "posso reciclar eletronicos e-lixo": {
     "keywords": [
-      "eletrônico", "eletronico", "e-lixo", "lixo eletrônico", "lixo eletronico",
-      "celular velho", "notebook quebrado", "carregador", "cabo", "aparelho eletrônico",
-      "descarte eletrônico", "ponto de coleta eletrônico", "ecoponto"
+      "descarte eletronico",
+      "ponto coleta eletronico",
+      "lixo eletronico",
+      "celular velho descarte",
+      "notebook quebrado descarte",
+      "carregador descarte",
+      "ecoponto eletronico"
     ],
     "formal": [
       "Eletrônicos devem ser destinados a pontos de coleta de lixo eletrônico (e-lixo) ou ecopontos.",
@@ -215,10 +248,14 @@
       "Logística reversa existe. Usa."
     ]
   },
-  "Como descartar medicamentos vencidos?": {
+  "como descartar medicamentos vencidos": {
     "keywords": [
-      "medicamento", "remédio", "remedio", "remédios vencidos", "medicamentos vencidos",
-      "farmácia", "posto de saúde", "descarte de remédio", "descartar medicamento"
+      "descarte medicamento vencido",
+      "descarte remedio vencido",
+      "ponto coleta medicamento",
+      "farmacia descarte medicamento",
+      "posto saude descarte medicamento",
+      "logistica reversa medicamento"
     ],
     "formal": [
       "Medicamentos vencidos devem ser entregues em farmácias e postos de saúde participantes da logística reversa.",
@@ -242,10 +279,12 @@
       "Não joga no lixo comum."
     ]
   },
-  "Caixa de pizza recicla?": {
+  "caixa de pizza recicla": {
     "keywords": [
-      "caixa de pizza", "pizza", "engordurada", "gordura", "reciclar caixa de pizza",
-      "parte limpa", "reciclagem papel engordurado"
+      "reciclagem caixa pizza",
+      "caixa pizza engordurada",
+      "parte limpa caixa pizza",
+      "papel engordurado pizza"
     ],
     "formal": [
       "A parte limpa e sem gordura da caixa de pizza pode ser reciclada; a parte engordurada não.",
@@ -269,10 +308,15 @@
       "Não força: gordura atrapalha."
     ]
   },
-  "Como separar o lixo para coleta seletiva?": {
+  "como separar o lixo para coleta seletiva": {
     "keywords": [
-      "separar lixo", "coleta seletiva", "como separar", "recicláveis", "orgânico",
-      "lixo seco", "lixo úmido", "cor das lixeiras", "triagem"
+      "separacao lixo",
+      "coleta seletiva",
+      "reciclavel seco",
+      "residuo organico",
+      "cor lixeira reciclavel",
+      "triagem reciclavel",
+      "residuo perigoso"
     ],
     "formal": [
       "Separe recicláveis (papel, plástico, metal e vidro) limpos e secos do orgânico e do rejeito.",
@@ -296,10 +340,14 @@
       "Perigoso vai pro ponto certo."
     ]
   },
-  "Como descartar lâmpadas (fluorescentes e LED)?": {
+  "como descartar lampadas fluorescentes e led": {
     "keywords": [
-      "lâmpada", "lampada", "fluorescente", "led", "descartar lâmpada",
-      "ponto de coleta lâmpada", "reciclagem lâmpadas", "logística reversa lâmpadas"
+      "descarte lampada fluorescente",
+      "descarte lampada led",
+      "ponto coleta lampada",
+      "reciclagem lampada",
+      "logistica reversa lampada",
+      "lampada perigosa"
     ],
     "formal": [
       "Lâmpadas fluorescentes e de LED devem ser levadas a pontos de coleta específicos ou lojas participantes.",
@@ -323,11 +371,16 @@
       "Sem quebrar."
     ]
   },
-  "Oi, tudo bem?": {
+  "oi tudo bem": {
     "keywords": [
-      "oi", "olá", "ola", "tudo bem", "td bem", "e ai", "e aí",
-      "como vai", "como você está", "como voce esta", "salve",
-      "bom dia", "boa tarde", "boa noite"
+      "oi",
+      "ola",
+      "tudo bem",
+      "bom dia",
+      "boa tarde",
+      "boa noite",
+      "cumprimento",
+      "saudacao"
     ],
     "formal": [
       "Olá! Tudo bem? Em que posso ajudar sobre reciclagem hoje?",
@@ -366,11 +419,13 @@
       "Oi. Só respondo perguntas, tá?"
     ]
   },
-  "Qual seu nome?": {
+  "qual seu nome": {
     "keywords": [
-      "nome", "qual seu nome", "seu nome",
-      "como você se chama", "como voce se chama",
-      "quem é você", "quem e voce", "quem é vc", "quem e vc"
+      "nome bot",
+      "nome ecobot",
+      "como chama bot",
+      "quem e bot",
+      "identidade bot"
     ],
     "formal": [
       "Eu sou o Ecobot. Posso te ajudar com informações sobre reciclagem.",
@@ -413,9 +468,14 @@
       "Ecobot. Pronto, já sabe."
     ]
   },
-  "Tchau": {
+  "tchau": {
     "keywords": [
-      "tchau", "até mais", "ate mais", "até logo", "ate logo", "falou", "fui"
+      "tchau",
+      "ate mais",
+      "ate logo",
+      "despedida",
+      "falou",
+      "fui"
     ],
     "formal": [
       "Até mais! Sempre que precisar, estarei por aqui.",
@@ -454,9 +514,13 @@
       "Vai lá."
     ]
   },
-  "Obrigado": {
+  "obrigado": {
     "keywords": [
-      "obrigado", "obrigada", "valeu", "agradecido", "grato"
+      "obrigado",
+      "obrigada",
+      "valeu",
+      "agradecimento",
+      "grato"
     ],
     "formal": [
       "De nada! Conte comigo sempre.",
@@ -495,11 +559,14 @@
       "Tá ok."
     ]
   },
-  "Como você funciona?": {
+  "como voce funciona": {
     "keywords": [
-      "como você funciona", "como voce funciona", "como funciona",
-      "o que você faz", "o que voce faz", "o que pode fazer",
-      "como você pode ajudar", "como voce pode ajudar"
+      "funcionamento bot",
+      "como funciona bot",
+      "o que faz bot",
+      "ajuda bot",
+      "palavra chave bot",
+      "assistente virtual reciclagem"
     ],
     "formal": [
       "Eu uso palavras-chave para identificar sua dúvida e responder com base em um conjunto de perguntas e respostas sobre reciclagem.",
@@ -538,11 +605,14 @@
       "Só faço o que mandam."
     ]
   },
-  "Posso reciclar sacolas plásticas e filmes?": {
+  "posso reciclar sacolas plasticas e filmes": {
     "keywords": [
-      "sacola", "sacolas", "saco plástico", "sacos plásticos", "plástico fino", "plastico fino",
-      "filme plástico", "filme plastico", "plástico filme", "plastico filme",
-      "plástico flexível", "plastico flexivel", "envelope plástico"
+      "sacola plastica reciclavel",
+      "filme plastico reciclavel",
+      "plastico flexivel reciclavel",
+      "envelope plastico reciclavel",
+      "ponto coleta sacola plastica",
+      "supermercado coleta sacola"
     ],
     "formal": [
       "A aceitação de sacolas e filmes plásticos varia por município; verifique as regras locais.",
@@ -566,11 +636,20 @@
       "Melhor reduzir o uso."
     ]
   },
-  "O que significam os números do plástico?": {
+  "o que significam os numeros do plastico": {
     "keywords": [
-      "número do plástico", "numero do plastico", "símbolo do plástico", "simbolo do plastico",
-      "triângulo", "triangulo", "código de resina", "codigo de resina",
-      "1", "2", "3", "4", "5", "6", "7", "identificação do material"
+      "numero plastico",
+      "simbolo plastico",
+      "codigo resina plastico",
+      "triangulo plastico",
+      "identificacao plastico",
+      "plastico tipo 1",
+      "plastico tipo 2",
+      "plastico tipo 3",
+      "plastico tipo 4",
+      "plastico tipo 5",
+      "plastico tipo 6",
+      "plastico tipo 7"
     ],
     "formal": [
       "Os números indicam o tipo de resina: 1 PET, 2 PEAD, 3 PVC, 4 PEBD, 5 PP, 6 PS, 7 outros.",
@@ -594,9 +673,14 @@
       "Confere a regra local."
     ]
   },
-  "Isopor (EPS) recicla?": {
+  "isopor eps recicla": {
     "keywords": [
-      "isopor", "eps", "poliestireno expandido", "embalagem de isopor", "bandeja de isopor", "caixa de isopor"
+      "isopor reciclavel",
+      "eps reciclavel",
+      "poliestireno expandido",
+      "embalagem isopor limpa",
+      "bandeja isopor limpa",
+      "coleta isopor"
     ],
     "formal": [
       "O isopor (EPS) pode ser reciclado, mas a coleta varia por cidade e costuma ocorrer em pontos específicos.",
@@ -620,10 +704,14 @@
       "Reduz o uso."
     ]
   },
-  "Posso reciclar copos e talheres plásticos descartáveis?": {
+  "posso reciclar copos e talheres plasticos descartaveis": {
     "keywords": [
-      "copo plástico", "copos plásticos", "talher plástico", "talheres plásticos", "descartáveis", "descartavel",
-      "copo descartavel", "talher descartavel", "PS", "PP"
+      "copo plastico descartavel",
+      "talher plastico descartavel",
+      "ps reciclavel",
+      "pp reciclavel",
+      "reciclagem copo descartavel",
+      "reciclagem talher descartavel"
     ],
     "formal": [
       "A aceitação de copos e talheres descartáveis varia. Quando aceitos, devem estar limpos e secos.",
@@ -647,10 +735,14 @@
       "Confere o símbolo."
     ]
   },
-  "Plástico biodegradável vai na reciclagem?": {
+  "plastico biodegradavel vai na reciclagem": {
     "keywords": [
-      "plástico biodegradável", "plastico biodegradavel", "compostável", "compostavel",
-      "oxo-biodegradável", "oxobiodegradavel", "bioplástico", "bioplastico", "PLA"
+      "plastico biodegradavel",
+      "pla compostavel",
+      "oxo biodegradavel",
+      "bioplastico",
+      "compostagem plastico",
+      "rotulo plastico biodegradavel"
     ],
     "formal": [
       "Plásticos biodegradáveis/compostáveis não devem ir para a reciclagem convencional.",
@@ -674,10 +766,16 @@
       "Sem compostagem, reduz o uso."
     ]
   },
-  "Como descartar cabos e carregadores?": {
+  "como descartar cabos e carregadores": {
     "keywords": [
-      "cabo", "cabos", "carregador", "fonte", "fio", "usb", "hdmi",
-      "lixo eletrônico", "e-lixo", "ponto de coleta eletrônico", "ecoponto"
+      "descarte cabo",
+      "descarte carregador",
+      "descarte fonte",
+      "descarte fio usb",
+      "descarte fio hdmi",
+      "ponto coleta cabo",
+      "ponto coleta carregador",
+      "lixo eletronico cabo"
     ],
     "formal": [
       "Cabos, carregadores e fontes são e-lixo e devem ir para pontos de coleta específicos ou lojas participantes.",
@@ -701,10 +799,17 @@
       "Sem cortar fio."
     ]
   },
-  "Como descartar celulares com dados pessoais?": {
+  "como descartar celulares com dados pessoais": {
     "keywords": [
-      "celular", "smartphone", "dados pessoais", "apagar dados", "reset", "restauração de fábrica",
-      "wipe", "formatação", "backup", "cartão sd", "chip", "sim"
+      "descarte celular",
+      "descarte smartphone",
+      "apagar dados celular",
+      "reset celular",
+      "restauracao fabrica celular",
+      "backup celular",
+      "remover chip celular",
+      "remover cartao sd celular",
+      "ponto coleta celular"
     ],
     "formal": [
       "Faça backup, remova chip e cartão SD e restaure o aparelho para as configurações de fábrica.",
@@ -728,10 +833,14 @@
       "Sai das contas antes."
     ]
   },
-  "Posso jogar fones, mouses e pequenos eletrônicos no reciclável comum?": {
+  "posso jogar fones mouses e pequenos eletronicos no reciclavel comum": {
     "keywords": [
-      "fone", "fones", "fones de ouvido", "mouse", "mouses", "teclado",
-      "pequenos eletrônicos", "aparelhos pequenos", "lixo eletrônico", "reciclável comum"
+      "descarte fone ouvido",
+      "descarte mouse",
+      "descarte teclado",
+      "descarte pequeno eletronico",
+      "lixo eletronico pequeno",
+      "ponto coleta pequeno eletronico"
     ],
     "formal": [
       "Não. Esses itens são e-lixo e devem ser destinados a pontos de coleta específicos.",
@@ -755,10 +864,15 @@
       "Se puder, repara ou doa."
     ]
   },
-  "Como descartar cartuchos e toners de impressora?": {
+  "como descartar cartuchos e toners de impressora": {
     "keywords": [
-      "cartucho", "toner", "impressora", "tinta", "laser", "logística reversa",
-      "coleta de cartucho", "coleta de toner"
+      "descarte cartucho impressora",
+      "descarte toner impressora",
+      "logistica reversa cartucho",
+      "logistica reversa toner",
+      "ponto coleta cartucho",
+      "ponto coleta toner",
+      "programa devolucao cartucho"
     ],
     "formal": [
       "Cartuchos e toners devem ser destinados à logística reversa do fabricante ou pontos de coleta autorizados.",
@@ -782,11 +896,15 @@
       "Consulta o programa de coleta."
     ]
   },
-  "Como descartar eletrodomésticos grandes?": {
+  "como descartar eletrodomesticos grandes": {
     "keywords": [
-      "geladeira", "fogão", "fogao", "máquina de lavar", "maquina de lavar",
-      "micro-ondas", "microondas", "eletrodoméstico", "linha branca",
-      "retirada", "coleta agendada", "logística reversa"
+      "descarte geladeira",
+      "descarte fogao",
+      "descarte maquina lavar",
+      "descarte microondas",
+      "coleta agendada eletrodomestico",
+      "logistica reversa eletrodomestico",
+      "ponto coleta eletrodomestico"
     ],
     "formal": [
       "Eletrodomésticos grandes devem seguir logística reversa com coleta agendada pela loja ou serviço municipal.",
