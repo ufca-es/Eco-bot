@@ -59,26 +59,32 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 ## 🗂️ Estrutura de Arquivos
 
 ```bash
-📂 Ecobot/
-├── 📂 classes/
-│   ├── chatbot.py             # Lógica principal do chatbot
-│   ├── chatbot_analytics.py   # Coleta estatísticas e relatórios
-│   └── chatbot_memory.py      # Persistência de aprendizado e histórico
+# Estrutura de Diretórios do EcoBot
+
+```bash
+Eco-bot/
+├── classes/                     # Núcleo da lógica do chatbot
+│   ├── chatbot.py                # Lógica principal do chatbot
+│   ├── chatbot_analytics.py      # Coleta estatísticas e relatórios
+│   ├── chatbot_frequent_questions.py # Extrai perguntas frequentes
+│   ├── chatbot_memory.py         # Persistência de aprendizado e histórico
+│   └── chatbot_report.py         # Geração de relatórios consolidados
 │
-├── 📂 interface/
-│   ├── file_utils.py          # Gerencia arquivos
-│   ├── session_state.py       # Gerencia a memória da sessão
-│   ├── ui_components.py       # Cuida da interface visual
-│   └── handlers.py            # Manipula ações do usuário
+├── interface/                    # (reservado para interface do usuário)
 │
-├── 📂 responses/
-│   ├── history.txt            # Histórico salvo das conversas
-│   ├── learning_responses.json # Respostas aprendidas dinamicamente
-│   └── questions.json         # Perguntas e respostas pré-definidas
+├── responses/                    # Armazenamento de dados
+│   ├── history.txt               # Histórico salvo das conversas
+│   ├── learning_responses.json   # Respostas aprendidas dinamicamente
+│   ├── questions.json            # Perguntas e respostas pré-definidas
+│   └── relatorio.txt             # Saída consolidada de relatórios
 │
-├── helpers.py                 # Funções auxiliares gerais
-├── main.py                    # Versão CLI (terminal) do chatbot
-└── app.py                     # Interface principal com Streamlit
+├── app.py                        # Interface principal (versão web/Streamlit)
+├── helpers.py                    # Funções auxiliares gerais
+├── LICENSE                       # Licença do projeto (MIT)
+├── main.py                       # Versão CLI (terminal) do chatbot
+├── requirements.txt              
+└── README.md                     # Documentação inicial do projeto
+
 ```
 
 ## 🚀 Como Executar
