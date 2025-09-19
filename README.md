@@ -58,7 +58,7 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 
 ## 🗂️ Estrutura de Arquivos
 
-```bash
+
 # Estrutura de Diretórios do EcoBot
 
 ```bash
