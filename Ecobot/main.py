@@ -1,6 +1,8 @@
+from Ecobot.classes.chatbot_report import ChatbotReport
 from helpers import get_personality, loading_learning_responses, last5_interactions
 from classes.chatbot import ChatBot
 from classes.chatbot_analytics import ChatbotAnalytics
+from classes.chatbot_frequent_questions import ChatbotFrequentQuestions
 
 change_triggers = (
     "mudar personalidade",
@@ -20,36 +22,34 @@ exit_triggers = (
     "até logo", "ate logo", "até mais", "ate mais"
 )
 
+
 def main():
     bot = ChatBot(get_personality())
 
-    
     last5_interactions()
     # Sugestões de perguntas frequentes (Task 15)
-    freq = ChatbotAnalytics.get_frequent_questions()
+    freq = ChatbotFrequentQuestions.get_frequent_questions()
     if freq:
         print("Sugestões de perguntas frequentes:")
         for q, n in freq:
             print(f" - {q} ({n}x)")
-        print("="*50)
+        print("=" * 50)
 
     while True:
         question = input("Você: ").strip().lower()
-
 
         if any(phrase in question for phrase in change_triggers):
             bot = ChatBot(get_personality())
             continue
 
-        
         if any(trigger in question for trigger in exit_triggers):
             print("Obrigado por utilizar o Ecobot♻️, fico feliz em te ajudar!😍")
-            print(50*"=")
+            print(50 * "=")
             analytics = ChatbotAnalytics()
             print(analytics)
-            
+
             try:
-                report_path = analytics.generate_report()
+                report_path = ChatbotReport.generate_report()
                 print(f"Relatório gerado em: {report_path}")
             except Exception as e:
                 print(f"Falha ao gerar relatório: {e}")

@@ -47,3 +47,19 @@
 [2025-09-18 13:53:53] (Ecobot-rude) Você: trocar bot || Bot: Não sei a resposta para isso. Como eu deveria responder?
 [2025-09-18 13:53:57] (Ecobot-rude) Você: esquecer || Bot: Não sei a resposta para isso. Como eu deveria responder?
 [2025-09-18 13:54:04] (Ecobot-rude) Você: esquecer || Bot: Não sei a resposta para isso. Como eu deveria responder?
+
+=== Sessão iniciada em 2025-09-19 02:02:41 | Persona: Ecobot-funny ===
+[2025-09-19 02:02:50] (Ecobot-funny) Você: oi || Bot: Oi! Pronto pra reciclar até o mau humor! 😆
+
+=== Sessão iniciada em 2025-09-19 02:36:16 | Persona: Ecobot-rude ===
+[2025-09-19 02:36:27] (Ecobot-rude) Você: oi || Bot: Oi. Pergunta ou não?
+[2025-09-19 02:36:32] (Ecobot-rude) Você: pilha || Bot: Descarta no lugar certo: coletor de pilhas.
+[2025-09-19 02:36:43] (Ecobot-rude) Você: bateira || Bot: Aprendizado cancelado. Tudo bem! 😊
+[2025-09-19 02:36:46] (Ecobot-rude) Você: bateria || Bot: Descarta no lugar certo: coletor de pilhas.
+[2025-09-19 02:36:52] (Ecobot-rude) Você: vidro || Bot: Embala o caco e sinaliza. Segurança primeiro.
+[2025-09-19 02:37:02] (Ecobot-rude) Você: lixo eletrônico || Bot: Pilha no lixo comum? Não. Leve ao ponto de coleta.
+[2025-09-19 02:37:17] (Ecobot-rude) Você: eletrônico || Bot: Não desmonta. Entrega inteiro.
+[2025-09-19 02:37:31] (Ecobot-rude) Você: onde descaratar lixo eletrônico? || Bot: Pilha no lixo comum? Não. Leve ao ponto de coleta.
+[2025-09-19 02:37:58] (Ecobot-rude) Você: onde descartar eletrônicos? || Bot: Leva no ponto de e-lixo.
+
+=== Sessão iniciada em 2025-09-19 02:41:05 | Persona: Ecobot-funny ===

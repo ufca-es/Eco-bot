@@ -6,9 +6,9 @@ class ChatBotMemory:
         self.nome = nome
 
     @staticmethod
-    def history_file_path() -> str:
+    def history_file_path(file = "history.txt") -> str:
         base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'responses', 'history.txt')
+        return os.path.join(base_dir, 'responses', file)
 
     @staticmethod
     def history(last_n: int = 5):
@@ -40,3 +40,4 @@ class ChatBotMemory:
         line = f"[{timestamp}] ({self.nome}) Você: {pergunta} || Bot: {resposta_sem_prefixo}\n"
         with open(path, 'a', encoding='utf-8') as f:
             f.write(line)
+

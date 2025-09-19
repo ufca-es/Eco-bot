@@ -1,116 +1,66 @@
 {
   "Como descartar pilhas?": {
     "keywords": [
-      "pilha",
-      "pilhas",
-      "bateria",
-      "baterias",
-      "descartar pilhas",
-      "lixo pilha",
-      "coleta pilhas",
-      "descartar bateria",
-      "ponto de coleta pilhas",
-      "ponto de coleta bateria",
-      "pilha usada",
-      "pilhas usadas",
-      "baterias usadas"
+      "pilha", "pilhas", "bateria", "baterias",
+      "descartar pilhas", "descartar bateria",
+      "coleta de pilhas", "coleta pilhas", "ponto de coleta pilhas",
+      "ponto de coleta bateria", "ecoponto", "lixo eletrônico", "e-lixo",
+      "onde descartar pilhas", "pilha usada", "bateria usada"
     ],
     "formal": [
-      "Pilhas devem ser descartadas em pontos de coleta específicos, como supermercados e lojas autorizadas.",
-      "Por questões ambientais, pilhas devem ser levadas a locais apropriados para coleta.",
-      "Nunca descarte pilhas no lixo comum; utilize pontos de coleta autorizados.",
-      "O descarte correto de pilhas é feito em locais próprios, encontrados em comércios e postos de reciclagem.",
-      "Pilhas usadas devem ser entregues em pontos de coleta para evitar contaminação ambiental.",
-      "Procure estabelecimentos que recebam pilhas usadas para descarte adequado.",
-      "Pilhas e baterias precisam ser descartadas em locais específicos para resíduos perigosos.",
-      "O correto é armazenar as pilhas usadas e levá-las a pontos de coleta autorizados.",
-      "Supermercados, lojas de eletrônicos e postos de reciclagem costumam receber pilhas usadas.",
-      "O descarte inadequado de pilhas pode causar danos ao meio ambiente; utilize sempre pontos de coleta."
+      "Pilhas e baterias devem ser entregues em pontos de coleta específicos (supermercados, lojas de eletrônicos, ecopontos).",
+      "Armazene as pilhas usadas em local seco, sem calor, e leve-as periodicamente a um ponto de coleta autorizado.",
+      "Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.",
+      "Em baterias maiores, isole os terminais com fita para evitar curto-circuito antes do transporte.",
+      "Consulte o site da prefeitura para localizar pontos de entrega voluntária (PEVs) próximos."
     ],
     "engracada": [
-      "Pilhas não gostam de lixo comum! 🔋🚫🗑️ Procure um ponto de coleta, elas agradecem 🙏.",
-      "Se pilha falasse, ela pediria: 'Me leve pra um ponto de coleta, por favor!' 🔋➡️📍",
-      "Nada de jogar pilha no lixo! Ela quer um passeio até o ponto de coleta! 🏃‍♂️🔋",
-      "Pilhas são exigentes: só aceitam hotéis cinco estrelas... digo, pontos de coleta! ⭐⭐⭐⭐⭐",
-      "Pilhas no lixo? Só se for no lixo de coleta especial! 🗑️✨",
-      "Leve suas pilhas para um spa ecológico: o ponto de coleta! 🧖‍♂️♻️",
-      "Pilhas usadas não viram brinquedo, mas podem virar energia reciclada! ⚡♻️",
-      "Se jogou pilha no lixo comum, o planeta faz cara feia! 😠🌎",
-      "Pilhas gostam de viajar: leve-as até o ponto de coleta mais próximo! 🗺️🔋",
-      "Pilhas no lixo comum? Só se quiser ver o Ecobot triste! 😢🤖"
+      "Pilhas não curtem lixo comum! 🔋🚫 Leve-as ao ponto de coleta e ganhe karma ecológico ♻️.",
+      "Se pilha falasse: 'Me deixa no ponto de coleta, por favor!' 🔋➡️📍",
+      "Nada de pilha no lixo! Ela quer um passeio até o coletor mais próximo 🗺️.",
+      "Pilhas são VIP: só entram em pontos de coleta! ⭐",
+      "Quando em dúvida, o mapa do tesouro é o ecoponto! 🗺️💎"
     ],
     "rude": [
-      "Sério? Vai jogar pilha no lixo comum? Procura um ponto de coleta.",
-      "Não jogue pilha no lixo normal, por favor, né!",
-      "Pilhas no lixo comum? Nem pensar.",
-      "Não sabe ainda? Ponto de coleta, simples.",
-      "Jogar pilha no lixo é vacilo. Usa o ponto de coleta.",
-      "Não inventa: pilha é só no ponto de coleta.",
-      "Não complica, leva a pilha no lugar certo.",
-      "Pilha no lixo comum? Tá de brincadeira.",
-      "Quer poluir? Então joga pilha no lixo. Melhor não, né?"
+      "Pilha no lixo comum? Não. Leve ao ponto de coleta.",
+      "Descarta no lugar certo: coletor de pilhas.",
+      "Não inventa: pilha é resíduo perigoso.",
+      "Procure o coletor e entregue. Simples.",
+      "Isola os polos e leva. Fim."
     ]
   },
   "Vidro pode ir no lixo comum?": {
     "keywords": [
-      "vidro",
-      "garrafa de vidro",
-      "lixo comum vidro",
-      "descartar vidro",
-      "reciclagem de vidro",
-      "coleta de vidro",
-      "caco de vidro",
-      "potes de vidro",
-      "vidro no lixo",
-      "vidro quebrado"
+      "vidro", "garrafa de vidro", "lixo comum vidro", "descartar vidro",
+      "reciclagem de vidro", "coleta de vidro", "caco de vidro",
+      "potes de vidro", "vidro no lixo", "vidro quebrado", "embalagem de vidro"
     ],
     "formal": [
-      "Não, o vidro deve ser descartado separadamente para evitar acidentes e facilitar a reciclagem.",
-      "Vidros precisam ser separados do lixo comum e destinados à reciclagem.",
-      "O descarte correto do vidro é em recipientes próprios para recicláveis.",
-      "Vidro no lixo comum pode causar acidentes e prejudica a reciclagem.",
-      "Sempre separe o vidro do lixo comum para garantir a reciclagem adequada.",
-      "Vidros devem ser limpos e colocados em pontos de coleta seletiva.",
-      "O vidro é 100% reciclável, mas precisa ser descartado corretamente.",
-      "Evite misturar vidro com outros resíduos para não dificultar o processo de reciclagem.",
-      "Vidros quebrados devem ser embalados e levados ao local apropriado.",
-      "A reciclagem do vidro depende do descarte correto em recipientes específicos."
+      "Não. Vidro deve ir para a reciclagem. Embale vidros quebrados em papelão ou jornal e identifique para evitar acidentes.",
+      "Lave garrafas e potes de vidro e encaminhe à coleta seletiva ou PEV de recicláveis.",
+      "Evite misturar vidro com resíduos orgânicos; isso atrapalha a triagem e a segurança.",
+      "Vidro é 100% reciclável e pode ser reaproveitado inúmeras vezes quando descartado corretamente.",
+      "Para cacos, envolva bem e sinalize 'cuidado: vidro' antes de descartar no fluxo indicado pelo seu município."
     ],
     "engracada": [
       "Vidro no lixo comum? 🗑️❌ Só se for pra dar trabalho pro gari! 🧹",
-      "Vidro gosta de reciclagem ♻️, não de confusão no lixo comum! 🍾",
+      "Lava, separa e manda o vidro brilhar na reciclagem! ✨🍾",
       "Se jogar vidro no lixo comum, o Ecobot chora cacos! 😢🪟",
-      "Vidro no lixo comum? Só se for pra quebrar o clima! 😜",
-      "Vidro quer ser reciclado, não triturado no lixo! 🗑️❌",
-      "Vidro no lixo comum é igual festa sem música: não combina! 🎉🚫",
-      "Separa o vidro, senão ele fica de mal com você! 😆",
-      "Vidro no lixo comum? Só se for pra fazer bagunça! 🥳",
-      "Vidro adora um ponto de coleta, não um lixão! 🏞️",
-      "Vidro no lixo comum? Só se for pra dar dor de cabeça! 🤕"
+      "Caco solto? Embala direitinho e avisa! 📦⚠️",
+      "Vidro curte reciclar, não confusão no saco de lixo! 🎒♻️"
     ],
     "rude": [
-      "Não coloca vidro aí, né? Separa direito!",
-      "Vidro no lixo comum? Nem pensar.",
-      "Vai jogar vidro no lixo comum? Sério?",
-      "Separa o vidro, não custa nada.",
-      "Vidro no lixo comum é preguiça.",
-      "Não sabe separar vidro ainda?",
-      "Vidro no lixo comum? Tá de brincadeira.",
-      "Não complica, vidro é na reciclagem.",
-      "Vidro no lixo comum só atrapalha.",
-      "Se não separar vidro, não reclama depois."
+      "Vidro no lixo comum? Não. Separa.",
+      "Embala o caco e sinaliza. Segurança primeiro.",
+      "Lava e manda pra reciclagem.",
+      "Não mistura com orgânico.",
+      "Sem desculpas: separa direito."
     ]
   },
   "O que é reciclagem?": {
     "keywords": [
-      "o que é reciclagem",
-      "o que e reciclagem",
-      "definição reciclagem",
-      "definicao reciclagem",
-      "reciclar",
-      "reciclagem",
-      "conceito de reciclagem",
-      "significado de reciclagem",
+      "o que é reciclagem", "o que e reciclagem", "definição reciclagem", "definicao reciclagem",
+      "reciclar", "reciclagem", "conceito de reciclagem", "significado de reciclagem",
       "para que serve reciclagem"
     ],
     "formal": [
@@ -152,181 +102,232 @@
   },
   "Que tipos de plástico podem ser reciclados?": {
     "keywords": [
-      "plástico",
-      "plastico",
-      "plásticos",
-      "plasticos",
-      "tipos de plástico",
-      "tipos de plastico",
-      "pet",
-      "pead",
-      "pp",
-      "pvc",
-      "ps",
-      "reciclável",
-      "reciclavel",
-      "reciclagem plástico",
-      "reciclagem plastico",
-      "qual plástico recicla",
-      "quais plasticos reciclam"
+      "plástico", "plastico", "plásticos", "plasticos",
+      "tipos de plástico", "tipos de plastico", "símbolo de reciclagem", "triângulo reciclagem",
+      "pet", "pead", "pp", "pvc", "ps", "filme plástico", "sacola",
+      "reciclável", "reciclavel", "reciclagem plástico", "reciclagem plastico",
+      "qual plástico recicla", "quais plasticos reciclam"
     ],
     "formal": [
-      "Plásticos como PET, PEAD e PP podem ser reciclados. Verifique o símbolo na embalagem.",
-      "Nem todos os tipos de plástico são recicláveis; observe os símbolos de reciclagem.",
-      "Os plásticos mais reciclados são PET (1), PEAD (2) e PP (5).",
-      "Plásticos identificados com os números 1, 2 e 5 geralmente são recicláveis.",
-      "É importante conferir o símbolo de reciclagem e o número no fundo da embalagem.",
-      "Plásticos como garrafas PET, embalagens de shampoo e potes de margarina costumam ser recicláveis.",
-      "Plásticos flexíveis, como sacolas, geralmente não são reciclados em todos os lugares.",
-      "Plásticos do tipo PVC e PS têm reciclagem mais limitada.",
-      "Sempre limpe as embalagens plásticas antes de destinar à reciclagem.",
-      "Consulte a coleta seletiva local para saber quais tipos de plástico são aceitos."
+      "Os plásticos mais aceitos são PET (1), PEAD (2) e PP (5). Verifique o número no símbolo de reciclagem.",
+      "Nem todo plástico é reciclável em todas as cidades. Consulte as regras locais da coleta seletiva.",
+      "Embalagens rígidas (garrafas PET, frascos de limpeza, potes) têm maior aceitação. Filmes/sacolas variam.",
+      "PVC (3) e PS (6) têm reciclagem limitada. EPS/Isopor depende do serviço local.",
+      "Sempre esvazie e lave levemente as embalagens para evitar contaminação do lote."
     ],
     "engracada": [
-      "Se o plástico tiver símbolo de reciclagem ♻️, pode mandar ver! 🧴",
-      "Tem número no fundo do plástico 🔢? Procura o triângulo 🔺, é o segredo! 🧭",
-      "PET, PEAD e PP são os queridinhos da reciclagem! 😍",
-      "Plástico bom é plástico reciclável! Pergunte pro triângulo no fundo! 🔺",
-      "Se o plástico for garrafinha de refri, pote de sorvete ou shampoo, tá valendo! 🍦🧴",
-      "Plástico com número 1, 2 ou 5 é VIP na reciclagem! 🎟️",
-      "Se não sabe, pergunta pro símbolo no fundo: ele não mente! 😜",
-      "Plástico duro geralmente recicla, plástico molenga nem sempre! 💪😅",
-      "Se for embalagem de comida, lava antes de reciclar, hein! 🧼",
-      "Plástico reciclável adora um banho e um triângulo! 🚿🔺"
+      "Procura o triângulo no fundo 🔺: 1, 2 e 5 são os queridinhos! 😍",
+      "Plástico bom é plástico limpo e com símbolo ♻️! 🧼",
+      "Se for garrafa, frasco ou pote, a chance é alta. Sacola é meio indecisa… 😅",
+      "Dica ninja: número 1, 2 ou 5? Pode mandar! 🥷",
+      "Consulta a coleta local e evita plástico sujão! 🧴♻️"
     ],
     "rude": [
-      "Não é todo plástico que recicla, presta atenção no símbolo.",
-      "Se não tiver símbolo de reciclagem, não inventa: joga no lixo comum.",
-      "Só porque é plástico não quer dizer que recicla.",
-      "Olha o número no fundo, não custa nada.",
-      "Plástico sujo? Nem adianta tentar reciclar.",
-      "Não sabe ler símbolo de reciclagem?",
-      "Nem todo plástico é reciclável, aceita.",
-      "Se não tem triângulo, não recicla.",
-      "Não complica: 1, 2 e 5 reciclam, o resto depende.",
-      "Plástico molenga geralmente não recicla, tá?"
+      "Olha o número. 1, 2 e 5: sim. O resto: depende.",
+      "Filme plástico? Nem sempre. Confere na sua cidade.",
+      "Lava antes. Plástico sujo contamina.",
+      "Não é todo plástico que recicla. Aceita.",
+      "Confere o símbolo, não inventa."
     ]
   },
   "Como descartar óleo de cozinha usado?": {
     "keywords": [
-      "óleo",
-      "oleo",
-      "óleo de cozinha",
-      "oleo de cozinha",
-      "descartar óleo",
-      "descartar oleo",
-      "óleo na pia",
-      "oleo na pia",
-      "ponto de coleta óleo",
-      "ponto de coleta oleo",
-      "óleo usado",
-      "oleo usado",
-      "resto de óleo",
-      "resto de oleo"
+      "óleo", "oleo", "óleo de cozinha", "oleo de cozinha",
+      "descartar óleo", "descartar oleo", "óleo na pia", "oleo na pia",
+      "ponto de coleta óleo", "ponto de coleta oleo", "óleo usado", "oleo usado",
+      "resto de óleo", "resto de oleo", "biodiesel"
     ],
     "formal": [
-      "Óleo de cozinha deve ser armazenado em garrafas PET e entregue em pontos de coleta.",
-      "Descarte óleo usado em locais apropriados para evitar poluir a água.",
-      "O correto é guardar o óleo usado em recipientes fechados e levar a locais de coleta.",
-      "Óleo de cozinha pode ser reciclado, mas precisa ser entregue em pontos específicos.",
-      "Descarte óleo usado em locais apropriados para evitar poluir a água.",
-      "Procure pontos de coleta de óleo em supermercados ou cooperativas.",
-      "Óleo descartado incorretamente pode causar sérios danos ambientais.",
-      "Guarde o óleo em uma garrafa plástica e leve até um ponto de coleta.",
-      "O óleo de cozinha pode ser transformado em biodiesel quando descartado corretamente.",
-      "Evite jogar óleo no ralo; sempre utilize recipientes e pontos de coleta adequados."
-  ],
+      "Após esfriar, coe o óleo e armazene em garrafa PET bem fechada.",
+      "Leve as garrafas aos pontos de coleta (supermercados, cooperativas, projetos de reciclagem).",
+      "Nunca jogue óleo no ralo ou vaso sanitário; ele entope tubulações e polui a água.",
+      "Óleo coletado pode virar biodiesel e sabão quando destinado corretamente.",
+      "Mantenha fora do alcance de crianças e longe de calor até o descarte."
+    ],
     "engracada": [
-      "Nada de óleo na pia 🚰❌! Bota numa garrafinha 🧴 e leva no ponto de coleta 📍.",
-      "Óleo no ralo? 🕳️ Só se quiser virar vilão do meio ambiente! 🦹‍♂️🌎",
-      "Guarda o óleo na garrafa e faz ele passear até o ponto de coleta! 🧴🚶‍♂️",
-      "Óleo na pia? Nem pensar! Ele gosta mesmo é de virar biodiesel! 🚗💨",
-      "Óleo no ralo entope até amizade! Melhor levar pra reciclagem! 😅",
-      "Óleo na pia é igual spoiler: ninguém gosta! 🚫",
-      "Óleo usado quer virar combustível, não poluição! 🔥♻️",
-      "Se jogar óleo na pia, o cano chora! 😭",
-      "Óleo na pia? Só se for pra dar trabalho pro encanador! 🛠️",
-      "Óleo reciclado é alegria pro planeta! 🌎🎉"
-  ],
+      "Óleo na pia? Só se quiser treta com o encanamento! 🚰❌",
+      "Esfria, garrafinha, tampa e tchau: ponto de coleta! 🧴➡️📍",
+      "Óleo reciclado vira energia, não dor de cabeça! ⚡♻️",
+      "Ralo + óleo = drama. Garrafa + coleta = paz. 😌",
+      "Deixa o óleo virar biodiesel, não vilão! 🦹‍♂️➡️🚗"
+    ],
     "rude": [
-      "Não joga óleo na pia, tá? Guarda e leva pra reciclagem.",
-      "Óleo na pia? Nem pensar! Usa o bom senso.",
-      "Jogar óleo no ralo é pedir pra entupir tudo.",
-      "Guarda o óleo e leva no ponto de coleta, não complica.",
-      "Óleo no lixo ou na pia? Só se quiser poluir.",
-      "Não sabe ainda? Óleo é na coleta, não no ralo.",
-      "Óleo na pia é erro básico, hein.",
-      "Não inventa moda, leva o óleo pra reciclagem.",
-      "Óleo no ralo? Melhor não, né.",
-      "Se não sabe, guarda o óleo e pergunta onde descartar."
+      "Óleo no ralo? Não. Garrafa PET e ponto de coleta.",
+      "Guarda, tampa e leva. Simples.",
+      "Quer entupir? Joga no ralo. Quer ajudar? Coleta.",
+      "Coa e armazena direito antes de levar.",
+      "Descarte correto ou vai dar ruim."
     ]
   },
   "Posso reciclar papel sujo de comida?": {
     "keywords": [
-      "papel sujo",
-      "papel engordurado",
-      "papel com comida",
-      "reciclar papel sujo",
-      "reciclagem papel sujo",
-      "papel para reciclagem",
-      "guardanapo sujo",
-      "papel toalha",
-      "papel molhado",
-      "papel com gordura"
+      "papel sujo", "papel engordurado", "papel com comida",
+      "reciclar papel sujo", "reciclagem papel sujo", "guardanapo sujo",
+      "papel toalha", "papel molhado", "papel com gordura", "caixa engordurada"
     ],
     "formal": [
-      "Papéis sujos de comida não devem ser reciclados, pois contaminam o processo.",
-      "Somente papéis limpos e secos podem ser destinados à reciclagem.",
-       "Papéis engordurados ou molhados não são recicláveis.",
-      "Papéis contaminados com restos de comida devem ser descartados no lixo comum.",
-      "A reciclagem aceita apenas papel limpo e seco.",
-      "Papéis sujos prejudicam a qualidade do material reciclado.",
-      "Evite colocar papel com resíduos de alimentos na reciclagem.",
-      "Papéis com gordura ou restos de comida não são recicláveis.",
-      "Papéis de guardanapo usados não devem ir para a reciclagem.",
-      "Papéis sujos de comida devem ser descartados no lixo comum."
-  ],
+      "Papéis sujos, molhados ou engordurados não devem ir para a reciclagem.",
+      "Somente papéis limpos e secos são aceitos. Partes limpas podem ser destacadas e encaminhadas.",
+      "Guardanapos e papel-toalha usados vão para o lixo comum ou compostagem (se apropriado).",
+      "A contaminação por gordura compromete o processo de reciclagem do papel.",
+      "Quando possível, separe a parte limpa (sem gordura) para reciclar."
+    ],
     "engracada": [
-      "Papel cheio de pizza 🍕? Só recicla se for limpo e sem gordura! 🧼♻️",
-      "Papel sujo vai pro lixo 🗑️, não pra reciclagem, beleza? ❌♻️",
-      "Papel engordurado na reciclagem? Só se for dieta de papel! 😂",
-      "Papel com resto de comida? Melhor não, a reciclagem não curte tempero! 😅",
+      "Papel com pizza 🍕? Só a parte sem gordura entra na festa da reciclagem! 🎉",
       "Papel sujo na reciclagem é igual ketchup na salada: não combina! 🍅",
-      "Se o papel tá sujo, manda pro lixo comum! 🗑️",
-      "Papel molhado ou engordurado? Reciclagem passa longe! 🏃‍♂️",
-      "Papel limpo é VIP na reciclagem, sujo fica de fora! 🚫",
-      "Papel sujo na reciclagem? Só se for pegadinha! 😜",
-      "Papel com comida é banido da reciclagem! 🚫🍔"
+      "Molhou, engordurou, complicou. Melhor deixar de fora. 🚫",
+      "Papel limpinho é VIP; sujão fica na porta. 🚪",
+      "Se dá pra destacar a parte limpa, manda ver! ✂️"
     ],
     "rude": [
-      "Papel imundo não recicla, óbvio.",
-      "Papel sujo? Lixo comum, sempre.",
-       "Vai reciclar papel engordurado? Nem pensar.",
-      "Papel com comida vai direto pro lixo.",
-      "Não coloca papel sujo na reciclagem.",
-      "Papel molhado ou sujo? Esquece reciclagem.",
-      "Não complica, papel sujo não recicla.",
-      "Reciclagem não é lixeira de comida.",
-      "Papel sujo atrapalha tudo, joga fora.",
-      "Se tá sujo, não recicla. Simples."
-  ]
+      "Papel sujo não recicla. Ponto.",
+      "Engordurado? Fora da reciclagem.",
+      "Molhado? Também não.",
+      "Separa só o que estiver limpo.",
+      "Não força: papel sujo atrapalha."
+    ]
+  },
+  "Posso reciclar eletrônicos (e-lixo)?": {
+    "keywords": [
+      "eletrônico", "eletronico", "e-lixo", "lixo eletrônico", "lixo eletronico",
+      "celular velho", "notebook quebrado", "carregador", "cabo", "aparelho eletrônico",
+      "descarte eletrônico", "ponto de coleta eletrônico", "ecoponto"
+    ],
+    "formal": [
+      "Eletrônicos devem ser destinados a pontos de coleta de lixo eletrônico (e-lixo) ou ecopontos.",
+      "Lojas e assistências técnicas costumam receber celulares, cabos e periféricos para descarte adequado.",
+      "Remova dados pessoais antes de descartar dispositivos (restauração de fábrica).",
+      "Baterias e pilhas internas exigem tratamento especial; entregue completas, sem desmontar.",
+      "Consulte programas municipais e fabricantes para logística reversa."
+    ],
+    "engracada": [
+      "Celular véio? Manda pro spa do e-lixo! 📱➡️♻️",
+      "Cabo órfão? Ecoponto adota! 🧵💚",
+      "Eletrônico cansado merece aposentadoria digna: ponto de coleta! 🎖️",
+      "Nada de gaveta da vergonha: recicla esse trambolho! 🗄️😅",
+      "E-lixo no lugar certo = planeta feliz! 🌎😊"
+    ],
+    "rude": [
+      "Eletrônico no lixo comum? Não.",
+      "Leva no ponto de e-lixo.",
+      "Não desmonta. Entrega inteiro.",
+      "Apaga teus dados e destina direito.",
+      "Logística reversa existe. Usa."
+    ]
+  },
+  "Como descartar medicamentos vencidos?": {
+    "keywords": [
+      "medicamento", "remédio", "remedio", "remédios vencidos", "medicamentos vencidos",
+      "farmácia", "posto de saúde", "descarte de remédio", "descartar medicamento"
+    ],
+    "formal": [
+      "Medicamentos vencidos devem ser entregues em farmácias e postos de saúde participantes da logística reversa.",
+      "Nunca descarte remédios no vaso sanitário ou lixo comum; contaminam água e solo.",
+      "Mantenha os frascos fechados e, se possível, leve também as embalagens para o destino correto.",
+      "Procure no seu município os pontos de coleta de medicamentos.",
+      "Evite manipular comprimidos sem necessidade; transporte em saco ou caixa separada."
+    ],
+    "engracada": [
+      "Remédio vencido não é tempero pra pia! 🚰❌ Leva na farmácia! 💊➡️🏥",
+      "Xô, comprimido vencido! Farmácia te espera! 💊👋",
+      "Remédio no lixo? Só se for no ponto certo! ♻️",
+      "Leva o remédio pro check-out ecológico! 🧾🌱",
+      "Farmácia é o destino VIP desses itens! ⭐"
+    ],
+    "rude": [
+      "Remédio no vaso? Não.",
+      "Leva na farmácia. Sem drama.",
+      "Destino certo ou contamina.",
+      "Pega e entrega no ponto.",
+      "Não joga no lixo comum."
+    ]
+  },
+  "Caixa de pizza recicla?": {
+    "keywords": [
+      "caixa de pizza", "pizza", "engordurada", "gordura", "reciclar caixa de pizza",
+      "parte limpa", "reciclagem papel engordurado"
+    ],
+    "formal": [
+      "A parte limpa e sem gordura da caixa de pizza pode ser reciclada; a parte engordurada não.",
+      "Remova restos de comida e separe tampas limpas para a reciclagem.",
+      "Se toda a caixa estiver engordurada, descarte no lixo comum ou compostagem (se apropriado).",
+      "Evite umidade: papel molhado prejudica a reciclagem.",
+      "Quando possível, destaque e encaminhe apenas as partes aproveitáveis."
+    ],
+    "engracada": [
+      "Pizza boa, caixa meia-boca: só a parte limpa recicla! 🍕✂️♻️",
+      "Tampa limpinha vai pra reciclagem; fundo gorduroso, nem pensar! 🚫",
+      "Se dá pra destacar, manda a parte limpinha! ✂️✨",
+      "Gordura é a kryptonita da reciclagem de papel! 🧻🪫",
+      "Sem molho na reciclagem, por favor! 🍅🚫"
+    ],
+    "rude": [
+      "Caixa engordurada não recicla.",
+      "Só a parte limpa, entendeu?",
+      "Tira os restos e separa direito.",
+      "Molhada? Fora também.",
+      "Não força: gordura atrapalha."
+    ]
+  },
+  "Como separar o lixo para coleta seletiva?": {
+    "keywords": [
+      "separar lixo", "coleta seletiva", "como separar", "recicláveis", "orgânico",
+      "lixo seco", "lixo úmido", "cor das lixeiras", "triagem"
+    ],
+    "formal": [
+      "Separe recicláveis (papel, plástico, metal e vidro) limpos e secos do orgânico e do rejeito.",
+      "Retire resíduos de alimentos e enxágue levemente as embalagens.",
+      "Compacte embalagens para economizar espaço e facilite a triagem.",
+      "Siga a orientação local de cores: azul (papel), vermelho (plástico), amarelo (metal), verde (vidro).",
+      "Resíduos perigosos (pilhas, baterias, lâmpadas, eletrônicos) vão para pontos específicos."
+    ],
+    "engracada": [
+      "Separar lixo é tipo arrumar gaveta: cada coisa no seu lugar! 🗂️♻️",
+      "Lava rapidinho, seca e manda pro time dos recicláveis! 🧼🏆",
+      "Orgânico de um lado, reciclável do outro. Sem DR! 💔➡️♻️",
+      "A gangue das cores ajuda: azul, vermelho, amarelo e verde! 🌈",
+      "Embalagem magrinha ocupa menos espaço no caminhão! 📦🚛"
+    ],
+    "rude": [
+      "Limpa e separa. Simples.",
+      "Orgânico separado de reciclável.",
+      "Segue as cores. Sem desculpas.",
+      "Não mistura comida com embalagem.",
+      "Perigoso vai pro ponto certo."
+    ]
+  },
+  "Como descartar lâmpadas (fluorescentes e LED)?": {
+    "keywords": [
+      "lâmpada", "lampada", "fluorescente", "led", "descartar lâmpada",
+      "ponto de coleta lâmpada", "reciclagem lâmpadas", "logística reversa lâmpadas"
+    ],
+    "formal": [
+      "Lâmpadas fluorescentes e de LED devem ser levadas a pontos de coleta específicos ou lojas participantes.",
+      "Fluorescentes contêm substâncias perigosas; não quebre e não descarte no lixo comum.",
+      "Guarde na embalagem original ou proteja para transporte seguro até o ponto de entrega.",
+      "Informe-se sobre a logística reversa de fabricantes e do seu município.",
+      "Evite manuseio brusco para não liberar resíduos."
+    ],
+    "engracada": [
+      "Lâmpada queimada não ilumina o lixo comum! 💡❌ Leva pro ponto certo! 📍",
+      "Nada de quebrar: embala e entrega bonitinho! 📦✨",
+      "Fluorescente é cheia das frescuras: trata com carinho! 💅",
+      "Leva na loja e ganha um sorriso do planeta! 🌎😄",
+      "LED também merece destino VIP! ⭐"
+    ],
+    "rude": [
+      "Lâmpada no lixo comum? Não.",
+      "Embala e leva no ponto certo.",
+      "Fluorescente é perigosa. Cuida.",
+      "Entrega em loja ou ecoponto.",
+      "Sem quebrar."
+    ]
   },
   "Oi, tudo bem?": {
     "keywords": [
-      "oi",
-      "olá",
-      "ola",
-      "tudo bem",
-      "td bem",
-      "e ai",
-      "e aí",
-      "como vai",
-      "como você está",
-      "como voce esta",
-      "salve",
-      "bom dia",
-      "boa tarde",
-      "boa noite"
+      "oi", "olá", "ola", "tudo bem", "td bem", "e ai", "e aí",
+      "como vai", "como você está", "como voce esta", "salve",
+      "bom dia", "boa tarde", "boa noite"
     ],
     "formal": [
       "Olá! Tudo bem? Em que posso ajudar sobre reciclagem hoje?",
@@ -351,12 +352,11 @@
       "Oi! Pronto pra reciclar até o mau humor! 😆",
       "E aí! Se precisar, é só chamar o Ecobot! 🤖",
       "Oi! Aqui é só alegria e reciclagem! 🎉♻️"
-    
     ],
     "rude": [
       "Oi. Vai, manda logo a pergunta.",
       "Tudo bem, tudo bom… e a dúvida?",
-       "Oi. Pergunta logo.",
+      "Oi. Pergunta logo.",
       "Oi. Não tenho tempo pra papo furado.",
       "Oi. Vai direto ao ponto.",
       "Oi. Se for sobre reciclagem, manda.",
@@ -368,15 +368,9 @@
   },
   "Qual seu nome?": {
     "keywords": [
-      "nome",
-      "qual seu nome",
-      "seu nome",
-      "como você se chama",
-      "como voce se chama",
-      "quem é você",
-      "quem e voce",
-      "quem é vc",
-      "quem e vc"
+      "nome", "qual seu nome", "seu nome",
+      "como você se chama", "como voce se chama",
+      "quem é você", "quem e voce", "quem é vc", "quem e vc"
     ],
     "formal": [
       "Eu sou o Ecobot. Posso te ajudar com informações sobre reciclagem.",
@@ -405,7 +399,7 @@
       "Sou o Ecobot, seu parceiro na coleta seletiva! 🤝",
       "Ecobot, o bot que adora uma reciclagem! ♻️",
       "Pode me chamar de Ecobot, o guardião do meio ambiente! 🌎"
-  ],
+    ],
     "rude": [
       "Ecobot. Agora pergunta algo útil.",
       "Nome: Ecobot. E aí?",
@@ -421,13 +415,7 @@
   },
   "Tchau": {
     "keywords": [
-      "tchau",
-      "até mais",
-      "ate mais",
-      "até logo",
-      "ate logo",
-      "falou",
-      "fui"
+      "tchau", "até mais", "ate mais", "até logo", "ate logo", "falou", "fui"
     ],
     "formal": [
       "Até mais! Sempre que precisar, estarei por aqui.",
@@ -468,11 +456,7 @@
   },
   "Obrigado": {
     "keywords": [
-      "obrigado",
-      "obrigada",
-      "valeu",
-      "agradecido",
-      "grato"
+      "obrigado", "obrigada", "valeu", "agradecido", "grato"
     ],
     "formal": [
       "De nada! Conte comigo sempre.",
@@ -513,14 +497,9 @@
   },
   "Como você funciona?": {
     "keywords": [
-      "como você funciona",
-      "como voce funciona",
-      "como funciona",
-      "o que você faz",
-      "o que voce faz",
-      "o que pode fazer",
-      "como você pode ajudar",
-      "como voce pode ajudar"
+      "como você funciona", "como voce funciona", "como funciona",
+      "o que você faz", "o que voce faz", "o que pode fazer",
+      "como você pode ajudar", "como voce pode ajudar"
     ],
     "formal": [
       "Eu uso palavras-chave para identificar sua dúvida e responder com base em um conjunto de perguntas e respostas sobre reciclagem.",
@@ -533,7 +512,7 @@
       "Processo sua dúvida e busco a resposta mais adequada.",
       "Minha função é ajudar com informações sobre reciclagem.",
       "Trabalho analisando perguntas e fornecendo respostas educativas."
-  ],
+    ],
     "engracada": [
       "Eu leio sua pergunta 🧠, pesco umas palavrinhas mágicas ✨ e devolvo uma resposta reciclada na medida ♻️!",
       "Funciono na base do 3R: Recebo, Reconheço e Respondo. 3️⃣♻️",
@@ -545,7 +524,6 @@
       "Meu cérebro é feito de papel reciclado! 🧠♻️",
       "Sou o bot que nunca vai pro lixo! ♻️",
       "Recebo perguntas e devolvo respostas ecológicas! 🌱"
-    
     ],
     "rude": [
       "Leio sua pergunta e respondo. Simples.",
