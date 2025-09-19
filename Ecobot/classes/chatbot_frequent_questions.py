@@ -1,4 +1,4 @@
-from Ecobot.classes.chatbot_memory import ChatBotMemory
+from classes.chatbot_memory import ChatBotMemory
 from collections import Counter
 
 class ChatbotFrequentQuestions:
