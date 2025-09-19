@@ -1,4 +1,4 @@
-from Ecobot.classes.chatbot_report import ChatbotReport
+from classes.chatbot_report import ChatbotReport
 from helpers import get_personality, loading_learning_responses, last5_interactions
 from classes.chatbot import ChatBot
 from classes.chatbot_analytics import ChatbotAnalytics
