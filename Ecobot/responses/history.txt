@@ -1,7 +1,139 @@
 
-=== Sessão iniciada em 2025-09-19 13:55:25 | Persona: Ecobot-funny ===
-[2025-09-19 13:55:47] (Ecobot-funny) Você: como descartar pilhas? || Bot: Pilhas não curtem lixo comum! 🔋🚫 Leve-as ao ponto de coleta e ganhe karma ecológico ♻️.
-[2025-09-19 13:56:08] (Ecobot-funny) Você: como fazer a coleta de bateria usada? || Bot: Não sei a resposta para isso. Como eu deveria responder?
+=== Sessão iniciada em 2025-09-19 19:27:59 | Persona: Ecobot-rude ===
 
-=== Sessão iniciada em 2025-09-19 13:59:16 | Persona: Ecobot-funny ===
-[2025-09-19 13:59:21] (Ecobot-funny) Você: vidro || Bot: Lava, separa e manda o vidro brilhar na reciclagem! ✨🍾
+=== Sessão iniciada em 2025-09-19 19:45:03 | Persona: Ecobot-education ===
+[2025-09-19 19:45:12] (Ecobot-education) Você: oi || Bot: Olá! Em que posso ser útil?
+[2025-09-19 19:45:41] (Ecobot-education) Você: vrido || Bot: Aprendizado cancelado. Tudo bem! 😊
+[2025-09-19 19:45:46] (Ecobot-education) Você: vidro || Bot: Não. Vidro deve ir para a reciclagem. Embale vidros quebrados em papelão ou jornal e identifique para evitar acidentes.
+[2025-09-19 19:46:23] (Ecobot-education) Você: pilha || Bot: Consulte o site da prefeitura para localizar pontos de entrega voluntária (PEVs) próximos.
+[2025-09-19 19:46:45] (Ecobot-education) Você: o que é vidro? || Bot: Evite misturar vidro com resíduos orgânicos; isso atrapalha a triagem e a segurança.
+
+=== Sessão iniciada em 2025-09-19 19:48:04 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-19 19:48:26 | Persona: Ecobot-rude ===
+[2025-09-19 19:48:27] (Ecobot-rude) Você: oi || Bot: Oi. Vai, manda logo a pergunta.
+
+=== Sessão iniciada em 2025-09-19 19:48:51 | Persona: Ecobot-funny ===
+[2025-09-19 19:54:32] (Ecobot-funny) Você: oi || Bot: Oi! Pronto pra reciclar até o mau humor! 😆
+[2025-09-19 19:55:06] (Ecobot-funny) Você: pilha || Bot: Nada de pilha no lixo! Ela quer um passeio até o coletor mais próximo 🗺️.
+
+=== Sessão iniciada em 2025-09-19 19:55:21 | Persona: Ecobot-education ===
+[2025-09-19 19:55:30] (Ecobot-education) Você: oi || Bot: Oi! Estou aqui para ajudar no que precisar.
+[2025-09-19 19:55:35] (Ecobot-education) Você: oi || Bot: Oi! Estou aqui para ajudar no que precisar.
+[2025-09-19 19:55:47] (Ecobot-education) Você: oi || Bot: Oi! Se tiver dúvidas, é só perguntar.
+[2025-09-19 19:55:52] (Ecobot-education) Você: oi || Bot: Olá! Fique à vontade para perguntar sobre reciclagem.
+
+=== Sessão iniciada em 2025-09-19 19:55:58 | Persona: Ecobot-rude ===
+[2025-09-19 19:56:02] (Ecobot-rude) Você: oi || Bot: Oi. Pergunta ou não?
+[2025-09-19 19:56:09] (Ecobot-rude) Você: alan || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-19 19:56:26] (Ecobot-rude) Você: alan || Bot: Não sei a resposta para isso. Como eu deveria responder?
+[2025-09-19 19:56:32] (Ecobot-rude) Você: alan || Bot: Nova resposta aprendida: mendes
+[2025-09-19 19:56:38] (Ecobot-rude) Você: alan || Bot: mendes
+[2025-09-19 19:56:44] (Ecobot-rude) Você: alan || Bot: mendes
+[2025-09-19 19:56:49] (Ecobot-rude) Você: alan || Bot: mendes
+
+=== Sessão iniciada em 2025-09-19 19:56:58 | Persona: Ecobot-funny ===
+[2025-09-19 19:57:03] (Ecobot-funny) Você: alan || Bot: mendes
+
+=== Sessão iniciada em 2025-09-19 19:57:08 | Persona: Ecobot-rude ===
+
+=== Sessão iniciada em 2025-09-19 19:57:27 | Persona: Ecobot-funny ===
+[2025-09-19 19:57:49] (Ecobot-funny) Você: oi || Bot: Opa! Tudo belezinha? 😄 Bora reciclar umas dúvidas? ♻️❓
+[2025-09-19 19:57:50] (Ecobot-funny) Você: oi || Bot: Fala comigo! Tô mais animado que caminhão de coleta! 🚛
+[2025-09-19 19:57:51] (Ecobot-funny) Você: oi || Bot: E aí! Se precisar, é só chamar o Ecobot! 🤖
+[2025-09-19 19:57:54] (Ecobot-funny) Você: alan || Bot: mendes
+[2025-09-19 19:58:03] (Ecobot-funny) Você: oi || Bot: E aí! Tudo certo? 👋 Joga a pergunta que eu separo a resposta 🧩.
+[2025-09-19 19:58:05] (Ecobot-funny) Você: oi || Bot: Tudo beleza! Só não vale jogar conversa fora, hein! 😜
+[2025-09-19 19:58:31] (Ecobot-funny) Você: jsjs || Bot: Não sei a resposta para isso. Como eu deveria responder?
+
+=== Sessão iniciada em 2025-09-21 14:04:01 | Persona: Ecobot-rude ===
+[2025-09-21 14:04:06] (Ecobot-rude) Você: oi || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:04:34] (Ecobot-rude) Você: olá || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:05:47] (Ecobot-rude) Você: como descaratr pilha? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:05:54] (Ecobot-rude) Você: pilha || Bot: Não inventa: pilha é resíduo perigoso.
+[2025-09-21 14:06:07] (Ecobot-rude) Você: como eu faço para descartar pilhas? || Bot: Óleo no ralo? Não. Garrafa PET e ponto de coleta.
+[2025-09-21 14:06:43] (Ecobot-rude) Você: como descartar papel? || Bot: Guarda, tampa e leva. Simples.
+[2025-09-21 14:06:56] (Ecobot-rude) Você: como descartar pililhas? || Bot: Descarte correto ou vai dar ruim.
+
+=== Sessão iniciada em 2025-09-21 14:09:00 | Persona: Ecobot-education ===
+[2025-09-21 14:09:12] (Ecobot-education) Você: como faço para reciclar papel? || Bot: Guardanapos e papel-toalha usados vão para o lixo comum ou compostagem (se apropriado).
+[2025-09-21 14:09:32] (Ecobot-education) Você: oi || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:10:07] (Ecobot-education) Você: tipos de plástico || Bot: Nem todo plástico é reciclável em todas as cidades. Consulte as regras locais da coleta seletiva.
+
+=== Sessão iniciada em 2025-09-21 14:12:49 | Persona: Ecobot-funny ===
+[2025-09-21 14:13:00] (Ecobot-funny) Você: como jofar piljha fora? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:13:05] (Ecobot-funny) Você: como jogar pilha fora? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:13:12] (Ecobot-funny) Você: como descartar pilha? || Bot: Ralo + óleo = drama. Garrafa + coleta = paz. 😌
+
+=== Sessão iniciada em 2025-09-21 14:13:27 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-21 14:13:49 | Persona: Ecobot-funny ===
+[2025-09-21 14:14:02] (Ecobot-funny) Você: como descartar papel? || Bot: Deixa o óleo virar biodiesel, não vilão! 🦹‍♂️➡️🚗
+
+=== Sessão iniciada em 2025-09-21 14:14:28 | Persona: Ecobot-education ===
+[2025-09-21 14:14:34] (Ecobot-education) Você: papel || Bot: Quando possível, separe a parte limpa (sem gordura) para reciclar.
+[2025-09-21 14:14:43] (Ecobot-education) Você: como descartar papel? || Bot: Leve as garrafas aos pontos de coleta (supermercados, cooperativas, projetos de reciclagem).
+[2025-09-21 14:15:17] (Ecobot-education) Você: alan || Bot: e
+
+=== Sessão iniciada em 2025-09-21 14:17:34 | Persona: Ecobot-rude ===
+[2025-09-21 14:17:40] (Ecobot-rude) Você: como descartar papel? || Bot: Guarda, tampa e leva. Simples.
+
+=== Sessão iniciada em 2025-09-21 14:18:41 | Persona: Ecobot-rude ===
+[2025-09-21 14:18:47] (Ecobot-rude) Você: como descartar papel? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:19:11] (Ecobot-rude) Você: como descartar pilha? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:19:44] (Ecobot-rude) Você: como descartar pilhas? || Bot: Desculpe, não sei a resposta para isso.
+
+=== Sessão iniciada em 2025-09-21 14:20:26 | Persona: Ecobot-education ===
+[2025-09-21 14:20:32] (Ecobot-education) Você: como descartar papel? || Bot: Desculpe, não sei a resposta para isso.
+[2025-09-21 14:20:49] (Ecobot-education) Você: papel || Bot: Desculpe, não sei a resposta para isso.
+
+=== Sessão iniciada em 2025-09-21 14:50:59 | Persona: Ecobot-education ===
+[2025-09-21 14:51:05] (Ecobot-education) Você: como descartar papel? || Bot: bateria usada
+
+=== Sessão iniciada em 2025-09-21 14:52:13 | Persona: Ecobot-education ===
+[2025-09-21 14:52:23] (Ecobot-education) Você: como descartar papel? || Bot: pilha usada
+
+=== Sessão iniciada em 2025-09-21 14:53:25 | Persona: Ecobot-education ===
+[2025-09-21 14:53:30] (Ecobot-education) Você: como descartar papel? || Bot: bateria
+
+=== Sessão iniciada em 2025-09-21 15:01:24 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-21 15:02:49 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-21 15:04:24 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-21 15:05:34 | Persona: Ecobot-education ===
+[2025-09-21 15:05:40] (Ecobot-education) Você: como descartar papel? || Bot: Estarei disponível quando precisar. Tchau!
+
+=== Sessão iniciada em 2025-09-21 15:06:24 | Persona: Ecobot-rude ===
+[2025-09-21 15:06:29] (Ecobot-rude) Você: como descartar papel? || Bot: Pode ir.
+
+=== Sessão iniciada em 2025-09-21 15:07:39 | Persona: Ecobot-rude ===
+[2025-09-21 15:07:44] (Ecobot-rude) Você: como descartar papel? || Bot: Tchau, então.
+
+=== Sessão iniciada em 2025-09-21 15:08:52 | Persona: Ecobot-rude ===
+[2025-09-21 15:09:02] (Ecobot-rude) Você: como descartar papel sujo? || Bot: Engordurado? Fora da reciclagem.
+
+=== Sessão iniciada em 2025-09-21 15:09:44 | Persona: Ecobot-rude ===
+[2025-09-21 15:09:45] (Ecobot-rude) Você: oi || Bot: Oi. Vai, manda logo a pergunta.
+
+=== Sessão iniciada em 2025-09-21 15:10:11 | Persona: Ecobot-education ===
+[2025-09-21 15:10:20] (Ecobot-education) Você: como descartar papel? || Bot: Estarei disponível quando precisar. Tchau!
+
+=== Sessão iniciada em 2025-09-21 15:11:21 | Persona: Ecobot-rude ===
+[2025-09-21 15:11:25] (Ecobot-rude) Você: como descartar papel? || Bot: Falou.
+
+=== Sessão iniciada em 2025-09-21 15:12:03 | Persona: Ecobot-rude ===
+[2025-09-21 15:12:08] (Ecobot-rude) Você: como descartar papel? || Bot: Tchau, sem drama.
+
+=== Sessão iniciada em 2025-09-21 15:13:29 | Persona: Ecobot-rude ===
+[2025-09-21 15:13:34] (Ecobot-rude) Você: como descartar papel? || Bot: Desculpe, não sei a resposta para isso.
+
+=== Sessão iniciada em 2025-09-21 15:14:58 | Persona: Ecobot-education ===
+[2025-09-21 15:15:00] (Ecobot-education) Você: bateria || Bot: Em baterias maiores, isole os terminais com fita para evitar curto-circuito antes do transporte.
+
+=== Sessão iniciada em 2025-09-21 15:15:52 | Persona: Ecobot-education ===
+[2025-09-21 15:15:54] (Ecobot-education) Você: bateria || Bot: Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.
+
+=== Sessão iniciada em 2025-09-21 15:16:51 | Persona: Ecobot-education ===
+[2025-09-21 15:16:53] (Ecobot-education) Você: bateria || Bot: Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.
