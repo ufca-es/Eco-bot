@@ -1,6 +1,7 @@
 import os
 from collections import Counter
 from .chatbot_memory import ChatBotMemory
+
 path = ChatBotMemory.history_file_path()
 
 class ChatbotAnalytics:

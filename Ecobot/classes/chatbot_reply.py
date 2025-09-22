@@ -59,7 +59,7 @@ class ChatBotReply:
         # Converts the input to lower case and remove spaces, punctuations, accents and stop words.
         question_norm  = self.normalize(q)
 
-        # unpack and merge the responses learned with the personality responses
+        # unpack and merge the chatbot_data learned with the personality chatbot_data
         merged_responses = {**self.responses, **learning_responses}
 
         # Default response if nothing is found
@@ -79,7 +79,7 @@ class ChatBotReply:
             # found the original question that matches the input, by the index
             matched_key = questions_registered[idx]
 
-            # select a random response from the list of responses for that question
+            # select a random response from the list of chatbot_data for that question
             options = merged_responses[matched_key]
 
             # if options is a list, choose a random one
@@ -102,7 +102,7 @@ class ChatBotReply:
 
             if not found:
                 # don't know the answer, activate learning mode.
-                learning_instances = ChatBotLearning((self.name, self.responses, self.keywords))
+                learning_instances = ChatBotLearning(self.name)
                 final_r = learning_instances.learning(q)
 
         # Log the interaction in history.txt

@@ -1,8 +1,13 @@
 import os
 import json
-from .chatbot import ChatBot
+from .chatbot_memory import ChatBotMemory
 
-class ChatBotLearning(ChatBot):
+class ChatBotLearning:
+    def __init__(self, name: str = "ChatBot"):
+        self.name = name
+        self.memory = ChatBotMemory(self.name)
+        self.path = ChatBotMemory.history_file_path("learning_responses.json")
+
     def learning(self, q: str):
         """
             Learning mode: Ask the user for the correct answer and save it to learning_responses.json

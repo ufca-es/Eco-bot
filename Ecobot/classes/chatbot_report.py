@@ -7,21 +7,14 @@ class ChatbotReport:
 
     @classmethod
     def generate_report(cls) -> str:
-        #Gera um relatório de texto simples com estatísticas básicas.
+        # Generate a simple report and save to file
 
-        # Monta conteúdo legível
         lines = [
             "==== RELATÓRIO ECOBOT ====",
             f"Total de interações: {cls.memory.interaction_count}",
             f"Pergunta mais feita: {cls.memory.most_asked_questions}",
             f"Uso por personalidade:\n{cls.memory.count_personalities_usages}",
         ]
-        usos = cls.memory.count_personalities_usages
-        if isinstance(usos, dict):
-            for persona, qtd in usos.items():
-                lines.append(f" - {persona}: {qtd}")
-        else:
-            lines.append(str(usos))
 
         content = "\n".join(lines) + "\n"
         with open(cls.output_path, 'w', encoding='utf-8') as f:

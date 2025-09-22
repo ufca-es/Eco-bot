@@ -78,7 +78,7 @@ Eco-bot/
 │ ├── session_state.py # Controle de estado da sessão do usuário
 │ └── ui_components.py # Componentes de interface (UI)
 │
-├── responses/ # Armazenamento de dados e histórico
+├── chatbot_data/ # Armazenamento de dados e histórico
 │ ├── history.txt # Histórico de interações
 │ ├── learning_responses.json # Respostas aprendidas dinamicamente
 │ ├── questions.json # Banco de perguntas e respostas

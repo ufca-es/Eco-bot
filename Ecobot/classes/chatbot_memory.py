@@ -2,13 +2,13 @@ from datetime import datetime
 import os
 
 class ChatBotMemory:
-    def __init__(self, nome: str = "ChatBot"):
-        self.nome = nome
+    def __init__(self, name: str = "ChatBot"):
+        self.name = name
 
     @staticmethod
     def history_file_path(file = "history.txt") -> str:
         base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'responses', file)
+        return os.path.join(base_dir, 'chatbot_data', file)
 
     @staticmethod
     def history(last_n: int = 5):
@@ -27,17 +27,17 @@ class ChatBotMemory:
         path = self.history_file_path()
         os.makedirs(os.path.dirname(path), exist_ok=True)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        header = f"\n=== Sessão iniciada em {timestamp} | Persona: {self.nome} ===\n"
+        header = f"\n=== Sessão iniciada em {timestamp} | Persona: {self.name} ===\n"
         with open(path, 'a', encoding='utf-8') as f:
             f.write(header)
 
     def log_interaction(self, pergunta: str, resposta_formatada: str) -> None:
         path = self.history_file_path()
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        prefixo = f"{self.nome}: "
+        prefixo = f"{self.name}: "
         resposta_sem_prefixo = resposta_formatada[len(prefixo):] if resposta_formatada.startswith(prefixo) else resposta_formatada
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        line = f"[{timestamp}] Você: {pergunta} || {self.nome}: {resposta_sem_prefixo}\n"
+        line = f"[{timestamp}] Você: {pergunta} || {self.name}: {resposta_sem_prefixo}\n"
         with open(path, 'a', encoding='utf-8') as f:
             f.write(line)
 

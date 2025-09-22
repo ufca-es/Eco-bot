@@ -1,0 +1,8 @@
+
+=== Sessão iniciada em 2025-09-22 20:52:00 | Persona: Ecobot-education ===
+[2025-09-22 20:52:03] Você: oi || Ecobot-education: Olá! Em que posso ser útil?
+[2025-09-22 20:52:06] Você: pilha || Ecobot-education: Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.
+[2025-09-22 20:52:08] Você: vidro || Ecobot-education: Não. Vidro deve ir para a reciclagem. Embale vidros quebrados em papelão ou jornal e identifique para evitar acidentes.
+[2025-09-22 20:52:15] Você: lixo hospitalar || Ecobot-education: Para cacos, envolva bem e sinalize 'cuidado: vidro' antes de descartar no fluxo indicado pelo seu município.
+[2025-09-22 20:52:35] Você: hospitalar || Ecobot-education: Aprendizado cancelado. Tudo bem! 😊
+[2025-09-22 20:52:57] Você: como descartar lixo hospitalar? || Ecobot-education: Aprendizado cancelado. Tudo bem! 😊
