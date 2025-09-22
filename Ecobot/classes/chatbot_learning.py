@@ -1,6 +1,6 @@
 import os
 import json
-from Ecobot.classes.chatbot import ChatBot
+from .chatbot import ChatBot
 
 class ChatBotLearning(ChatBot):
     def learning(self, q: str):

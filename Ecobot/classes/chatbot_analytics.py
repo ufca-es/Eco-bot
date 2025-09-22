@@ -1,13 +1,6 @@
-"""
-    Task 13: Implementação da coleta de estatísticas:
-        - Número total de interações;
-        - Pergunta mais feita da sessão;
-        - Quantas vezes cada personalidade foi usada;
-"""
-
 import os
 from collections import Counter
-from chatbot_memory import ChatBotMemory
+from .chatbot_memory import ChatBotMemory
 path = ChatBotMemory.history_file_path()
 
 class ChatbotAnalytics:
@@ -28,9 +21,7 @@ class ChatbotAnalytics:
         """Encontra a pergunta exata mais repetida no histórico, filtrando entradas inválidas."""
         questions = {}
         if not os.path.exists(path): return 'Dados insuficientes.'
-        
-        # CORREÇÃO: As variáveis 'invalid_starts' e 'invalid_contains' foram
-        # adicionadas aqui, pois estavam faltando nesta função, o que causaria um erro.
+
         invalid_starts = ("&",)
         invalid_contains = ("python.exe", ":/", "\\")
         

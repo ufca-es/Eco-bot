@@ -1,7 +1,7 @@
 import random
 import unicodedata
 import string
-from chatbot_memory import ChatBotMemory
+from .chatbot_memory import ChatBotMemory
 from rapidfuzz import process
 
 class ChatBotReply:
@@ -54,7 +54,7 @@ class ChatBotReply:
         return ' '.join(text) if text else 'empty'
 
     def reply(self, q: str, learning_responses: dict, threshold = 85):
-        from chatbot_learning import ChatBotLearning
+        from .chatbot_learning import ChatBotLearning
 
         # Converts the input to lower case and remove spaces, punctuations, accents and stop words.
         question_norm  = self.normalize(q)

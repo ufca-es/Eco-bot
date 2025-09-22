@@ -230,3 +230,18 @@
 [2025-09-22 16:42:30] Você: sorvete || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
 [2025-09-22 16:42:32] Você: sorvete || Ecobot-education: Sim, gosto muito de sorvete.
 [2025-09-22 16:42:41] Você: você gosta de sorvete? || Ecobot-education: Sim, gosto muito de sorvete.
+
+=== Sessão iniciada em 2025-09-22 17:16:39 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-22 17:17:41 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-22 17:18:34 | Persona: Ecobot-funny ===
+
+=== Sessão iniciada em 2025-09-22 17:18:38 | Persona: Ecobot-funny ===
+[2025-09-22 17:19:37] Você: teste || Ecobot-funny: Aprendizado cancelado. Tudo bem! 😊
+
+=== Sessão iniciada em 2025-09-22 17:20:00 | Persona: Ecobot-funny ===
+[2025-09-22 17:20:03] Você: pilha || Ecobot-funny: Nada de pilha no lixo! Ela quer um passeio até o coletor mais próximo 🗺️.
+[2025-09-22 17:20:06] Você: oi || Ecobot-funny: Oi! Pronto pra reciclar até o mau humor! 😆
+[2025-09-22 17:20:10] Você: bom dia || Ecobot-funny: Tudo beleza! Só não vale jogar conversa fora, hein! 😜
+[2025-09-22 17:20:15] Você: papel sujo || Ecobot-funny: Papel limpinho é VIP; sujão fica na porta. 🚪

@@ -1,4 +1,4 @@
-from chatbot_reply import ChatBotReply
+from .chatbot_reply import ChatBotReply
 import json
 import os
 
@@ -15,4 +15,3 @@ class ChatBot(ChatBotReply):
         if not os.path.exists(self.path):
             with open(self.path, "w", encoding="utf-8") as f:
                 json.dump({}, f, ensure_ascii=False, indent=4)
-

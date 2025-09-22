@@ -1,6 +1,6 @@
-from classes.chatbot import ChatBot
+from classes.chatbot_learning import ChatBotLearning
 
-class ChatbotInterface(ChatBot):
+class ChatbotInterface(ChatBotLearning):
     def learning(self):
         """
             -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
