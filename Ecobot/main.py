@@ -1,9 +1,5 @@
-from classes.chatbot_report import ChatbotReport
-from helpers import get_personality, loading_learning_responses, last5_interactions
-from classes.chatbot import ChatBot
-from classes.chatbot_analytics import ChatbotAnalytics
-from classes.chatbot_frequent_questions import ChatbotFrequentQuestions
-
+from classes import ChatBot, ChatbotAnalytics, ChatbotReport, ChatbotFrequentQuestions
+from helpers import *
 change_triggers = (
     "mudar personalidade",
     "trocar personalidade",
@@ -43,6 +39,7 @@ def main():
         # Mudar personalidade (Task 08)
         if any(phrase in question for phrase in change_triggers):
             bot = ChatBot(get_personality())
+            print(f"💡 Personalidade alterada para: {bot.name}")
             continue
 
         if any(trigger in question for trigger in exit_triggers):

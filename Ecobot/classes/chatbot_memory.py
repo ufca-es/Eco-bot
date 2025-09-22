@@ -37,7 +37,7 @@ class ChatBotMemory:
         prefixo = f"{self.nome}: "
         resposta_sem_prefixo = resposta_formatada[len(prefixo):] if resposta_formatada.startswith(prefixo) else resposta_formatada
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        line = f"[{timestamp}] ({self.nome}) Você: {pergunta} || Bot: {resposta_sem_prefixo}\n"
+        line = f"[{timestamp}] Você: {pergunta} || {self.nome}: {resposta_sem_prefixo}\n"
         with open(path, 'a', encoding='utf-8') as f:
             f.write(line)
 

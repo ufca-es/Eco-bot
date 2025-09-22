@@ -1,7 +1,7 @@
 import random
 import unicodedata
 import string
-from classes.chatbot_memory import ChatBotMemory
+from chatbot_memory import ChatBotMemory
 from rapidfuzz import process
 
 class ChatBotReply:
@@ -29,7 +29,7 @@ class ChatBotReply:
         self.responses = data[1]
         self.keywords = data[2]
 
-        # Registering in history
+        # Registering in history.txt
         self.memory = ChatBotMemory(self.name)
         self.memory.start_session()
 
@@ -43,7 +43,8 @@ class ChatBotReply:
         return nfkd_form.encode('ascii', 'ignore').decode('utf-8')
 
     def remove_stop_words(self, text):
-        return [word for word in text if word.lower() not in self.stop_words]
+        stop_words_norm = {self.remove_accents(word.lower()) for word in self.stop_words}
+        return [word for word in text if word.lower() not in stop_words_norm]
 
     def normalize(self, text):
         text = text.lower()
@@ -52,19 +53,22 @@ class ChatBotReply:
         text = self.remove_stop_words(text.split())
         return ' '.join(text) if text else 'empty'
 
-    def reply(self, q: str, learning_responses: dict, threshold = 90):
+    def reply(self, q: str, learning_responses: dict, threshold = 85):
+        from chatbot_learning import ChatBotLearning
+
         # Converts the input to lower case and remove spaces, punctuations, accents and stop words.
         question_norm  = self.normalize(q)
 
         # unpack and merge the responses learned with the personality responses
         merged_responses = {**self.responses, **learning_responses}
 
-        # Normalized the registered questions
+        # Default response if nothing is found
+        final_r = f"{self.name}: Desculpe, não sei a resposta para isso."
+
+        # Preeparing normalized questions for matching
         questions_registered = list(merged_responses.keys())
         questions_norm = [self.normalize(q_) for q_ in questions_registered]
 
-        # Default response if nothing is found
-        final_r = f"{self.name}: Desculpe, não sei a resposta para isso."
 
         # Rapidfuzz to find the most similar question_norm in the normalized cadastred questions
         question_most_likely, score, idx = process.extractOne(question_norm, questions_norm)
@@ -76,9 +80,11 @@ class ChatBotReply:
             matched_key = questions_registered[idx]
 
             # select a random response from the list of responses for that question
-            op = merged_responses[matched_key]
-            print(op)
-            final_r = f"{self.name}: {random.choice(op)}"
+            options = merged_responses[matched_key]
+
+            # if options is a list, choose a random one
+            final_r = f"{self.name}: {random.choice(options) if type(options) == list else options}"
+
 
         # Try matching by keywords
         else:
@@ -96,7 +102,8 @@ class ChatBotReply:
 
             if not found:
                 # don't know the answer, activate learning mode.
-                pass
+                learning_instances = ChatBotLearning((self.name, self.responses, self.keywords))
+                final_r = learning_instances.learning(q)
 
         # Log the interaction in history.txt
         self.memory.log_interaction(q, final_r)

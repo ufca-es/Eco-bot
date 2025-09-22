@@ -137,3 +137,96 @@
 
 === Sessão iniciada em 2025-09-21 15:16:51 | Persona: Ecobot-education ===
 [2025-09-21 15:16:53] (Ecobot-education) Você: bateria || Bot: Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.
+
+=== Sessão iniciada em 2025-09-22 16:06:53 | Persona: Ecobot-rude ===
+[2025-09-22 16:07:00] Você: como reciclar papel? || Ecobot-rude: Molhado? Também não.
+
+=== Sessão iniciada em 2025-09-22 16:08:44 | Persona: Ecobot-education ===
+[2025-09-22 16:08:51] Você: como reciclar papel? || Ecobot-education: Guardanapos e papel-toalha usados vão para o lixo comum ou compostagem (se apropriado).
+
+=== Sessão iniciada em 2025-09-22 16:08:59 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:10:22 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:10:26 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:11:36 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:11:44 | Persona: Ecobot-education ===
+[2025-09-22 16:13:11] Você: tu cheira? || Ecobot-education: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada):  [Resposta do usuário: Depende...]
+[2025-09-22 16:13:22] Você: tu cheira? || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
+
+=== Sessão iniciada em 2025-09-22 16:13:38 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:13:42 | Persona: Ecobot-education ===
+[2025-09-22 16:13:54] Você: tu cheira? || Ecobot-education: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada):  [Resposta do usuário: Depende...]
+[2025-09-22 16:13:54] Você: tu cheira? || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
+
+=== Sessão iniciada em 2025-09-22 16:13:59 | Persona: Ecobot-education ===
+[2025-09-22 16:14:19] Você: tu cheira? || Ecobot-education: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada):  [Resposta do usuário: Depende...]
+[2025-09-22 16:14:19] Você: tu cheira? || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
+
+=== Sessão iniciada em 2025-09-22 16:14:25 | Persona: Ecobot-education ===
+[2025-09-22 16:14:31] Você: tu cheira? || Ecobot-education: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada):  [Resposta do usuário: Depende...]
+[2025-09-22 16:14:31] Você: tu cheira? || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
+
+=== Sessão iniciada em 2025-09-22 16:14:38 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:15:22 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:15:27 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:15:57 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:16:01 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:18:37 | Persona: Ecobot-education ===
+[2025-09-22 16:18:40] Você: tu cheira? || Ecobot-education: .
+
+=== Sessão iniciada em 2025-09-22 16:19:29 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:23:00 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:23:34 | Persona: Ecobot-education ===
+[2025-09-22 16:23:36] Você: tu cheira? || Ecobot-education: Depende...
+[2025-09-22 16:23:46] Você: você gosta de sorvete? || Ecobot-education: Olá! Pronto para ajudar com informações ambientais.
+
+=== Sessão iniciada em 2025-09-22 16:24:50 | Persona: Ecobot-education ===
+[2025-09-22 16:24:52] Você: tu cheira? || Ecobot-education: Depende...
+
+=== Sessão iniciada em 2025-09-22 16:25:27 | Persona: Ecobot-education ===
+[2025-09-22 16:25:36] Você: você gosta de sorvete? || Ecobot-education: Olá! Em que posso ser útil?
+
+=== Sessão iniciada em 2025-09-22 16:26:17 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:28:21 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:31:16 | Persona: Ecobot-education ===
+[2025-09-22 16:31:19] Você: pilha || Ecobot-education: Armazene as pilhas usadas em local seco, sem calor, e leve-as periodicamente a um ponto de coleta autorizado.
+[2025-09-22 16:31:26] Você: tu cheira? || Ecobot-education: Depende...
+[2025-09-22 16:31:34] Você: você gosta de sorvete? || Ecobot-education: Armazene as pilhas usadas em local seco, sem calor, e leve-as periodicamente a um ponto de coleta autorizado.
+[2025-09-22 16:31:44] Você: você gosta de sorvete? || Ecobot-education: Nunca descarte pilhas no lixo comum ou no esgoto; elas contêm metais pesados e contaminam solo e água.
+
+=== Sessão iniciada em 2025-09-22 16:32:03 | Persona: Ecobot-education ===
+[2025-09-22 16:32:16] Você: você gosta de sorvete? || Ecobot-education: Consulte o site da prefeitura para localizar pontos de entrega voluntária (PEVs) próximos.
+[2025-09-22 16:32:32] Você: sorvete? || Ecobot-education: Pilhas e baterias devem ser entregues em pontos de coleta específicos (supermercados, lojas de eletrônicos, ecopontos).
+[2025-09-22 16:32:39] Você: sorvete || Ecobot-education: Consulte o site da prefeitura para localizar pontos de entrega voluntária (PEVs) próximos.
+
+=== Sessão iniciada em 2025-09-22 16:33:04 | Persona: Ecobot-education ===
+[2025-09-22 16:33:07] Você: sorvete || Ecobot-education: Pilhas e baterias devem ser entregues em pontos de coleta específicos (supermercados, lojas de eletrônicos, ecopontos).
+
+=== Sessão iniciada em 2025-09-22 16:33:50 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:34:52 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:38:48 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:39:21 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:42:16 | Persona: Ecobot-education ===
+
+=== Sessão iniciada em 2025-09-22 16:42:18 | Persona: Ecobot-education ===
+[2025-09-22 16:42:30] Você: sorvete || Ecobot-education: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada):  [Resposta do usuário: Sim, gosto muito de sorvete.]
+[2025-09-22 16:42:30] Você: sorvete || Ecobot-education: Obrigado! Aprendi uma nova resposta. 😊
+[2025-09-22 16:42:32] Você: sorvete || Ecobot-education: Sim, gosto muito de sorvete.
+[2025-09-22 16:42:41] Você: você gosta de sorvete? || Ecobot-education: Sim, gosto muito de sorvete.

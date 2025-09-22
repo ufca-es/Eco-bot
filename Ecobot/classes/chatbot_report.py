@@ -1,5 +1,5 @@
-from classes.chatbot_memory import ChatBotMemory
-from classes.chatbot_analytics import ChatbotAnalytics
+from chatbot_memory import ChatBotMemory
+from chatbot_analytics import ChatbotAnalytics
 
 class ChatbotReport:
     memory = ChatbotAnalytics()

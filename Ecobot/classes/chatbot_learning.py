@@ -3,34 +3,37 @@ import json
 from Ecobot.classes.chatbot import ChatBot
 
 class ChatBotLearning(ChatBot):
-    def learning(self):
+    def learning(self, q: str):
         """
-            -Salvar essa nova pergunta e resposta em um arquivo separado (ex: aprendizado.txt);
+            Learning mode: Ask the user for the correct answer and save it to learning_responses.json
         """
-        message = f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): "
+
+        message = f"{self.name}: Não sei a resposta para isso. Como eu deveria responder? (Por favor insira uma resposta apropriada): "
         new_response = input(message).strip()
 
-        if not new_response or "esquecer" in new_response:
+        # Cancel learning
+        if "esquecer" in new_response:
             return "Aprendizado cancelado. Tudo bem! 😊"
 
-        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "responses", "learning_responses.json")
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-
-        # Carrega JSON existente (ou inicia vazio)
-        if os.path.exists(path):
+        # Loading a JSON file or creating a new one if it doesn't exist
+        if os.path.exists(self.path):
             try:
-                with open(path, 'r', encoding="utf-8") as f:
+                with open(self.path, 'r', encoding="utf-8") as f:
                     data = json.load(f)
             except (json.JSONDecodeError, ValueError):
                 data = {}
 
-        data[self.pergunta] = new_response
-        # Registrar histórico
-        self.memory.log_interaction(self.pergunta, message + "Users input:" + new_response)
+        else:
+            data = {}
 
-        # Salva todo o dicionário formatado
-        with open(path, 'w', encoding="utf-8") as f:
+        data[q] = new_response
+
+        # Register in history.txt
+        self.memory.log_interaction(q, f"{message} [Resposta do usuário: {new_response}]")
+
+        # Saving the updated data back to the JSON file
+        with open(self.path, 'w', encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
 
         # Feedback
-        return f"{self.nome}: Obrigado! Aprendi uma nova resposta. 😊"
+        return f"{self.name}: Obrigado! Aprendi uma nova resposta. 😊"

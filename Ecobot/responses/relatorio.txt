@@ -1,12 +1,12 @@
 ==== RELATÓRIO ECOBOT ====
-Total de interações: 56
+Total de interações: 92
 Pergunta mais feita: oi
 Uso por personalidade:
-	Ecobot-rude: 9 vezes
-	Ecobot-education: 13 vezes
+	Ecobot-rude: 15 vezes
+	Ecobot-education: 49 vezes
 	Ecobot-funny: 6 vezes
 
-	Ecobot-rude: 9 vezes
-	Ecobot-education: 13 vezes
+	Ecobot-rude: 15 vezes
+	Ecobot-education: 49 vezes
 	Ecobot-funny: 6 vezes
 
