@@ -6,9 +6,13 @@ class ChatBotMemory:
         self.name = name
 
     @staticmethod
-    def history_file_path(file = "history.txt") -> str:
-        base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'chatbot_data', file)
+    def history_file_path(file="history.txt") -> str:
+        """
+        Retorna o caminho completo para um arquivo na pasta chatbot_data.
+        """
+        from pathlib import Path
+        base_dir = Path(__file__).parent.parent
+        return str(base_dir / 'chatbot_data' / file)
 
     @staticmethod
     def history(last_n: int = 5):
@@ -16,8 +20,6 @@ class ChatBotMemory:
         Retorna as últimas 'last_n' interações do histórico num arquivo .txt.
         """
         path = ChatBotMemory.history_file_path()
-        if not os.path.exists(path):
-            return []
         with open(path, 'r', encoding='utf-8') as f:
             lines = [line.rstrip('\n') for line in f if line.strip() and not line.startswith('===')]
         return lines[-last_n:] if len(lines) > 0 else "Histórico vazio."
