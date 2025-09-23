@@ -1,10 +1,12 @@
 # ♻️ EcoBot – ChatBot Instrutor de Reciclagem
+
 | Equipe                               | GitHub           |
 |-------------------------------------|------------------|
 | Leôncio Ferreira Flores Neto        | [@leoncioferreira-ufca](https://github.com/leoncioferreira-ufca)|
 | Alan Mendes Vieira                  | [@alan-mendes-ufca](https://github.com/alan-mendes-ufca)         |
 | Grazielly Bibiano do Nascimento     | [@graziellybn](https://github.com/graziellybn) |
 | Antônio Pereira da Luz Neto        | [@netoo-444](https://github.com/netoo-444)   |
+
 ## 📌 Descrição:
 
 Este projeto é um chatbot educativo desenvolvido em Python com Streamlit que ensina sobre reciclagem de materiais.
@@ -71,24 +73,15 @@ Eco-bot/
 │ ├── chatbot_memory.py # Gerenciamento de memória e histórico
 │ └── chatbot_report.py # Geração de relatórios automáticos
 │
-├── interface/ # Camada de interface e interação
-│ ├── chatbot_interface.py # Orquestra a interação entre usuário e bot
-│ ├── file_utils.py # Utilitários para manipulação de arquivos
-│ ├── handlers.py # Handlers de eventos e callbacks
-│ ├── session_state.py # Controle de estado da sessão do usuário
-│ └── ui_components.py # Componentes de interface (UI)
-│
 ├── chatbot_data/ # Armazenamento de dados e histórico
 │ ├── history.txt # Histórico de interações
 │ ├── learning_responses.json # Respostas aprendidas dinamicamente
 │ ├── questions.json # Banco de perguntas e respostas
 │ └── relatorio.txt # Saída de relatórios gerados
 │
-├── app.py # Script de inicialização do chatbot
 ├── helpers.py # Funções auxiliares reutilizáveis
 ├── main.py # Ponto de entrada do projeto
 ├── requirements.txt # Dependências do projeto (pip install -r requirements.txt)
-├── LICENSE # Licença do projeto
 └── README.md # Documentação do projeto
 ```
 
@@ -118,26 +111,8 @@ Eco-bot/
  ```bash
     4.1 streamlit run app.py
    ```
-# Tasks atribuídas
 
-Leôncio → Task 05 → Configuração do repositório no GitHub (estrutura básica, README inicial ) e interface
-
-Alan + Leôncio → Task 09 (respostas aleatórias para mesma pergunta)
-
-Alan → Task 08 (mudança de personalidade durante a execução)
-
-Neto → Task 10 (persistência de aprendizado)
-
-Grazy → Task 11 (ler histórico anterior ao iniciar o programa) + Task 12 (salvar histórico da sessão)
-
-Alan → Task 13 (coletar estatísticas: total de interações, pergunta mais feita, uso de personalidades) + Task 16 (organização final das classes/módulos)
-
-Neto → Task 14 (gerar relatório legível – relatorio.txt)
-
-Grazy → Task 15 (exibir sugestões de perguntas frequentes)
-
-* As demais tasks todos contribuíram.
-  ## ✍️Guias De Uso / Funcionalidades - Prompt
+## ✍️Guias De Uso / Funcionalidades - Prompt
 
 * **Após executar o "python main.py", irá aparecer as personalidade e qual o usuário pode escolher.**
 
@@ -167,66 +142,4 @@ Grazy → Task 15 (exibir sugestões de perguntas frequentes)
 
 ***
 
-
 ## ✍️Guias De Uso / Funcionalidades - Interface
-
-* **No canto superior esquerdo, o usuário pode estar alterando a personalidade do bot para engraçada,formal ou rude. (Segue objeto citado circundado de vermelho na imagem)**
-<img width="1436" height="600" alt="fotopersonc" src="https://github.com/user-attachments/assets/f3ec0db9-7023-480e-8bbf-ea98abe95658" />
-
-* **Ao lado esquerdo o EcoBot mostrará as 5 interações anteriores.**
-
-<img width="1417" height="600" alt="interações" src="https://github.com/user-attachments/assets/105c2142-a3fe-49e7-a2f5-0465bad1377f" />
-
-* **Na parte de conversa com o bot, o usuário deve colocar sua pergunta na lacuna escrita "Digite sua pergunta" (circundado de vermelho na foto abaixo)**
-
-* **Logo após a interação aparecerá um bloco com o nome "Pergunta: "sua pergunta" " (circundado de verde na foto abaixo)**
-
-* **Depois, aparecerá a resposta do EcoBot. (circundado de amarelo na foto abaixo)**
-
-
-<img width="1295" height="749" alt="conversas" src="https://github.com/user-attachments/assets/1069652e-1f67-433d-8d9b-d972b0dc2f5a" />
-
-
-
-* **Ao clicar na lacuna escrita com "💡 Ver sugestões de perguntas" o bot baixará uma aba com as perguntas frequentes realizadas pelo usuário, o usuário pode clicar na pergunta frequente e o bot o responderá** (circundado de azul na foto abaixo)
-
-
-<img width="1428" height="600" alt="sugestao" src="https://github.com/user-attachments/assets/c484c489-44b5-4571-b723-d8fec856de3c" />
-
-
-* **No canto inferior esquerdo, haverá um ícone de uma lixeira que serve para limpar a conversa após o usuário clicar nela.(seguue na foto abaixo)**
-
-
-<img width="1419" height="771" alt="limparconversa" src="https://github.com/user-attachments/assets/033aeed9-e21d-413e-af2a-7e1e73cdf3b5" />
-
-
-* **Após limpar a conversa, será limpa a interação no chat com o bot(segue na foto)**
-
-
-<img width="1275" height="759" alt="conversa limpa" src="https://github.com/user-attachments/assets/b901bb8e-c3e2-468b-8b7a-b871f89063e8" />
-
-
-* **No canto inferior esquerdo, acima do ícone da lixeira, há um ícone de um Disket seguido com a frase "Salvar conversa"**
-
-
-
-<img width="1416" height="787" alt="salvar conversa" src="https://github.com/user-attachments/assets/e6798589-222d-4399-9b0a-c9d1beb26771" />
-
-* **Após o usuário clicar em salvar, aparecer a interação do usuário na parte de Downloads (destacado em verde na foto abaixo)**
-
-<img width="1058" height="813" alt="conversasalva" src="https://github.com/user-attachments/assets/6599d2fc-6d40-407f-bd54-72488e8b94b9" />
-
-* **o .txt gerado:**
-
-<img width="546" height="107" alt="image" src="https://github.com/user-attachments/assets/abe64109-1c02-4160-9b2a-e7b7376f3789" />
-
-* **Caso o usuário pergunte algo que o bot não saiba, ele entrará no modo aprendizado. No qual o usuário pode digitar uma resposta e ensiná-lo, ou não. Ao clicar em "ensinar" o bot aprende uma resposta para aquela pergunta (circulado em azul na foto abaixo) E ao clicar em "Esquecer" o bot desconsidera o aprendizado.(Circulado de verde na foto abaixo)**
-
-<img width="941" height="540" alt="aprendizado" src="https://github.com/user-attachments/assets/a67c7012-8963-4983-bf6a-f4c7a8e5cf47" />
-
-
-## 📜 Licença
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)

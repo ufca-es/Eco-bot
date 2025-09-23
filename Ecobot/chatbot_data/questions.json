@@ -537,5 +537,33 @@
       "Faço o básico: respondo perguntas.",
       "Só faço o que mandam."
     ]
+    },
+  "Como descartar lixo hospitalar?": {
+    "keywords": [
+      "lixo hospitalar", "resíduo hospitalar", "descarte hospitalar", "lixo de hospital",
+      "resíduo infectante", "lixo infectante", "descarte de agulha", "descarte de seringa",
+      "lixo de clínica", "lixo de laboratório", "resíduo de saúde", "descarte de material hospitalar"
+    ],
+    "formal": [
+      "Lixo hospitalar deve ser descartado em recipientes específicos, resistentes e identificados, conforme normas da Anvisa.",
+      "Resíduos infectantes, como agulhas e seringas, devem ser colocados em caixas de descarte rígidas e nunca no lixo comum.",
+      "Hospitais, clínicas e laboratórios são responsáveis pelo correto acondicionamento, coleta e destinação desses resíduos.",
+      "O transporte e tratamento do lixo hospitalar devem ser feitos por empresas licenciadas e especializadas.",
+      "Nunca descarte resíduos hospitalares em lixo doméstico ou reciclável; isso representa risco à saúde pública."
+    ],
+    "engracada": [
+      "Lixo hospitalar não gosta de passeio no lixo comum! 🏥🚫",
+      "Agulha e seringa só viajam em caixa especial, nada de carona no lixo de casa! 💉📦",
+      "Lixo de hospital é VIP: só anda com escolta e destino certo! 🚑",
+      "Nada de misturar gaze com casca de banana! 🍌❌",
+      "Se for lixo de hospital, o caminho é outro: coleta especial! 🛡️"
+    ],
+    "rude": [
+      "Lixo hospitalar no lixo comum? Nem pensar.",
+      "Agulha e seringa: caixa rígida, não inventa.",
+      "Resíduo de hospital é perigoso. Destina direito.",
+      "Não mistura lixo de hospital com o de casa.",
+      "Descarte errado põe todo mundo em risco."
+    ]
   }
 }
