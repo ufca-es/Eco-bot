@@ -1,0 +1,124 @@
+Index: Ecobot/responses/history.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n=== Sessão iniciada em 2025-09-10 20:39:44 | Persona: Ecobot-educational ===\r\n[2025-09-10 20:39:50] (Ecobot-educational) Você: oi || Bot: Olá! Pronto para responder suas perguntas sobre reciclagem.\r\n[2025-09-10 20:39:58] (Ecobot-educational) Você: o que é reciclagem? || Bot: Reciclagem é uma prática essencial para o futuro do planeta.\r\n[2025-09-10 20:40:20] (Ecobot-educational) Você: o que é reciclagem? || Bot: Reciclagem é o processo de transformar resíduos em novos produtos, reduzindo o impacto ambiental.\r\n[2025-09-10 20:42:14] (Ecobot-educational) Você: o que é plástico? || Bot: Os plásticos mais reciclados são PET (1), PEAD (2) e PP (5).\r\n[2025-09-10 20:42:27] (Ecobot-educational) Você: o que é plástico? || Bot: Plásticos identificados com os números 1, 2 e 5 geralmente são recicláveis.\r\n[2025-09-10 20:42:35] (Ecobot-educational) Você: o que é plástico? || Bot: Plásticos como PET, PEAD e PP podem ser reciclados. Verifique o símbolo na embalagem.\r\n[2025-09-10 20:44:13] (Ecobot-educational) Você: o que é metal? || Bot: Obrigado! Aprendi uma nova resposta. \uD83D\uDE0A\r\n[2025-09-10 20:44:18] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:24] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:32] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:33] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:34] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:35] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:44:59] (Ecobot-educational) Você: pilha || Bot: Procure estabelecimentos que recebam pilhas usadas para descarte adequado.\r\n\r\n=== Sessão iniciada em 2025-09-10 20:45:36 | Persona: Ecobot-rude ===\r\n[2025-09-10 20:45:42] (Ecobot-rude) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.\r\n[2025-09-10 20:46:14] (Ecobot-rude) Você: o que é plástico? || Bot: Se não tem triângulo, não recicla.\r\n[2025-09-10 20:46:29] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não sabe ainda? Ponto de coleta, simples.\r\n[2025-09-10 20:46:39] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não inventa: pilha é só no ponto de coleta.\r\n[2025-09-10 20:46:47] (Ecobot-rude) Você: como descartar vidro? || Bot: Separa o vidro, não custa nada.\r\n[2025-09-10 20:46:50] (Ecobot-rude) Você: como descartar pilhas? || Bot: Quer poluir? Então joga pilha no lixo. Melhor não, né?\r\n[2025-09-10 20:46:53] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não jogue pilha no lixo normal, por favor, né!\r\n\r\n=== Sessão iniciada em 2025-09-10 20:47:04 | Persona: Ecobot-funny ===\r\n[2025-09-10 20:47:09] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro no lixo comum? Só se for pra quebrar o clima! \uD83D\uDE1C\r\n[2025-09-10 20:47:13] (Ecobot-funny) Você: como descartar pilhas? || Bot: Se pilha falasse, ela pediria: 'Me leve pra um ponto de coleta, por favor!' \uD83D\uDD0B➡\uFE0F\uD83D\uDCCD\r\n[2025-09-10 20:47:32] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro gosta de reciclagem ♻\uFE0F, não de confusão no lixo comum! \uD83C\uDF7E\r\n[2025-09-10 20:47:37] (Ecobot-funny) Você: como descartar vidro? || Bot: Se jogar vidro no lixo comum, o Ecobot chora cacos! \uD83D\uDE22\uD83E\uDE9F\r\n[2025-09-10 20:47:38] (Ecobot-funny) Você: como descartar vidro? || Bot: Se jogar vidro no lixo comum, o Ecobot chora cacos! \uD83D\uDE22\uD83E\uDE9F\r\n[2025-09-10 20:47:39] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro adora um ponto de coleta, não um lixão! \uD83C\uDFDE\uFE0F\r\n[2025-09-10 20:47:41] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! \uD83E\uDD15\r\n[2025-09-10 20:49:07] (Ecobot-funny) Você: você gosta de sorvete? || Bot: Obrigado! Aprendi uma nova resposta. \uD83D\uDE0A\r\n\r\n=== Sessão iniciada em 2025-09-10 20:50:36 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-10 21:33:44 | Persona: Ecobot-rude ===\r\n[2025-09-10 21:34:43] (Ecobot-rude) Você: pilha || Bot: Sério? Vai jogar pilha no lixo comum? Procura um ponto de coleta.\r\n[2025-09-10 21:34:53] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.\r\n[2025-09-10 21:39:44] (Ecobot-rude) Você: vidro || Bot: Separa o vidro, não custa nada.\r\n[2025-09-10 21:39:53] (Ecobot-rude) Você: pilha || Bot: Jogar pilha no lixo é vacilo. Usa o ponto de coleta.\r\n[2025-09-11 22:58:14] (Ecobot-rude) Você: olá || Bot: Oi. Vai, manda logo a pergunta.\r\n\r\n=== Sessão iniciada em 2025-09-11 23:43:26 | Persona: Ecobot-funny ===\r\n[2025-09-11 23:43:50] (Ecobot-funny) Você: mudar o bot || Bot: Ok, não vou salvar.\r\n\r\n=== Sessão iniciada em 2025-09-11 23:43:57 | Persona: Ecobot-educational ===\r\n\r\n=== Sessão iniciada em 2025-09-11 23:46:07 | Persona: Ecobot-funny ===\r\n\r\n=== Sessão iniciada em 2025-09-11 23:46:33 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-11 23:46:54 | Persona: Ecobot-educational ===\r\n[2025-09-11 23:47:02] (Ecobot-educational) Você: olá || Bot: Oi! Como posso auxiliar você hoje?\r\n\r\n=== Sessão iniciada em 2025-09-12 00:29:29 | Persona: Ecobot-rude ===\r\n[2025-09-12 00:29:39] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.\r\n[2025-09-12 00:29:44] (Ecobot-rude) Você: saisr || Bot: Ok, não vou salvar.\r\n\r\n=== Sessão iniciada em 2025-09-12 00:32:38 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 00:33:43 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 00:37:04 | Persona: Ecobot-rude ===\r\n[2025-09-12 00:37:06] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.\r\n\r\n=== Sessão iniciada em 2025-09-12 00:40:10 | Persona: Ecobot-rude ===\r\n[2025-09-12 01:56:16] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum é preguiça.\r\n[2025-09-12 01:56:27] (Ecobot-rude) Você: mudar bot || Bot: Ok, não vou salvar.\r\n[2025-09-12 01:56:42] (Ecobot-funny) Você: vidro || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! \uD83E\uDD15\r\n\r\n=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: EcoBot ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: EcoBot ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: EcoBot ===\r\n[2025-09-12 02:38:13] (Ecobot-rude) Você: olá || Bot: Oi. Só respondo perguntas, tá?\r\n\r\n=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: EcoBot ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: Ecobot-rude ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: EcoBot ===\r\n\r\n=== Sessão iniciada em 2025-09-12 02:59:07 | Persona: Ecobot-rude ===\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ecobot/responses/history.txt b/Ecobot/responses/history.txt
+--- a/Ecobot/responses/history.txt	(revision 5e3aeacad89dce208aee2cf75cdd270e92d327c5)
++++ b/Ecobot/responses/history.txt	(date 1757714253260)
+@@ -1,95 +1,2 @@
+ 
+-=== Sessão iniciada em 2025-09-10 20:39:44 | Persona: Ecobot-educational ===
+-[2025-09-10 20:39:50] (Ecobot-educational) Você: oi || Bot: Olá! Pronto para responder suas perguntas sobre reciclagem.
+-[2025-09-10 20:39:58] (Ecobot-educational) Você: o que é reciclagem? || Bot: Reciclagem é uma prática essencial para o futuro do planeta.
+-[2025-09-10 20:40:20] (Ecobot-educational) Você: o que é reciclagem? || Bot: Reciclagem é o processo de transformar resíduos em novos produtos, reduzindo o impacto ambiental.
+-[2025-09-10 20:42:14] (Ecobot-educational) Você: o que é plástico? || Bot: Os plásticos mais reciclados são PET (1), PEAD (2) e PP (5).
+-[2025-09-10 20:42:27] (Ecobot-educational) Você: o que é plástico? || Bot: Plásticos identificados com os números 1, 2 e 5 geralmente são recicláveis.
+-[2025-09-10 20:42:35] (Ecobot-educational) Você: o que é plástico? || Bot: Plásticos como PET, PEAD e PP podem ser reciclados. Verifique o símbolo na embalagem.
+-[2025-09-10 20:44:13] (Ecobot-educational) Você: o que é metal? || Bot: Obrigado! Aprendi uma nova resposta. 😊
+-[2025-09-10 20:44:18] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:24] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:32] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:33] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:34] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:35] (Ecobot-educational) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:44:59] (Ecobot-educational) Você: pilha || Bot: Procure estabelecimentos que recebam pilhas usadas para descarte adequado.
+-
+-=== Sessão iniciada em 2025-09-10 20:45:36 | Persona: Ecobot-rude ===
+-[2025-09-10 20:45:42] (Ecobot-rude) Você: o que é metal? || Bot: É uma classe de elementos químicos, com alta condutividade elétrica.
+-[2025-09-10 20:46:14] (Ecobot-rude) Você: o que é plástico? || Bot: Se não tem triângulo, não recicla.
+-[2025-09-10 20:46:29] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não sabe ainda? Ponto de coleta, simples.
+-[2025-09-10 20:46:39] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não inventa: pilha é só no ponto de coleta.
+-[2025-09-10 20:46:47] (Ecobot-rude) Você: como descartar vidro? || Bot: Separa o vidro, não custa nada.
+-[2025-09-10 20:46:50] (Ecobot-rude) Você: como descartar pilhas? || Bot: Quer poluir? Então joga pilha no lixo. Melhor não, né?
+-[2025-09-10 20:46:53] (Ecobot-rude) Você: como descartar pilhas? || Bot: Não jogue pilha no lixo normal, por favor, né!
+-
+-=== Sessão iniciada em 2025-09-10 20:47:04 | Persona: Ecobot-funny ===
+-[2025-09-10 20:47:09] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro no lixo comum? Só se for pra quebrar o clima! 😜
+-[2025-09-10 20:47:13] (Ecobot-funny) Você: como descartar pilhas? || Bot: Se pilha falasse, ela pediria: 'Me leve pra um ponto de coleta, por favor!' 🔋➡️📍
+-[2025-09-10 20:47:32] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro gosta de reciclagem ♻️, não de confusão no lixo comum! 🍾
+-[2025-09-10 20:47:37] (Ecobot-funny) Você: como descartar vidro? || Bot: Se jogar vidro no lixo comum, o Ecobot chora cacos! 😢🪟
+-[2025-09-10 20:47:38] (Ecobot-funny) Você: como descartar vidro? || Bot: Se jogar vidro no lixo comum, o Ecobot chora cacos! 😢🪟
+-[2025-09-10 20:47:39] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro adora um ponto de coleta, não um lixão! 🏞️
+-[2025-09-10 20:47:41] (Ecobot-funny) Você: como descartar vidro? || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! 🤕
+-[2025-09-10 20:49:07] (Ecobot-funny) Você: você gosta de sorvete? || Bot: Obrigado! Aprendi uma nova resposta. 😊
+-
+-=== Sessão iniciada em 2025-09-10 20:50:36 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-10 21:33:44 | Persona: Ecobot-rude ===
+-[2025-09-10 21:34:43] (Ecobot-rude) Você: pilha || Bot: Sério? Vai jogar pilha no lixo comum? Procura um ponto de coleta.
+-[2025-09-10 21:34:53] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.
+-[2025-09-10 21:39:44] (Ecobot-rude) Você: vidro || Bot: Separa o vidro, não custa nada.
+-[2025-09-10 21:39:53] (Ecobot-rude) Você: pilha || Bot: Jogar pilha no lixo é vacilo. Usa o ponto de coleta.
+-[2025-09-11 22:58:14] (Ecobot-rude) Você: olá || Bot: Oi. Vai, manda logo a pergunta.
+-
+-=== Sessão iniciada em 2025-09-11 23:43:26 | Persona: Ecobot-funny ===
+-[2025-09-11 23:43:50] (Ecobot-funny) Você: mudar o bot || Bot: Ok, não vou salvar.
+-
+-=== Sessão iniciada em 2025-09-11 23:43:57 | Persona: Ecobot-educational ===
+-
+-=== Sessão iniciada em 2025-09-11 23:46:07 | Persona: Ecobot-funny ===
+-
+-=== Sessão iniciada em 2025-09-11 23:46:33 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-11 23:46:54 | Persona: Ecobot-educational ===
+-[2025-09-11 23:47:02] (Ecobot-educational) Você: olá || Bot: Oi! Como posso auxiliar você hoje?
+-
+-=== Sessão iniciada em 2025-09-12 00:29:29 | Persona: Ecobot-rude ===
+-[2025-09-12 00:29:39] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum? Nem pensar.
+-[2025-09-12 00:29:44] (Ecobot-rude) Você: saisr || Bot: Ok, não vou salvar.
+-
+-=== Sessão iniciada em 2025-09-12 00:32:38 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 00:33:43 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 00:37:04 | Persona: Ecobot-rude ===
+-[2025-09-12 00:37:06] (Ecobot-rude) Você: oi || Bot: Oi. Fala logo o que quer.
+-
+-=== Sessão iniciada em 2025-09-12 00:40:10 | Persona: Ecobot-rude ===
+-[2025-09-12 01:56:16] (Ecobot-rude) Você: vidro || Bot: Vidro no lixo comum é preguiça.
+-[2025-09-12 01:56:27] (Ecobot-rude) Você: mudar bot || Bot: Ok, não vou salvar.
+-[2025-09-12 01:56:42] (Ecobot-funny) Você: vidro || Bot: Vidro no lixo comum? Só se for pra dar dor de cabeça! 🤕
+-
+-=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 02:35:50 | Persona: EcoBot ===
+-
+-=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 02:37:22 | Persona: EcoBot ===
+-
+-=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 02:38:12 | Persona: EcoBot ===
+-[2025-09-12 02:38:13] (Ecobot-rude) Você: olá || Bot: Oi. Só respondo perguntas, tá?
+-
+-=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 02:39:56 | Persona: EcoBot ===
+-
+-=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: Ecobot-rude ===
+-
+-=== Sessão iniciada em 2025-09-12 02:40:03 | Persona: EcoBot ===
+-
+-=== Sessão iniciada em 2025-09-12 02:59:07 | Persona: Ecobot-rude ===
++=== Sessão iniciada em 2025-09-12 18:57:33 | Persona: Ecobot-rude ===
+Index: Ecobot/responses/learning_responses.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"você gosta de sorvete?\": \"Sim, gosto muito de sorvete.\",\r\n  \"você gosta de jogar videogame?\": \"Sim, gosto muito.\",\r\n  \"tu cheira?\": \"Depende...\"\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ecobot/responses/learning_responses.json b/Ecobot/responses/learning_responses.json
+--- a/Ecobot/responses/learning_responses.json	(revision 5e3aeacad89dce208aee2cf75cdd270e92d327c5)
++++ b/Ecobot/responses/learning_responses.json	(date 1757714248327)
+@@ -1,5 +1,0 @@
+-{
+-  "você gosta de sorvete?": "Sim, gosto muito de sorvete.",
+-  "você gosta de jogar videogame?": "Sim, gosto muito.",
+-  "tu cheira?": "Depende..."
+-}
+\ No newline at end of file

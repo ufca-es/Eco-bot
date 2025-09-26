@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52211df1-4b17-4c63-963e-3143361ca403" name="Changes" comment="&quot;new version with normalize func and fixing bugs&quot;" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="web_final" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alan-mendes-ufca&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ufca-es/Eco-bot&quot;,
+    &quot;accountId&quot;: &quot;95b35174-5027-46eb-9454-4778baef800a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="32SyeNMAkaACl3Ykoj6Oa9LLfoX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.chatbot.executor": "Run",
+    "Python.chatbot_analytics.executor": "Run",
+    "Python.chatbot_memory.executor": "Run",
+    "Python.helpers.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.test_history.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/raque/PycharmProjects/Eco-bot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raque\PycharmProjects\Eco-bot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\raque\PycharmProjects\Eco-bot\Ecobot" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.28293.52" />
+        <option value="bundled-python-sdk-c84de207d46e-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.28293.52" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52211df1-4b17-4c63-963e-3143361ca403" name="Changes" comment="" />
+      <created>1757428363127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757428363127</updated>
+      <workItem from="1757428364248" duration="641000" />
+      <workItem from="1757457777414" duration="259000" />
+      <workItem from="1757542524249" duration="2008000" />
+      <workItem from="1757544733142" duration="6120000" />
+      <workItem from="1757639157491" duration="2179000" />
+      <workItem from="1757641372780" duration="179000" />
+      <workItem from="1757641611829" duration="7086000" />
+      <workItem from="1757649832601" duration="495000" />
+      <workItem from="1757652138537" duration="5598000" />
+      <workItem from="1757693987513" duration="376000" />
+      <workItem from="1757714027773" duration="718000" />
+      <workItem from="1757714795138" duration="5780000" />
+      <workItem from="1757951708959" duration="4725000" />
+      <workItem from="1758147333116" duration="66000" />
+      <workItem from="1758150834216" duration="5327000" />
+      <workItem from="1758233992971" duration="996000" />
+      <workItem from="1758257618051" duration="3796000" />
+      <workItem from="1758297214457" duration="5096000" />
+      <workItem from="1758302611455" duration="12000" />
+      <workItem from="1758303544466" duration="185000" />
+      <workItem from="1758906118265" duration="11000" />
+      <workItem from="1758908568002" duration="137000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;new version with relator func&quot;">
+      <option name="closed" value="true" />
+      <created>1757715138940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757715138940</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;new version with relator func&quot;">
+      <option name="closed" value="true" />
+      <created>1757719302912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757719302912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;new version with relator func&quot;">
+      <option name="closed" value="true" />
+      <created>1758153350084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758153350084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;new version with normalize func and fixing bugs&quot;">
+      <option name="closed" value="true" />
+      <created>1758302230447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758302230447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ERRORRRRRRRRRRRRR" />
+    <MESSAGE value="&quot;new version with relator func&quot;" />
+    <MESSAGE value="&quot;new version with normalize func and fixing bugs&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;new version with normalize func and fixing bugs&quot;" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Eco_bot$test_history.coverage" NAME="test_history Coverage Results" MODIFIED="1757544298868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Eco_bot$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1757719976843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ecobot/classes" />
+    <SUITE FILE_PATH="coverage/Eco_bot$chatbot_analytics.coverage" NAME="chatbot_analytics Coverage Results" MODIFIED="1757655331825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ecobot/classes" />
+    <SUITE FILE_PATH="coverage/Eco_bot$helpers.coverage" NAME="helpers Coverage Results" MODIFIED="1757716354017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ecobot" />
+    <SUITE FILE_PATH="coverage/Eco_bot$chatbot_memory.coverage" NAME="chatbot_memory Coverage Results" MODIFIED="1757945548808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ecobot/classes" />
+    <SUITE FILE_PATH="coverage/Eco_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1758301496366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Ecobot" />
+  </component>
+</project>
