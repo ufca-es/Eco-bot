@@ -1,8 +1,8 @@
 # ♻️ EcoBot – ChatBot Instrutor de Reciclagem
 | Equipe                               | GitHub           |
 |-------------------------------------|------------------|
-| Leôncio Ferreira Flores Neto        | [@leoncioferreira-ufca](https://github.com/leoncioferreira-ufca)|
-| Alan Mendes Vieira                  | [@alan-mendes-ufca](https://github.com/alan-mendes-ufca)         |
+| Leôncio Ferreira Flores Neto        | [@LeoncioFerreira](https://github.com/LeoncioFerreira)|
+| Alan Mendes Vieira                  | [@alan-mendes-ufca](https://github.com/alan-mendes-ufca)|
 | Grazielly Bibiano do Nascimento     | [@graziellybn](https://github.com/graziellybn) |
 | Antônio Pereira da Luz Neto        | [@netoo-444](https://github.com/netoo-444)   |
 ## 📌 Descrição:
