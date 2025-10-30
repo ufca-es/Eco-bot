@@ -1,5 +1,5 @@
-from Ecobot.classes.chatbot_memory import ChatBotMemory
-from Ecobot.classes.chatbot_analytics import ChatbotAnalytics
+from classes.chatbot_memory import ChatBotMemory
+from classes.chatbot_analytics import ChatbotAnalytics
 
 class ChatbotReport:
     memory = ChatbotAnalytics()
