@@ -8,7 +8,7 @@ class ChatBotMemory:
     @staticmethod
     def history_file_path(file = "history.txt") -> str:
         base_dir = os.path.dirname(os.path.dirname(__file__))
-        return os.path.join(base_dir, 'responses', file)
+        return os.path.join(base_dir, 'chatbot_data', file)
 
     @staticmethod
     def history(last_n: int = 5):

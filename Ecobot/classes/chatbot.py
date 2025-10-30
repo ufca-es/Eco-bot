@@ -92,7 +92,7 @@ class ChatBot:
         if not new_response or "esquecer" in new_response:
             return "Aprendizado cancelado. Tudo bem! 😊"
 
-        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "responses", "learning_responses.json")
+        path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "chatbot_data", "learning_responses.json")
         os.makedirs(os.path.dirname(path), exist_ok=True)
 
         # Carrega JSON existente (ou inicia vazio)

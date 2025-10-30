@@ -8,7 +8,7 @@ import streamlit as st
 
 
 # Caminho do arquivo onde as respostas aprendidas serão salvas em JSON
-LEARNING_FILE = os.path.join("responses", "learning_responses.json")
+LEARNING_FILE = os.path.join("chatbot_data", "learning_responses.json")
 
 # Função para carregar as respostas aprendidas do arquivo JSON
 def load_learning_responses():

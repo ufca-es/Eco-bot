@@ -7,7 +7,7 @@ def loading_responses_personality():
 
     # Caminho relativo ao diretório deste arquivo (helpers.py)
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    questions_path = os.path.join(base_dir, "responses", "questions.json")
+    questions_path = os.path.join(base_dir, "chatbot_data", "questions.json")
 
     try:
         with open(questions_path, 'r', encoding='utf-8') as f:
@@ -62,7 +62,7 @@ def get_personality():
         print("Personalidade inválida. Tente novamente.")
 
 def loading_learning_responses():
-    path = os.path.join(os.path.dirname(__file__), "responses", "learning_responses.json")
+    path = os.path.join(os.path.dirname(__file__), "chatbot_data", "learning_responses.json")
     try:
         with open(path, 'r', encoding="utf-8") as f:
             return json.load(f)
