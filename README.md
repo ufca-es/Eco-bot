@@ -59,26 +59,27 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 ## 🗂️ Estrutura de Arquivos
 
 ```bash
-📂 Ecobot/
-├── 📂 classes/
-│   ├── chatbot.py             # Lógica principal do chatbot
-│   ├── chatbot_analytics.py   # Coleta estatísticas e relatórios
-│   └── chatbot_memory.py      # Persistência de aprendizado e histórico
-│
-├── 📂 interface/
-│   ├── file_utils.py          # Gerencia arquivos
-│   ├── session_state.py       # Gerencia a memória da sessão
-│   ├── ui_components.py       # Cuida da interface visual
-│   └── handlers.py            # Manipula ações do usuário
-│
-├── 📂 responses/
-│   ├── history.txt            # Histórico salvo das conversas
-│   ├── learning_responses.json # Respostas aprendidas dinamicamente
-│   └── questions.json         # Perguntas e respostas pré-definidas
-│
-├── helpers.py                 # Funções auxiliares gerais
-├── main.py                    # Versão CLI (terminal) do chatbot
-└── app.py                     # Interface principal com Streamlit
+├── Ecobot
+│   ├── chatbot_data
+│   │   ├── history.txt
+│   │   ├── learning_responses.json
+│   │   ├── questions.json
+│   │   └── relatorio.txt
+│   ├── classes
+│   │   ├── chatbot_analytics.py
+│   │   ├── chatbot_frequent_questions.py
+│   │   ├── chatbot_learning.py
+│   │   ├── chatbot_memory.py
+│   │   ├── chatbot.py
+│   │   ├── chatbot_reply.py
+│   │   ├── chatbot_report.py
+│   │   └── __init__.py
+│   ├── helpers.py
+│   ├── main.py
+│   ├── requirements.txt
+│   └── test
+│       └── test_reply.py
+└── README.md
 ```
 
 ## 🚀 Como Executar
@@ -212,7 +213,6 @@ Grazy → Task 15 (exibir sugestões de perguntas frequentes)
 * **Caso o usuário pergunte algo que o bot não saiba, ele entrará no modo aprendizado. No qual o usuário pode digitar uma resposta e ensiná-lo, ou não. Ao clicar em "ensinar" o bot aprende uma resposta para aquela pergunta (circulado em azul na foto abaixo) E ao clicar em "Esquecer" o bot desconsidera o aprendizado.(Circulado de verde na foto abaixo)**
 
 <img width="941" height="540" alt="aprendizado" src="https://github.com/user-attachments/assets/a67c7012-8963-4983-bf6a-f4c7a8e5cf47" />
-
 
 ## 📜 Licença
 

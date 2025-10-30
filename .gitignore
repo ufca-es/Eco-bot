@@ -1,0 +1,34 @@
+# 🐍 Arquivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 📦 Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+
+# 🧪 Arquivos de teste / cache do pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# 📂 Configurações locais e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 📊 Dados e relatórios gerados
+*.log
+*.txt
+*.csv
+*.json
+*.db
+
+
+# 🧰 Outros
+.DS_Store
+Thumbs.db
