@@ -8,3 +8,10 @@
 
 === Sessão iniciada em 2025-10-30 10:02:02 | Persona: Ecobot-funny ===
 [2025-10-30 10:02:07] (Ecobot-funny) Você: oi || Bot: Oi! Se eu fosse humano, estaria tomando um café reciclado agora! ☕♻️
+
+=== Sessão iniciada em 2025-10-30 10:29:50 | Persona: Ecobot-education ===
+[2025-10-30 10:29:50] (Ecobot-education) Você: Como você funciona? || Bot: Meu funcionamento é baseado em inteligência artificial e banco de dados de perguntas.
+
+=== Sessão iniciada em 2025-10-30 10:32:02 | Persona: Ecobot-education ===
+[2025-10-30 10:32:02] (Ecobot-education) Você: Como você funciona? || Bot: Meu funcionamento é baseado em inteligência artificial e banco de dados de perguntas.
+[2025-10-30 10:32:02] (Ecobot-education) Você: hospitalar? || Bot: Nunca descarte resíduos hospitalares em lixo doméstico ou reciclável; isso representa risco à saúde pública.

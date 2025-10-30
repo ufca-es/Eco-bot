@@ -2,13 +2,25 @@ import os
 import json
 from classes.chatbot_memory import ChatBotMemory
 
+# Trigger phrases
+change_triggers = ("mudar personalidade",
+    "trocar personalidade",
+    "alterar personalidade",
+    "quero outra personalidade",
+    "personalidade diferente",
+    "mudar o bot",
+    "trocar o bot",
+    "alterar o bot",
+    "quero outro bot")
+
+exit_triggers = ("sair", "exit", "quit", "fechar", "encerrar", "finalizar",
+    "parar", "stop", "tchau", "xau", "adeus", "bye",
+    "até logo", "ate logo", "até mais", "ate mais")
+
+questions_path = ChatBotMemory.history_file_path("questions.json")
+
 def loading_responses_personality():
     funny, education, rude, keywords = {}, {}, {}, {}
-
-    # Caminho relativo ao diretório deste arquivo (helpers.py)
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    questions_path = os.path.join(base_dir, "chatbot_data", "questions.json")
-
     try:
         with open(questions_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -16,8 +28,7 @@ def loading_responses_personality():
     except (FileNotFoundError, json.JSONDecodeError):
         raise FileNotFoundError("Arquivo questions.json não encontrado.")
 
-
-    # iterando e salvando as perguntas com respectivas personalidades
+    # Making dictionaries for each personality
     for question, respostas in data.items():
         funny[question] = respostas.get('engracada', [])
         education[question] = respostas.get('formal', [])
@@ -27,19 +38,19 @@ def loading_responses_personality():
     return {
 
         'engracada': {'name':'Ecobot-funny',
-                      'responses' :funny,
+                      'chatbot_data' :funny,
                       'keywords' : keywords},
         'formal': {'name':'Ecobot-education',
-                   'responses': education,
+                   'chatbot_data': education,
                    'keywords': keywords},
 
         'rude': {'name':'Ecobot-rude',
-                 'responses': rude,
+                 'chatbot_data': rude,
                  'keywords': keywords}
 
     }
 
-personalidades = loading_responses_personality()
+personalities = loading_responses_personality()
 
 def get_personality():
     print("=" * 50)
@@ -57,14 +68,13 @@ def get_personality():
         if not p:
             continue
 
-        if p in personalidades:
-            return personalidades[p]['name'], personalidades[p]['responses'], personalidades[p]['keywords']
+        if p in personalities:
+            return personalities[p]['name'], personalities[p]['chatbot_data'], personalities[p]['keywords']
         print("Personalidade inválida. Tente novamente.")
 
 def loading_learning_responses():
-    path = os.path.join(os.path.dirname(__file__), "chatbot_data", "learning_responses.json")
     try:
-        with open(path, 'r', encoding="utf-8") as f:
+        with open(ChatBotMemory.history_file_path("learning_responses.json"), 'r', encoding="utf-8") as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return {}
