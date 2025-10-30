@@ -19,7 +19,7 @@ def display_sidebar():
             st.session_state.bot_personality = new_personality
             st.session_state.bot = init_bot(new_personality)
             # Adiciona a mensagem do sistema ao histórico
-            add_to_history("Sistema", f"Personalidade alterada para {st.session_state.bot.nome}!", role="system")
+            add_to_history("Sistema", f"Personalidade alterada para {st.session_state.bot.name}!", role="system")
             st.rerun()
         
         st.divider()

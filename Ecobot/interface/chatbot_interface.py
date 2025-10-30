@@ -9,4 +9,4 @@ class ChatbotInterface(ChatBot):
         interface web que o bot precisa aprender. A interface cuidará de
         pedir a nova resposta ao usuário e salvá-la no arquivo.
         """
-        return f"{self.nome}: Não sei a resposta para isso. Como eu deveria responder?"
+        return f"{self.name}: Não sei a resposta para isso. Como eu deveria responder?"

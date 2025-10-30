@@ -15,3 +15,9 @@
 === Sessão iniciada em 2025-10-30 10:32:02 | Persona: Ecobot-education ===
 [2025-10-30 10:32:02] (Ecobot-education) Você: Como você funciona? || Bot: Meu funcionamento é baseado em inteligência artificial e banco de dados de perguntas.
 [2025-10-30 10:32:02] (Ecobot-education) Você: hospitalar? || Bot: Nunca descarte resíduos hospitalares em lixo doméstico ou reciclável; isso representa risco à saúde pública.
+
+=== Sessão iniciada em 2025-10-30 10:51:10 | Persona: Ecobot-funny ===
+[2025-10-30 10:51:15] (Ecobot-funny) Você: oi || Bot: Oi! Pronto pra reciclar até o mau humor! 😆
+[2025-10-30 10:51:18] (Ecobot-funny) Você: sair || Bot: Tudo beleza! Só não vale jogar conversa fora, hein! 😜
+[2025-10-30 10:51:43] (Ecobot-funny) Você: tudo bem? || Bot: Oi, oi, oi! Pronto pra separar lixo e dúvidas! 🗑️🤔
+[2025-10-30 10:51:46] (Ecobot-funny) Você: hospitalar || Bot: Se for lixo de hospital, o caminho é outro: coleta especial! 🛡️

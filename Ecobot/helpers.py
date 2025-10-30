@@ -35,22 +35,35 @@ def loading_responses_personality():
         rude[question] = respostas.get('rude', [])
         keywords[question] = respostas.get('keywords', [])
 
+    # Retorna estrutura compatível com código antigo e novo
+    # 'chatbot_data' e 'responses' apontam para o mesmo dicionário
     return {
 
-        'engracada': {'name':'Ecobot-funny',
-                      'chatbot_data' :funny,
-                      'keywords' : keywords},
-        'formal': {'name':'Ecobot-education',
-                   'chatbot_data': education,
-                   'keywords': keywords},
+        'engracada': {
+            'name': 'Ecobot-funny',
+            'chatbot_data': funny,
+            'responses': funny,
+            'keywords': keywords
+        },
+        'formal': {
+            'name': 'Ecobot-education',
+            'chatbot_data': education,
+            'responses': education,
+            'keywords': keywords
+        },
 
-        'rude': {'name':'Ecobot-rude',
-                 'chatbot_data': rude,
-                 'keywords': keywords}
+        'rude': {
+            'name': 'Ecobot-rude',
+            'chatbot_data': rude,
+            'responses': rude,
+            'keywords': keywords
+        }
 
     }
 
 personalities = loading_responses_personality()
+# Alias em português para compatibilidade com a interface
+personalidades = personalities
 
 def get_personality():
     print("=" * 50)
