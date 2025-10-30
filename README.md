@@ -59,27 +59,32 @@ O EcoBot pode responder de diferentes formas, dependendo da **personalidade esco
 ## 🗂️ Estrutura de Arquivos
 
 ```bash
-├── Ecobot
-│   ├── chatbot_data
-│   │   ├── history.txt
-│   │   ├── learning_responses.json
-│   │   ├── questions.json
-│   │   └── relatorio.txt
-│   ├── classes
-│   │   ├── chatbot_analytics.py
-│   │   ├── chatbot_frequent_questions.py
-│   │   ├── chatbot_learning.py
-│   │   ├── chatbot_memory.py
-│   │   ├── chatbot.py
-│   │   ├── chatbot_reply.py
-│   │   ├── chatbot_report.py
-│   │   └── __init__.py
-│   ├── helpers.py
-│   ├── main.py
-│   ├── requirements.txt
-│   └── test
-│       └── test_reply.py
-└── README.md
+📦 Ecobot
+├── 📂 chatbot_data
+│   ├── 🕓 history.txt                # Histórico das interações anteriores
+│   ├── 🧠 learning_responses.json    # Base de conhecimento aprendida pelo bot
+│   ├── ❓ questions.json              # Perguntas e respostas predefinidas
+│   └── 📄 relatorio.txt              # Relatório final da sessão do usuário
+│
+├── 🧩 classes
+│   ├── 📊 chatbot_analytics.py        # Coleta estatísticas de uso do EcoBot
+│   ├── 💬 chatbot_frequent_questions.py # Gerencia perguntas mais frequentes
+│   ├── 🧠 chatbot_learning.py         # Sistema de aprendizado (modo ensinar)
+│   ├── 🧾 chatbot_memory.py           # Armazena e lê o histórico de conversas
+│   ├── 🤖 chatbot.py                  # Classe principal do chatbot
+│   ├── 💭 chatbot_reply.py            # Define respostas por personalidade
+│   ├── 📃 chatbot_report.py           # Gera relatório detalhado de interações
+│   └── ⚙️ __init__.py                # Indica módulo Python
+│
+├── 🧰 helpers.py                      # Funções auxiliares e utilitárias
+├── 🚀 main.py                         # Arquivo principal para execução no terminal
+├── 📋 requirements.txt                # Dependências do projeto
+│
+├── 🧪 test
+│   └── 🧩 test_reply.py               # Testa respostas conforme personalidade
+│
+└── 📘 README.md                       # Documentação principal do projeto
+
 ```
 
 ## 🚀 Como Executar
